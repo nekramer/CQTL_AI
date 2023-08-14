@@ -1,3 +1,0 @@
-NameError in line 72 of /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/snakefiles/AI_LD_buddies.smk:
-name 'wildcards' is not defined
-  File "/work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/snakefiles/AI_LD_buddies.smk", line 72, in <module>

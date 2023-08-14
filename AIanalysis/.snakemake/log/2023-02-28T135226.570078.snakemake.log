@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 17 of /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/snakefiles/AI_LD_buddies.smk:
-Missing input files for rule getLD_buddies:
-/work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc
