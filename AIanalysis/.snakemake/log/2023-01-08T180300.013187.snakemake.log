@@ -1,0 +1,251 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	1	all
+	1	combineASEP
+	22	runASEP
+	24
+
+[Sun Jan  8 18:03:00 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr18_ASEPfinal.txt
+    output: data/chr18_ASEP.rda
+    log: logs/runASEP_chr18.out
+    jobid: 19
+    wildcards: chrom=18
+    threads: 8
+
+Submitted job 19 with external jobid '63708395'.
+
+[Sun Jan  8 18:03:00 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr21_ASEPfinal.txt
+    output: data/chr21_ASEP.rda
+    log: logs/runASEP_chr21.out
+    jobid: 22
+    wildcards: chrom=21
+    threads: 8
+
+Submitted job 22 with external jobid '63708396'.
+
+[Sun Jan  8 18:03:00 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr2_ASEPfinal.txt
+    output: data/chr2_ASEP.rda
+    log: logs/runASEP_chr2.out
+    jobid: 3
+    wildcards: chrom=2
+    threads: 8
+
+Submitted job 3 with external jobid '63708397'.
+
+[Sun Jan  8 18:03:00 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr14_ASEPfinal.txt
+    output: data/chr14_ASEP.rda
+    log: logs/runASEP_chr14.out
+    jobid: 15
+    wildcards: chrom=14
+    threads: 8
+
+Submitted job 15 with external jobid '63708398'.
+
+[Sun Jan  8 18:03:00 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr4_ASEPfinal.txt
+    output: data/chr4_ASEP.rda
+    log: logs/runASEP_chr4.out
+    jobid: 5
+    wildcards: chrom=4
+    threads: 8
+
+Submitted job 5 with external jobid '63708399'.
+
+[Sun Jan  8 18:03:01 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr3_ASEPfinal.txt
+    output: data/chr3_ASEP.rda
+    log: logs/runASEP_chr3.out
+    jobid: 4
+    wildcards: chrom=3
+    threads: 8
+
+Submitted job 4 with external jobid '63708400'.
+
+[Sun Jan  8 18:03:01 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr10_ASEPfinal.txt
+    output: data/chr10_ASEP.rda
+    log: logs/runASEP_chr10.out
+    jobid: 11
+    wildcards: chrom=10
+    threads: 8
+
+Submitted job 11 with external jobid '63708401'.
+
+[Sun Jan  8 18:03:01 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr11_ASEPfinal.txt
+    output: data/chr11_ASEP.rda
+    log: logs/runASEP_chr11.out
+    jobid: 12
+    wildcards: chrom=11
+    threads: 8
+
+Submitted job 12 with external jobid '63708402'.
+
+[Sun Jan  8 18:03:01 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr17_ASEPfinal.txt
+    output: data/chr17_ASEP.rda
+    log: logs/runASEP_chr17.out
+    jobid: 18
+    wildcards: chrom=17
+    threads: 8
+
+Submitted job 18 with external jobid '63708403'.
+
+[Sun Jan  8 18:03:01 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr12_ASEPfinal.txt
+    output: data/chr12_ASEP.rda
+    log: logs/runASEP_chr12.out
+    jobid: 13
+    wildcards: chrom=12
+    threads: 8
+
+Submitted job 13 with external jobid '63708404'.
+
+[Sun Jan  8 18:03:02 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr9_ASEPfinal.txt
+    output: data/chr9_ASEP.rda
+    log: logs/runASEP_chr9.out
+    jobid: 10
+    wildcards: chrom=9
+    threads: 8
+
+Submitted job 10 with external jobid '63708405'.
+
+[Sun Jan  8 18:03:02 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr16_ASEPfinal.txt
+    output: data/chr16_ASEP.rda
+    log: logs/runASEP_chr16.out
+    jobid: 17
+    wildcards: chrom=16
+    threads: 8
+
+Submitted job 17 with external jobid '63708406'.
+
+[Sun Jan  8 18:03:02 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr13_ASEPfinal.txt
+    output: data/chr13_ASEP.rda
+    log: logs/runASEP_chr13.out
+    jobid: 14
+    wildcards: chrom=13
+    threads: 8
+
+Submitted job 14 with external jobid '63708407'.
+
+[Sun Jan  8 18:03:02 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr6_ASEPfinal.txt
+    output: data/chr6_ASEP.rda
+    log: logs/runASEP_chr6.out
+    jobid: 7
+    wildcards: chrom=6
+    threads: 8
+
+Submitted job 7 with external jobid '63708408'.
+
+[Sun Jan  8 18:03:02 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr22_ASEPfinal.txt
+    output: data/chr22_ASEP.rda
+    log: logs/runASEP_chr22.out
+    jobid: 23
+    wildcards: chrom=22
+    threads: 8
+
+Submitted job 23 with external jobid '63708409'.
+
+[Sun Jan  8 18:03:03 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr15_ASEPfinal.txt
+    output: data/chr15_ASEP.rda
+    log: logs/runASEP_chr15.out
+    jobid: 16
+    wildcards: chrom=15
+    threads: 8
+
+Submitted job 16 with external jobid '63708410'.
+
+[Sun Jan  8 18:03:03 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr8_ASEPfinal.txt
+    output: data/chr8_ASEP.rda
+    log: logs/runASEP_chr8.out
+    jobid: 9
+    wildcards: chrom=8
+    threads: 8
+
+Submitted job 9 with external jobid '63708411'.
+
+[Sun Jan  8 18:03:03 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr19_ASEPfinal.txt
+    output: data/chr19_ASEP.rda
+    log: logs/runASEP_chr19.out
+    jobid: 20
+    wildcards: chrom=19
+    threads: 8
+
+Submitted job 20 with external jobid '63708412'.
+
+[Sun Jan  8 18:03:03 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr1_ASEPfinal.txt
+    output: data/chr1_ASEP.rda
+    log: logs/runASEP_chr1.out
+    jobid: 2
+    wildcards: chrom=1
+    threads: 8
+
+Submitted job 2 with external jobid '63708413'.
+
+[Sun Jan  8 18:03:03 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr5_ASEPfinal.txt
+    output: data/chr5_ASEP.rda
+    log: logs/runASEP_chr5.out
+    jobid: 6
+    wildcards: chrom=5
+    threads: 8
+
+Submitted job 6 with external jobid '63708414'.
+
+[Sun Jan  8 18:03:04 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr7_ASEPfinal.txt
+    output: data/chr7_ASEP.rda
+    log: logs/runASEP_chr7.out
+    jobid: 8
+    wildcards: chrom=7
+    threads: 8
+
+Submitted job 8 with external jobid '63708415'.
+
+[Sun Jan  8 18:03:04 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr20_ASEPfinal.txt
+    output: data/chr20_ASEP.rda
+    log: logs/runASEP_chr20.out
+    jobid: 21
+    wildcards: chrom=20
+    threads: 8
+
+Submitted job 21 with external jobid '63708416'.

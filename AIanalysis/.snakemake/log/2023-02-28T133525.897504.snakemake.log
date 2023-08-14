@@ -1,0 +1,3 @@
+SyntaxError:
+Only input files can be specified as functions
+  File "/work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/snakefiles/AI_LD_buddies.smk", line 25, in <module>

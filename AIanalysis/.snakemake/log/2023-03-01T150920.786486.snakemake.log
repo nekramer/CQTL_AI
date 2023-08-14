@@ -1,0 +1,1253 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	1	all
+	45	getLD_buddies
+	45	getLDbuddy_rsIDs
+	45	join_LDbuddies
+	2	join_conditionLDbuddies
+	138
+
+[Wed Mar  1 15:09:25 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:73236851:C:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr17:73236851:C:A.out, logs/getLD_buddies_FNF_chr17:73236851:C:A.err
+    jobid: 776
+    wildcards: snp=chr17:73236851:C:A, condition=FNF
+
+Submitted job 776 with external jobid '1606154'.
+
+[Wed Mar  1 15:09:26 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:133156038:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr12:133156038:C:T.out, logs/getLD_buddies_FNF_chr12:133156038:C:T.err
+    jobid: 840
+    wildcards: snp=chr12:133156038:C:T, condition=FNF
+
+Submitted job 840 with external jobid '1606156'.
+
+[Wed Mar  1 15:09:26 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:85606203:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr2:85606203:C:T.out, logs/getLD_buddies_FNF_chr2:85606203:C:T.err
+    jobid: 834
+    wildcards: snp=chr2:85606203:C:T, condition=FNF
+
+Submitted job 834 with external jobid '1606157'.
+
+[Wed Mar  1 15:09:26 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:37863152:G:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr9:37863152:G:C.out, logs/getLD_buddies_FNF_chr9:37863152:G:C.err
+    jobid: 804
+    wildcards: snp=chr9:37863152:G:C, condition=FNF
+
+Submitted job 804 with external jobid '1606158'.
+
+[Wed Mar  1 15:09:28 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:70114927:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr10:70114927:G:A.out, logs/getLD_buddies_FNF_chr10:70114927:G:A.err
+    jobid: 812
+    wildcards: snp=chr10:70114927:G:A, condition=FNF
+
+Submitted job 812 with external jobid '1606161'.
+
+[Wed Mar  1 15:09:29 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:151844149:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:151844149:C:T.out, logs/getLD_buddies_FNF_chr1:151844149:C:T.err
+    jobid: 768
+    wildcards: snp=chr1:151844149:C:T, condition=FNF
+
+Submitted job 768 with external jobid '1606162'.
+
+[Wed Mar  1 15:09:29 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:89900547:G:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr15:89900547:G:C.out, logs/getLD_buddies_FNF_chr15:89900547:G:C.err
+    jobid: 836
+    wildcards: snp=chr15:89900547:G:C, condition=FNF
+
+Submitted job 836 with external jobid '1606163'.
+
+[Wed Mar  1 15:09:29 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:236897797:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:236897797:A:G.out, logs/getLD_buddies_FNF_chr1:236897797:A:G.err
+    jobid: 800
+    wildcards: snp=chr1:236897797:A:G, condition=FNF
+
+Submitted job 800 with external jobid '1606164'.
+
+[Wed Mar  1 15:09:30 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:123437226:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr8:123437226:C:T.out, logs/getLD_buddies_FNF_chr8:123437226:C:T.err
+    jobid: 826
+    wildcards: snp=chr8:123437226:C:T, condition=FNF
+
+Submitted job 826 with external jobid '1606165'.
+
+[Wed Mar  1 15:09:30 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:138418442:T:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr6:138418442:T:G.out, logs/getLD_buddies_FNF_chr6:138418442:T:G.err
+    jobid: 762
+    wildcards: snp=chr6:138418442:T:G, condition=FNF
+
+Submitted job 762 with external jobid '1606166'.
+
+[Wed Mar  1 15:09:30 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr13:48076356:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr13:48076356:A:G.out, logs/getLD_buddies_FNF_chr13:48076356:A:G.err
+    jobid: 786
+    wildcards: snp=chr13:48076356:A:G, condition=FNF
+
+Submitted job 786 with external jobid '1606167'.
+
+[Wed Mar  1 15:09:30 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:160332508:T:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:160332508:T:C.out, logs/getLD_buddies_FNF_chr1:160332508:T:C.err
+    jobid: 850
+    wildcards: snp=chr1:160332508:T:C, condition=FNF
+
+Submitted job 850 with external jobid '1606168'.
+
+[Wed Mar  1 15:09:31 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:6302742:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr4:6302742:A:G.out, logs/getLD_buddies_FNF_chr4:6302742:A:G.err
+    jobid: 818
+    wildcards: snp=chr4:6302742:A:G, condition=FNF
+
+Submitted job 818 with external jobid '1606169'.
+
+[Wed Mar  1 15:09:31 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:62945295:T:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr20:62945295:T:G.out, logs/getLD_buddies_FNF_chr20:62945295:T:G.err
+    jobid: 770
+    wildcards: snp=chr20:62945295:T:G, condition=FNF
+
+Submitted job 770 with external jobid '1606170'.
+
+[Wed Mar  1 15:09:31 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:38126634:A:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr3:38126634:A:C.out, logs/getLD_buddies_FNF_chr3:38126634:A:C.err
+    jobid: 790
+    wildcards: snp=chr3:38126634:A:C, condition=FNF
+
+Submitted job 790 with external jobid '1606171'.
+
+[Wed Mar  1 15:09:31 2023]
+rule join_conditionLDbuddies:
+    input: data/chr7:24698499:G:A_CTL_ldbuddies_final.csv, data/chr6:3018500:A:C_CTL_ldbuddies_final.csv, data/chr19:52384174:A:C_CTL_ldbuddies_final.csv, data/chr19:52384184:A:C_CTL_ldbuddies_final.csv, data/chr2:48599465:C:A_CTL_ldbuddies_final.csv, data/chr21:41279568:G:A_CTL_ldbuddies_final.csv, data/chr19:52893812:G:A_CTL_ldbuddies_final.csv, data/chr6:138418442:T:G_CTL_ldbuddies_final.csv, data/chr3:47850893:G:A_CTL_ldbuddies_final.csv, data/chr20:62945340:C:T_CTL_ldbuddies_final.csv, data/chr21:39342936:C:T_CTL_ldbuddies_final.csv, data/chr2:238447385:C:T_CTL_ldbuddies_final.csv, data/chr5:78885754:T:C_CTL_ldbuddies_final.csv, data/chr11:126408308:T:C_CTL_ldbuddies_final.csv, data/chr7:4997014:T:C_CTL_ldbuddies_final.csv, data/chr20:38373945:G:A_CTL_ldbuddies_final.csv, data/chr15:88630424:G:A_CTL_ldbuddies_final.csv, data/chr1:119032547:C:A_CTL_ldbuddies_final.csv, data/chr7:4996980:C:G_CTL_ldbuddies_final.csv, data/chr17:5533965:G:A_CTL_ldbuddies_final.csv, data/chr1:186306628:G:A_CTL_ldbuddies_final.csv, data/chr4:39214620:G:A_CTL_ldbuddies_final.csv, data/chr8:81658396:C:T_CTL_ldbuddies_final.csv, data/chr10:70115028:C:T_CTL_ldbuddies_final.csv, data/chr2:113471049:G:A_CTL_ldbuddies_final.csv, data/chr11:6681188:T:G_CTL_ldbuddies_final.csv, data/chr1:151844149:C:T_CTL_ldbuddies_final.csv, data/chr20:62945295:T:G_CTL_ldbuddies_final.csv, data/chr1:119182778:G:A_CTL_ldbuddies_final.csv, data/chr7:94398387:T:C_CTL_ldbuddies_final.csv, data/chr16:82000007:T:C_CTL_ldbuddies_final.csv, data/chr17:81701782:C:T_CTL_ldbuddies_final.csv, data/chr17:48048796:G:A_CTL_ldbuddies_final.csv, data/chr22:45341429:A:G_CTL_ldbuddies_final.csv, data/chr17:30522671:G:A_CTL_ldbuddies_final.csv, data/chr5:141125259:A:C_CTL_ldbuddies_final.csv, data/chr14:51256420:T:C_CTL_ldbuddies_final.csv, data/chr18:13095592:G:A_CTL_ldbuddies_final.csv, data/chr7:33006506:G:T_CTL_ldbuddies_final.csv, data/chr17:73236851:C:A_CTL_ldbuddies_final.csv, data/chr9:113594496:C:T_CTL_ldbuddies_final.csv, data/chr4:82423755:A:G_CTL_ldbuddies_final.csv, data/chr3:179399804:T:A_CTL_ldbuddies_final.csv, data/chr1:21218242:C:T_CTL_ldbuddies_final.csv, data/chr1:11787715:G:T_CTL_ldbuddies_final.csv, data/chr18:62154610:T:C_CTL_ldbuddies_final.csv, data/chr1:10307512:G:A_CTL_ldbuddies_final.csv, data/chr15:82151483:C:T_CTL_ldbuddies_final.csv, data/chr12:95658366:C:T_CTL_ldbuddies_final.csv, data/chr13:48076356:A:G_CTL_ldbuddies_final.csv, data/chr2:24100236:A:G_CTL_ldbuddies_final.csv, data/chr2:24100237:G:A_CTL_ldbuddies_final.csv, data/chr11:204680:G:A_CTL_ldbuddies_final.csv, data/chr11:6681654:C:G_CTL_ldbuddies_final.csv, data/chr14:51256361:A:C_CTL_ldbuddies_final.csv, data/chr1:46361813:C:T_CTL_ldbuddies_final.csv, data/chr8:103072159:A:T_CTL_ldbuddies_final.csv, data/chr3:38126634:A:C_CTL_ldbuddies_final.csv, data/chr18:2917370:G:A_CTL_ldbuddies_final.csv, data/chr1:161961083:A:G_CTL_ldbuddies_final.csv, data/chr3:9365020:G:A_CTL_ldbuddies_final.csv, data/chr8:26411516:C:T_CTL_ldbuddies_final.csv, data/chr12:133191967:A:T_CTL_ldbuddies_final.csv, data/chr12:132841483:C:T_CTL_ldbuddies_final.csv, data/chr18:59359204:C:T_CTL_ldbuddies_final.csv, data/chr1:230279402:G:A_CTL_ldbuddies_final.csv, data/chr1:236897797:A:G_CTL_ldbuddies_final.csv, data/chr9:71745318:C:T_CTL_ldbuddies_final.csv, data/chr5:31515550:G:A_CTL_ldbuddies_final.csv, data/chr20:62852790:A:G_CTL_ldbuddies_final.csv, data/chr9:37863152:G:C_CTL_ldbuddies_final.csv, data/chr5:141388424:G:A_CTL_ldbuddies_final.csv, data/chr17:4798107:C:T_CTL_ldbuddies_final.csv, data/chr1:21219821:C:T_CTL_ldbuddies_final.csv, data/chr19:40779010:C:T_CTL_ldbuddies_final.csv, data/chr17:5515479:G:A_CTL_ldbuddies_final.csv, data/chr10:70114927:G:A_CTL_ldbuddies_final.csv, data/chr22:38735830:T:C_CTL_ldbuddies_final.csv, data/chr19:56087463:G:C_CTL_ldbuddies_final.csv, data/chr4:6302742:A:G_CTL_ldbuddies_final.csv, data/chr7:66152686:G:A_CTL_ldbuddies_final.csv, data/chr12:123613219:A:G_CTL_ldbuddies_final.csv, data/chr3:56615254:C:T_CTL_ldbuddies_final.csv, data/chr4:94664990:C:T_CTL_ldbuddies_final.csv, data/chr1:86382272:G:A_CTL_ldbuddies_final.csv, data/chr17:67340357:C:T_CTL_ldbuddies_final.csv, data/chr14:67650289:C:A_CTL_ldbuddies_final.csv, data/chr8:123437226:C:T_CTL_ldbuddies_final.csv, data/chr17:40092101:C:T_CTL_ldbuddies_final.csv, data/chr3:101826262:G:C_CTL_ldbuddies_final.csv, data/chr10:100962892:C:T_CTL_ldbuddies_final.csv, data/chr21:44769371:G:C_CTL_ldbuddies_final.csv, data/chr17:30783634:G:A_CTL_ldbuddies_final.csv, data/chr17:79936498:A:G_CTL_ldbuddies_final.csv, data/chr19:58417855:G:A_CTL_ldbuddies_final.csv, data/chr9:37500898:T:C_CTL_ldbuddies_final.csv, data/chr2:85606203:C:T_CTL_ldbuddies_final.csv, data/chr16:57994956:G:A_CTL_ldbuddies_final.csv, data/chr15:89900547:G:C_CTL_ldbuddies_final.csv, data/chr7:38765615:C:T_CTL_ldbuddies_final.csv, data/chr18:59359129:A:G_CTL_ldbuddies_final.csv, data/chr3:47916506:C:G_CTL_ldbuddies_final.csv, data/chr17:64041782:C:T_CTL_ldbuddies_final.csv, data/chr12:133156038:C:T_CTL_ldbuddies_final.csv, data/chr1:58655671:T:A_CTL_ldbuddies_final.csv, data/chr1:59321678:T:G_CTL_ldbuddies_final.csv, data/chr2:205777385:A:C_CTL_ldbuddies_final.csv, data/chr19:45409478:C:A_CTL_ldbuddies_final.csv, data/chr6:49447735:C:T_CTL_ldbuddies_final.csv, data/chr17:31317834:G:A_CTL_ldbuddies_final.csv, data/chr9:134701253:G:A_CTL_ldbuddies_final.csv, data/chr3:136001831:T:C_CTL_ldbuddies_final.csv, data/chr6:131894217:G:A_CTL_ldbuddies_final.csv, data/chr15:65443863:T:C_CTL_ldbuddies_final.csv, data/chr1:230280573:A:C_CTL_ldbuddies_final.csv, data/chr1:160332508:T:C_CTL_ldbuddies_final.csv
+    output: data/CTL_LDbuddies.csv
+    log: logs/join_conditionLDbuddies_CTL.out, logs/join_conditionLDbuddies_CTL.err
+    jobid: 715
+    wildcards: condition=CTL
+
+Submitted job 715 with external jobid '1606172'.
+
+[Wed Mar  1 15:09:32 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:123613219:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr12:123613219:A:G.out, logs/getLD_buddies_FNF_chr12:123613219:A:G.err
+    jobid: 820
+    wildcards: snp=chr12:123613219:A:G, condition=FNF
+
+Submitted job 820 with external jobid '1606173'.
+
+[Wed Mar  1 15:09:32 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:5515479:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr17:5515479:G:A.out, logs/getLD_buddies_FNF_chr17:5515479:G:A.err
+    jobid: 810
+    wildcards: snp=chr17:5515479:G:A, condition=FNF
+
+Submitted job 810 with external jobid '1606174'.
+
+[Wed Mar  1 15:09:33 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:103072159:A:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr8:103072159:A:T.out, logs/getLD_buddies_FNF_chr8:103072159:A:T.err
+    jobid: 788
+    wildcards: snp=chr8:103072159:A:T, condition=FNF
+
+Submitted job 788 with external jobid '1606175'.
+
+[Wed Mar  1 15:09:33 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:58417855:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr19:58417855:G:A.out, logs/getLD_buddies_FNF_chr19:58417855:G:A.err
+    jobid: 832
+    wildcards: snp=chr19:58417855:G:A, condition=FNF
+
+Submitted job 832 with external jobid '1606176'.
+
+[Wed Mar  1 15:09:33 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:45409478:C:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr19:45409478:C:A.out, logs/getLD_buddies_FNF_chr19:45409478:C:A.err
+    jobid: 844
+    wildcards: snp=chr19:45409478:C:A, condition=FNF
+
+Submitted job 844 with external jobid '1606177'.
+
+[Wed Mar  1 15:09:33 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:21218242:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:21218242:C:T.out, logs/getLD_buddies_FNF_chr1:21218242:C:T.err
+    jobid: 782
+    wildcards: snp=chr1:21218242:C:T, condition=FNF
+
+Submitted job 782 with external jobid '1606178'.
+
+[Wed Mar  1 15:09:34 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:56087463:G:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr19:56087463:G:C.out, logs/getLD_buddies_FNF_chr19:56087463:G:C.err
+    jobid: 816
+    wildcards: snp=chr19:56087463:G:C, condition=FNF
+
+Submitted job 816 with external jobid '1606179'.
+
+[Wed Mar  1 15:09:34 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:40092101:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr17:40092101:C:T.out, logs/getLD_buddies_FNF_chr17:40092101:C:T.err
+    jobid: 828
+    wildcards: snp=chr17:40092101:C:T, condition=FNF
+
+Submitted job 828 with external jobid '1606180'.
+
+[Wed Mar  1 15:09:34 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:38765615:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr7:38765615:C:T.out, logs/getLD_buddies_FNF_chr7:38765615:C:T.err
+    jobid: 838
+    wildcards: snp=chr7:38765615:C:T, condition=FNF
+
+Submitted job 838 with external jobid '1606181'.
+
+[Wed Mar  1 15:09:34 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:30522671:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr17:30522671:G:A.out, logs/getLD_buddies_FNF_chr17:30522671:G:A.err
+    jobid: 772
+    wildcards: snp=chr17:30522671:G:A, condition=FNF
+
+Submitted job 772 with external jobid '1606182'.
+
+[Wed Mar  1 15:09:34 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr14:67650289:C:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr14:67650289:C:A.out, logs/getLD_buddies_FNF_chr14:67650289:C:A.err
+    jobid: 824
+    wildcards: snp=chr14:67650289:C:A, condition=FNF
+
+Submitted job 824 with external jobid '1606183'.
+
+[Wed Mar  1 15:09:35 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:21219821:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:21219821:C:T.out, logs/getLD_buddies_FNF_chr1:21219821:C:T.err
+    jobid: 808
+    wildcards: snp=chr1:21219821:C:T, condition=FNF
+
+Submitted job 808 with external jobid '1606184'.
+
+[Wed Mar  1 15:09:35 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:161961083:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:161961083:A:G.out, logs/getLD_buddies_FNF_chr1:161961083:A:G.err
+    jobid: 792
+    wildcards: snp=chr1:161961083:A:G, condition=FNF
+
+Submitted job 792 with external jobid '1606185'.
+
+[Wed Mar  1 15:09:35 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:11787715:G:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:11787715:G:T.out, logs/getLD_buddies_FNF_chr1:11787715:G:T.err
+    jobid: 784
+    wildcards: snp=chr1:11787715:G:T, condition=FNF
+
+Submitted job 784 with external jobid '1606186'.
+
+[Wed Mar  1 15:09:36 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr22:38735830:T:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr22:38735830:T:C.out, logs/getLD_buddies_FNF_chr22:38735830:T:C.err
+    jobid: 814
+    wildcards: snp=chr22:38735830:T:C, condition=FNF
+
+Submitted job 814 with external jobid '1606187'.
+
+[Wed Mar  1 15:09:36 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:205777385:A:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr2:205777385:A:C.out, logs/getLD_buddies_FNF_chr2:205777385:A:C.err
+    jobid: 842
+    wildcards: snp=chr2:205777385:A:C, condition=FNF
+
+Submitted job 842 with external jobid '1606188'.
+
+[Wed Mar  1 15:09:36 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:230279402:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:230279402:G:A.out, logs/getLD_buddies_FNF_chr1:230279402:G:A.err
+    jobid: 798
+    wildcards: snp=chr1:230279402:G:A, condition=FNF
+
+Submitted job 798 with external jobid '1606190'.
+
+[Wed Mar  1 15:09:36 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:134701253:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr9:134701253:G:A.out, logs/getLD_buddies_FNF_chr9:134701253:G:A.err
+    jobid: 848
+    wildcards: snp=chr9:134701253:G:A, condition=FNF
+
+Submitted job 848 with external jobid '1606192'.
+
+[Wed Mar  1 15:09:37 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:94664990:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr4:94664990:C:T.out, logs/getLD_buddies_FNF_chr4:94664990:C:T.err
+    jobid: 822
+    wildcards: snp=chr4:94664990:C:T, condition=FNF
+
+Submitted job 822 with external jobid '1606193'.
+
+[Wed Mar  1 15:09:37 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:82423755:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr4:82423755:A:G.out, logs/getLD_buddies_FNF_chr4:82423755:A:G.err
+    jobid: 780
+    wildcards: snp=chr4:82423755:A:G, condition=FNF
+
+Submitted job 780 with external jobid '1606194'.
+
+[Wed Mar  1 15:09:37 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:49447735:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr6:49447735:C:T.out, logs/getLD_buddies_FNF_chr6:49447735:C:T.err
+    jobid: 846
+    wildcards: snp=chr6:49447735:C:T, condition=FNF
+
+Submitted job 846 with external jobid '1606195'.
+
+[Wed Mar  1 15:09:37 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:141388424:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr5:141388424:G:A.out, logs/getLD_buddies_FNF_chr5:141388424:G:A.err
+    jobid: 806
+    wildcards: snp=chr5:141388424:G:A, condition=FNF
+
+Submitted job 806 with external jobid '1606196'.
+
+[Wed Mar  1 15:09:38 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:62852790:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr20:62852790:A:G.out, logs/getLD_buddies_FNF_chr20:62852790:A:G.err
+    jobid: 802
+    wildcards: snp=chr20:62852790:A:G, condition=FNF
+
+Submitted job 802 with external jobid '1606197'.
+
+[Wed Mar  1 15:09:38 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:101826262:G:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr3:101826262:G:C.out, logs/getLD_buddies_FNF_chr3:101826262:G:C.err
+    jobid: 830
+    wildcards: snp=chr3:101826262:G:C, condition=FNF
+
+Submitted job 830 with external jobid '1606198'.
+
+[Wed Mar  1 15:09:39 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:26411516:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr8:26411516:C:T.out, logs/getLD_buddies_FNF_chr8:26411516:C:T.err
+    jobid: 796
+    wildcards: snp=chr8:26411516:C:T, condition=FNF
+
+Submitted job 796 with external jobid '1606199'.
+
+[Wed Mar  1 15:09:39 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:113471049:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr2:113471049:G:A.out, logs/getLD_buddies_FNF_chr2:113471049:G:A.err
+    jobid: 766
+    wildcards: snp=chr2:113471049:G:A, condition=FNF
+
+Submitted job 766 with external jobid '1606200'.
+
+[Wed Mar  1 15:09:39 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:113594496:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr9:113594496:C:T.out, logs/getLD_buddies_FNF_chr9:113594496:C:T.err
+    jobid: 778
+    wildcards: snp=chr9:113594496:C:T, condition=FNF
+
+Submitted job 778 with external jobid '1606201'.
+
+[Wed Mar  1 15:09:39 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:47850893:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr3:47850893:G:A.out, logs/getLD_buddies_FNF_chr3:47850893:G:A.err
+    jobid: 764
+    wildcards: snp=chr3:47850893:G:A, condition=FNF
+
+Submitted job 764 with external jobid '1606202'.
+
+[Wed Mar  1 15:09:40 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:9365020:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr3:9365020:G:A.out, logs/getLD_buddies_FNF_chr3:9365020:G:A.err
+    jobid: 794
+    wildcards: snp=chr3:9365020:G:A, condition=FNF
+
+Submitted job 794 with external jobid '1606203'.
+
+[Wed Mar  1 15:09:40 2023]
+rule getLD_buddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:141125259:A:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr5:141125259:A:C.out, logs/getLD_buddies_FNF_chr5:141125259:A:C.err
+    jobid: 774
+    wildcards: snp=chr5:141125259:A:C, condition=FNF
+
+Submitted job 774 with external jobid '1606204'.
+[Wed Mar  1 15:10:19 2023]
+Error in rule join_conditionLDbuddies:
+    jobid: 715
+    output: data/CTL_LDbuddies.csv
+    log: logs/join_conditionLDbuddies_CTL.out, logs/join_conditionLDbuddies_CTL.err (check log file(s) for error message)
+    shell:
+        
+        module load r/4.1.3
+        Rscript scripts/join_allLD_buddies.R CTL data/chr7:24698499:G:A_CTL_ldbuddies_final.csv data/chr6:3018500:A:C_CTL_ldbuddies_final.csv data/chr19:52384174:A:C_CTL_ldbuddies_final.csv data/chr19:52384184:A:C_CTL_ldbuddies_final.csv data/chr2:48599465:C:A_CTL_ldbuddies_final.csv data/chr21:41279568:G:A_CTL_ldbuddies_final.csv data/chr19:52893812:G:A_CTL_ldbuddies_final.csv data/chr6:138418442:T:G_CTL_ldbuddies_final.csv data/chr3:47850893:G:A_CTL_ldbuddies_final.csv data/chr20:62945340:C:T_CTL_ldbuddies_final.csv data/chr21:39342936:C:T_CTL_ldbuddies_final.csv data/chr2:238447385:C:T_CTL_ldbuddies_final.csv data/chr5:78885754:T:C_CTL_ldbuddies_final.csv data/chr11:126408308:T:C_CTL_ldbuddies_final.csv data/chr7:4997014:T:C_CTL_ldbuddies_final.csv data/chr20:38373945:G:A_CTL_ldbuddies_final.csv data/chr15:88630424:G:A_CTL_ldbuddies_final.csv data/chr1:119032547:C:A_CTL_ldbuddies_final.csv data/chr7:4996980:C:G_CTL_ldbuddies_final.csv data/chr17:5533965:G:A_CTL_ldbuddies_final.csv data/chr1:186306628:G:A_CTL_ldbuddies_final.csv data/chr4:39214620:G:A_CTL_ldbuddies_final.csv data/chr8:81658396:C:T_CTL_ldbuddies_final.csv data/chr10:70115028:C:T_CTL_ldbuddies_final.csv data/chr2:113471049:G:A_CTL_ldbuddies_final.csv data/chr11:6681188:T:G_CTL_ldbuddies_final.csv data/chr1:151844149:C:T_CTL_ldbuddies_final.csv data/chr20:62945295:T:G_CTL_ldbuddies_final.csv data/chr1:119182778:G:A_CTL_ldbuddies_final.csv data/chr7:94398387:T:C_CTL_ldbuddies_final.csv data/chr16:82000007:T:C_CTL_ldbuddies_final.csv data/chr17:81701782:C:T_CTL_ldbuddies_final.csv data/chr17:48048796:G:A_CTL_ldbuddies_final.csv data/chr22:45341429:A:G_CTL_ldbuddies_final.csv data/chr17:30522671:G:A_CTL_ldbuddies_final.csv data/chr5:141125259:A:C_CTL_ldbuddies_final.csv data/chr14:51256420:T:C_CTL_ldbuddies_final.csv data/chr18:13095592:G:A_CTL_ldbuddies_final.csv data/chr7:33006506:G:T_CTL_ldbuddies_final.csv data/chr17:73236851:C:A_CTL_ldbuddies_final.csv data/chr9:113594496:C:T_CTL_ldbuddies_final.csv data/chr4:82423755:A:G_CTL_ldbuddies_final.csv data/chr3:179399804:T:A_CTL_ldbuddies_final.csv data/chr1:21218242:C:T_CTL_ldbuddies_final.csv data/chr1:11787715:G:T_CTL_ldbuddies_final.csv data/chr18:62154610:T:C_CTL_ldbuddies_final.csv data/chr1:10307512:G:A_CTL_ldbuddies_final.csv data/chr15:82151483:C:T_CTL_ldbuddies_final.csv data/chr12:95658366:C:T_CTL_ldbuddies_final.csv data/chr13:48076356:A:G_CTL_ldbuddies_final.csv data/chr2:24100236:A:G_CTL_ldbuddies_final.csv data/chr2:24100237:G:A_CTL_ldbuddies_final.csv data/chr11:204680:G:A_CTL_ldbuddies_final.csv data/chr11:6681654:C:G_CTL_ldbuddies_final.csv data/chr14:51256361:A:C_CTL_ldbuddies_final.csv data/chr1:46361813:C:T_CTL_ldbuddies_final.csv data/chr8:103072159:A:T_CTL_ldbuddies_final.csv data/chr3:38126634:A:C_CTL_ldbuddies_final.csv data/chr18:2917370:G:A_CTL_ldbuddies_final.csv data/chr1:161961083:A:G_CTL_ldbuddies_final.csv data/chr3:9365020:G:A_CTL_ldbuddies_final.csv data/chr8:26411516:C:T_CTL_ldbuddies_final.csv data/chr12:133191967:A:T_CTL_ldbuddies_final.csv data/chr12:132841483:C:T_CTL_ldbuddies_final.csv data/chr18:59359204:C:T_CTL_ldbuddies_final.csv data/chr1:230279402:G:A_CTL_ldbuddies_final.csv data/chr1:236897797:A:G_CTL_ldbuddies_final.csv data/chr9:71745318:C:T_CTL_ldbuddies_final.csv data/chr5:31515550:G:A_CTL_ldbuddies_final.csv data/chr20:62852790:A:G_CTL_ldbuddies_final.csv data/chr9:37863152:G:C_CTL_ldbuddies_final.csv data/chr5:141388424:G:A_CTL_ldbuddies_final.csv data/chr17:4798107:C:T_CTL_ldbuddies_final.csv data/chr1:21219821:C:T_CTL_ldbuddies_final.csv data/chr19:40779010:C:T_CTL_ldbuddies_final.csv data/chr17:5515479:G:A_CTL_ldbuddies_final.csv data/chr10:70114927:G:A_CTL_ldbuddies_final.csv data/chr22:38735830:T:C_CTL_ldbuddies_final.csv data/chr19:56087463:G:C_CTL_ldbuddies_final.csv data/chr4:6302742:A:G_CTL_ldbuddies_final.csv data/chr7:66152686:G:A_CTL_ldbuddies_final.csv data/chr12:123613219:A:G_CTL_ldbuddies_final.csv data/chr3:56615254:C:T_CTL_ldbuddies_final.csv data/chr4:94664990:C:T_CTL_ldbuddies_final.csv data/chr1:86382272:G:A_CTL_ldbuddies_final.csv data/chr17:67340357:C:T_CTL_ldbuddies_final.csv data/chr14:67650289:C:A_CTL_ldbuddies_final.csv data/chr8:123437226:C:T_CTL_ldbuddies_final.csv data/chr17:40092101:C:T_CTL_ldbuddies_final.csv data/chr3:101826262:G:C_CTL_ldbuddies_final.csv data/chr10:100962892:C:T_CTL_ldbuddies_final.csv data/chr21:44769371:G:C_CTL_ldbuddies_final.csv data/chr17:30783634:G:A_CTL_ldbuddies_final.csv data/chr17:79936498:A:G_CTL_ldbuddies_final.csv data/chr19:58417855:G:A_CTL_ldbuddies_final.csv data/chr9:37500898:T:C_CTL_ldbuddies_final.csv data/chr2:85606203:C:T_CTL_ldbuddies_final.csv data/chr16:57994956:G:A_CTL_ldbuddies_final.csv data/chr15:89900547:G:C_CTL_ldbuddies_final.csv data/chr7:38765615:C:T_CTL_ldbuddies_final.csv data/chr18:59359129:A:G_CTL_ldbuddies_final.csv data/chr3:47916506:C:G_CTL_ldbuddies_final.csv data/chr17:64041782:C:T_CTL_ldbuddies_final.csv data/chr12:133156038:C:T_CTL_ldbuddies_final.csv data/chr1:58655671:T:A_CTL_ldbuddies_final.csv data/chr1:59321678:T:G_CTL_ldbuddies_final.csv data/chr2:205777385:A:C_CTL_ldbuddies_final.csv data/chr19:45409478:C:A_CTL_ldbuddies_final.csv data/chr6:49447735:C:T_CTL_ldbuddies_final.csv data/chr17:31317834:G:A_CTL_ldbuddies_final.csv data/chr9:134701253:G:A_CTL_ldbuddies_final.csv data/chr3:136001831:T:C_CTL_ldbuddies_final.csv data/chr6:131894217:G:A_CTL_ldbuddies_final.csv data/chr15:65443863:T:C_CTL_ldbuddies_final.csv data/chr1:230280573:A:C_CTL_ldbuddies_final.csv data/chr1:160332508:T:C_CTL_ldbuddies_final.csv
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606172
+
+Error executing rule join_conditionLDbuddies on cluster (jobid: 715, external: 1606172, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.join_conditionLDbuddies.715.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:17:29 2023]
+Error in rule getLD_buddies:
+    jobid: 832
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:58417855:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr19:58417855:G:A.out, logs/getLD_buddies_FNF_chr19:58417855:G:A.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606176
+
+Error executing rule getLD_buddies on cluster (jobid: 832, external: 1606176, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.832.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:18:10 2023]
+Error in rule getLD_buddies:
+    jobid: 816
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:56087463:G:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr19:56087463:G:C.out, logs/getLD_buddies_FNF_chr19:56087463:G:C.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606179
+
+Error executing rule getLD_buddies on cluster (jobid: 816, external: 1606179, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.816.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:18:50 2023]
+Error in rule getLD_buddies:
+    jobid: 838
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:38765615:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr7:38765615:C:T.out, logs/getLD_buddies_FNF_chr7:38765615:C:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606181
+
+Error executing rule getLD_buddies on cluster (jobid: 838, external: 1606181, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.838.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:19:22 2023]
+Error in rule getLD_buddies:
+    jobid: 806
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:141388424:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr5:141388424:G:A.out, logs/getLD_buddies_FNF_chr5:141388424:G:A.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606196
+
+Error executing rule getLD_buddies on cluster (jobid: 806, external: 1606196, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.806.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:19:43 2023]
+Error in rule getLD_buddies:
+    jobid: 846
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:49447735:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr6:49447735:C:T.out, logs/getLD_buddies_FNF_chr6:49447735:C:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606195
+
+Error executing rule getLD_buddies on cluster (jobid: 846, external: 1606195, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.846.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:01 2023]
+Error in rule getLD_buddies:
+    jobid: 774
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:141125259:A:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr5:141125259:A:C.out, logs/getLD_buddies_FNF_chr5:141125259:A:C.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606204
+
+Error executing rule getLD_buddies on cluster (jobid: 774, external: 1606204, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.774.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:05 2023]
+Error in rule getLD_buddies:
+    jobid: 788
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:103072159:A:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr8:103072159:A:T.out, logs/getLD_buddies_FNF_chr8:103072159:A:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606175
+
+Error executing rule getLD_buddies on cluster (jobid: 788, external: 1606175, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.788.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:25 2023]
+Error in rule getLD_buddies:
+    jobid: 824
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr14:67650289:C:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr14:67650289:C:A.out, logs/getLD_buddies_FNF_chr14:67650289:C:A.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606183
+
+Error executing rule getLD_buddies on cluster (jobid: 824, external: 1606183, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.824.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:37 2023]
+Error in rule getLD_buddies:
+    jobid: 848
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:134701253:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr9:134701253:G:A.out, logs/getLD_buddies_FNF_chr9:134701253:G:A.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606192
+
+Error executing rule getLD_buddies on cluster (jobid: 848, external: 1606192, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.848.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:37 2023]
+Error in rule getLD_buddies:
+    jobid: 780
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:82423755:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr4:82423755:A:G.out, logs/getLD_buddies_FNF_chr4:82423755:A:G.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606194
+
+Error executing rule getLD_buddies on cluster (jobid: 780, external: 1606194, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.780.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:39 2023]
+Error in rule getLD_buddies:
+    jobid: 776
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:73236851:C:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr17:73236851:C:A.out, logs/getLD_buddies_FNF_chr17:73236851:C:A.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606154
+
+Error executing rule getLD_buddies on cluster (jobid: 776, external: 1606154, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.776.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:40 2023]
+Error in rule getLD_buddies:
+    jobid: 804
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:37863152:G:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr9:37863152:G:C.out, logs/getLD_buddies_FNF_chr9:37863152:G:C.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606158
+
+Error executing rule getLD_buddies on cluster (jobid: 804, external: 1606158, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.804.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:41 2023]
+Error in rule getLD_buddies:
+    jobid: 800
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:236897797:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:236897797:A:G.out, logs/getLD_buddies_FNF_chr1:236897797:A:G.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606164
+
+Error executing rule getLD_buddies on cluster (jobid: 800, external: 1606164, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.800.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:41 2023]
+Error in rule getLD_buddies:
+    jobid: 762
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:138418442:T:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr6:138418442:T:G.out, logs/getLD_buddies_FNF_chr6:138418442:T:G.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606166
+
+Error executing rule getLD_buddies on cluster (jobid: 762, external: 1606166, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.762.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:55 2023]
+Error in rule getLD_buddies:
+    jobid: 842
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:205777385:A:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr2:205777385:A:C.out, logs/getLD_buddies_FNF_chr2:205777385:A:C.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606188
+
+Error executing rule getLD_buddies on cluster (jobid: 842, external: 1606188, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.842.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:56 2023]
+Error in rule getLD_buddies:
+    jobid: 796
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:26411516:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr8:26411516:C:T.out, logs/getLD_buddies_FNF_chr8:26411516:C:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606199
+
+Error executing rule getLD_buddies on cluster (jobid: 796, external: 1606199, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.796.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:57 2023]
+Error in rule getLD_buddies:
+    jobid: 840
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:133156038:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr12:133156038:C:T.out, logs/getLD_buddies_FNF_chr12:133156038:C:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606156
+
+Error executing rule getLD_buddies on cluster (jobid: 840, external: 1606156, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.840.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:58 2023]
+Error in rule getLD_buddies:
+    jobid: 812
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:70114927:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr10:70114927:G:A.out, logs/getLD_buddies_FNF_chr10:70114927:G:A.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606161
+
+Error executing rule getLD_buddies on cluster (jobid: 812, external: 1606161, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.812.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:22:58 2023]
+Error in rule getLD_buddies:
+    jobid: 768
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:151844149:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:151844149:C:T.out, logs/getLD_buddies_FNF_chr1:151844149:C:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606162
+
+Error executing rule getLD_buddies on cluster (jobid: 768, external: 1606162, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.768.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:23:00 2023]
+Error in rule getLD_buddies:
+    jobid: 810
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:5515479:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr17:5515479:G:A.out, logs/getLD_buddies_FNF_chr17:5515479:G:A.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606174
+
+Error executing rule getLD_buddies on cluster (jobid: 810, external: 1606174, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.810.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:23:01 2023]
+Error in rule getLD_buddies:
+    jobid: 828
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:40092101:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr17:40092101:C:T.out, logs/getLD_buddies_FNF_chr17:40092101:C:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606180
+
+Error executing rule getLD_buddies on cluster (jobid: 828, external: 1606180, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.828.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:23:11 2023]
+Error in rule getLD_buddies:
+    jobid: 792
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:161961083:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:161961083:A:G.out, logs/getLD_buddies_FNF_chr1:161961083:A:G.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606185
+
+Error executing rule getLD_buddies on cluster (jobid: 792, external: 1606185, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.792.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:23:14 2023]
+Error in rule getLD_buddies:
+    jobid: 834
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:85606203:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr2:85606203:C:T.out, logs/getLD_buddies_FNF_chr2:85606203:C:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606157
+
+Error executing rule getLD_buddies on cluster (jobid: 834, external: 1606157, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.834.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:23:14 2023]
+Error in rule getLD_buddies:
+    jobid: 836
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:89900547:G:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr15:89900547:G:C.out, logs/getLD_buddies_FNF_chr15:89900547:G:C.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606163
+
+Error executing rule getLD_buddies on cluster (jobid: 836, external: 1606163, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.836.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:23:14 2023]
+Error in rule getLD_buddies:
+    jobid: 826
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:123437226:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr8:123437226:C:T.out, logs/getLD_buddies_FNF_chr8:123437226:C:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606165
+
+Error executing rule getLD_buddies on cluster (jobid: 826, external: 1606165, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.826.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:23:14 2023]
+Error in rule getLD_buddies:
+    jobid: 786
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr13:48076356:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr13:48076356:A:G.out, logs/getLD_buddies_FNF_chr13:48076356:A:G.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606167
+
+Error executing rule getLD_buddies on cluster (jobid: 786, external: 1606167, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.786.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:23:41 2023]
+Error in rule getLD_buddies:
+    jobid: 808
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:21219821:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:21219821:C:T.out, logs/getLD_buddies_FNF_chr1:21219821:C:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606184
+
+Error executing rule getLD_buddies on cluster (jobid: 808, external: 1606184, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.808.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:23:41 2023]
+Error in rule getLD_buddies:
+    jobid: 798
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:230279402:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:230279402:G:A.out, logs/getLD_buddies_FNF_chr1:230279402:G:A.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606190
+
+Error executing rule getLD_buddies on cluster (jobid: 798, external: 1606190, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.798.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:23:44 2023]
+Error in rule getLD_buddies:
+    jobid: 820
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:123613219:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr12:123613219:A:G.out, logs/getLD_buddies_FNF_chr12:123613219:A:G.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606173
+
+Error executing rule getLD_buddies on cluster (jobid: 820, external: 1606173, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.820.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:23:57 2023]
+Error in rule getLD_buddies:
+    jobid: 764
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:47850893:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr3:47850893:G:A.out, logs/getLD_buddies_FNF_chr3:47850893:G:A.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606202
+
+Error executing rule getLD_buddies on cluster (jobid: 764, external: 1606202, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.764.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:23:57 2023]
+Error in rule getLD_buddies:
+    jobid: 794
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:9365020:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr3:9365020:G:A.out, logs/getLD_buddies_FNF_chr3:9365020:G:A.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606203
+
+Error executing rule getLD_buddies on cluster (jobid: 794, external: 1606203, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.794.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:23:58 2023]
+Error in rule getLD_buddies:
+    jobid: 790
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:38126634:A:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr3:38126634:A:C.out, logs/getLD_buddies_FNF_chr3:38126634:A:C.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606171
+
+Error executing rule getLD_buddies on cluster (jobid: 790, external: 1606171, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.790.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:24:10 2023]
+Error in rule getLD_buddies:
+    jobid: 802
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:62852790:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr20:62852790:A:G.out, logs/getLD_buddies_FNF_chr20:62852790:A:G.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606197
+
+Error executing rule getLD_buddies on cluster (jobid: 802, external: 1606197, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.802.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:24:10 2023]
+Error in rule getLD_buddies:
+    jobid: 778
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:113594496:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr9:113594496:C:T.out, logs/getLD_buddies_FNF_chr9:113594496:C:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606201
+
+Error executing rule getLD_buddies on cluster (jobid: 778, external: 1606201, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.778.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:24:11 2023]
+Error in rule getLD_buddies:
+    jobid: 844
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:45409478:C:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr19:45409478:C:A.out, logs/getLD_buddies_FNF_chr19:45409478:C:A.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606177
+
+Error executing rule getLD_buddies on cluster (jobid: 844, external: 1606177, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.844.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:24:11 2023]
+Error in rule getLD_buddies:
+    jobid: 782
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:21218242:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:21218242:C:T.out, logs/getLD_buddies_FNF_chr1:21218242:C:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606178
+
+Error executing rule getLD_buddies on cluster (jobid: 782, external: 1606178, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.782.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:24:23 2023]
+Error in rule getLD_buddies:
+    jobid: 830
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:101826262:G:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr3:101826262:G:C.out, logs/getLD_buddies_FNF_chr3:101826262:G:C.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606198
+
+Error executing rule getLD_buddies on cluster (jobid: 830, external: 1606198, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.830.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:24:35 2023]
+Error in rule getLD_buddies:
+    jobid: 766
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:113471049:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr2:113471049:G:A.out, logs/getLD_buddies_FNF_chr2:113471049:G:A.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606200
+
+Error executing rule getLD_buddies on cluster (jobid: 766, external: 1606200, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.766.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:24:35 2023]
+Error in rule getLD_buddies:
+    jobid: 770
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:62945295:T:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr20:62945295:T:G.out, logs/getLD_buddies_FNF_chr20:62945295:T:G.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606170
+
+Error executing rule getLD_buddies on cluster (jobid: 770, external: 1606170, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.770.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:24:46 2023]
+Error in rule getLD_buddies:
+    jobid: 784
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:11787715:G:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:11787715:G:T.out, logs/getLD_buddies_FNF_chr1:11787715:G:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606186
+
+Error executing rule getLD_buddies on cluster (jobid: 784, external: 1606186, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.784.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:24:46 2023]
+Error in rule getLD_buddies:
+    jobid: 822
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:94664990:C:T_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr4:94664990:C:T.out, logs/getLD_buddies_FNF_chr4:94664990:C:T.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606193
+
+Error executing rule getLD_buddies on cluster (jobid: 822, external: 1606193, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.822.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:24:47 2023]
+Error in rule getLD_buddies:
+    jobid: 772
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:30522671:G:A_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr17:30522671:G:A.out, logs/getLD_buddies_FNF_chr17:30522671:G:A.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606182
+
+Error executing rule getLD_buddies on cluster (jobid: 772, external: 1606182, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.772.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:24:57 2023]
+Error in rule getLD_buddies:
+    jobid: 850
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:160332508:T:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr1:160332508:T:C.out, logs/getLD_buddies_FNF_chr1:160332508:T:C.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606168
+
+Error executing rule getLD_buddies on cluster (jobid: 850, external: 1606168, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.850.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:24:58 2023]
+Error in rule getLD_buddies:
+    jobid: 818
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:6302742:A:G_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr4:6302742:A:G.out, logs/getLD_buddies_FNF_chr4:6302742:A:G.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606169
+
+Error executing rule getLD_buddies on cluster (jobid: 818, external: 1606169, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.818.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar  1 15:25:18 2023]
+Error in rule getLD_buddies:
+    jobid: 814
+    output: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr22:38735830:T:C_FNF_0.8.ld
+    log: logs/getLD_buddies_FNF_chr22:38735830:T:C.out, logs/getLD_buddies_FNF_chr22:38735830:T:C.err (check log file(s) for error message)
+    shell:
+        
+        module load plink
+        for snp in `cat /work/users/n/e/nekramer/Data/CQTL/AI/freeze/AIsigFNF05variantIDs.txt`
+        do
+            plink --bfile /work/users/n/e/nekramer/Data/CQTL/geno/CQTL_COA_01_GDA8_COA2_01_COA3_01_GDA8_COA4_COA5_COA6_COA7_ALL_qc --ld-snp ${snp} --ld-window 200000 --ld-window-kb 1000 --ld-window-r2 0.8 --r2 --out /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/${snp}_FNF_0.8
+        done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 1606187
+
+Error executing rule getLD_buddies on cluster (jobid: 814, external: 1606187, jobscript: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.7dcagt7p/snakejob.getLD_buddies.814.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/log/2023-03-01T150920.786486.snakemake.log

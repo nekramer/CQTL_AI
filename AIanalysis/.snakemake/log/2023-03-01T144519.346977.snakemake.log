@@ -1,0 +1,3113 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	1	all
+	238	join_LDbuddies
+	239
+
+[Wed Mar  1 14:45:23 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:13068110:G:A_FNF_0.8.ld, data/chr18:13068110:G:A_FNF_ld_rsids.csv
+    output: data/chr18:13068110:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr18:13068110:G:A.out, logs/join_LDbuddies_FNF_chr18:13068110:G:A.err
+    jobid: 615
+    wildcards: snp=chr18:13068110:G:A, condition=FNF
+
+Submitted job 615 with external jobid '1605000'.
+
+[Wed Mar  1 14:45:23 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:141125259:A:C_CTL_0.8.ld, data/chr5:141125259:A:C_CTL_ld_rsids.csv
+    output: data/chr5:141125259:A:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr5:141125259:A:C.out, logs/join_LDbuddies_CTL_chr5:141125259:A:C.err
+    jobid: 512
+    wildcards: snp=chr5:141125259:A:C, condition=CTL
+
+Submitted job 512 with external jobid '1605001'.
+
+[Wed Mar  1 14:45:24 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:52384174:A:C_CTL_0.8.ld, data/chr19:52384174:A:C_CTL_ld_rsids.csv
+    output: data/chr19:52384174:A:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr19:52384174:A:C.out, logs/join_LDbuddies_CTL_chr19:52384174:A:C.err
+    jobid: 479
+    wildcards: snp=chr19:52384174:A:C, condition=CTL
+
+Submitted job 479 with external jobid '1605002'.
+
+[Wed Mar  1 14:45:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:123437226:C:T_CTL_0.8.ld, data/chr8:123437226:C:T_CTL_ld_rsids.csv
+    output: data/chr8:123437226:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr8:123437226:C:T.out, logs/join_LDbuddies_CTL_chr8:123437226:C:T.err
+    jobid: 564
+    wildcards: snp=chr8:123437226:C:T, condition=CTL
+
+Submitted job 564 with external jobid '1605003'.
+
+[Wed Mar  1 14:45:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:52384174:A:C_FNF_0.8.ld, data/chr19:52384174:A:C_FNF_ld_rsids.csv
+    output: data/chr19:52384174:A:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr19:52384174:A:C.out, logs/join_LDbuddies_FNF_chr19:52384174:A:C.err
+    jobid: 594
+    wildcards: snp=chr19:52384174:A:C, condition=FNF
+
+Submitted job 594 with external jobid '1605004'.
+
+[Wed Mar  1 14:45:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:25108163:T:C_FNF_0.8.ld, data/chr6:25108163:T:C_FNF_ld_rsids.csv
+    output: data/chr6:25108163:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr6:25108163:T:C.out, logs/join_LDbuddies_FNF_chr6:25108163:T:C.err
+    jobid: 636
+    wildcards: snp=chr6:25108163:T:C, condition=FNF
+
+Submitted job 636 with external jobid '1605005'.
+
+[Wed Mar  1 14:45:26 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:82423755:A:G_CTL_0.8.ld, data/chr4:82423755:A:G_CTL_ld_rsids.csv
+    output: data/chr4:82423755:A:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr4:82423755:A:G.out, logs/join_LDbuddies_CTL_chr4:82423755:A:G.err
+    jobid: 518
+    wildcards: snp=chr4:82423755:A:G, condition=CTL
+
+Submitted job 518 with external jobid '1605007'.
+
+[Wed Mar  1 14:45:26 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:172422467:G:A_FNF_0.8.ld, data/chr5:172422467:G:A_FNF_ld_rsids.csv
+    output: data/chr5:172422467:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr5:172422467:G:A.out, logs/join_LDbuddies_FNF_chr5:172422467:G:A.err
+    jobid: 657
+    wildcards: snp=chr5:172422467:G:A, condition=FNF
+
+Submitted job 657 with external jobid '1605008'.
+
+[Wed Mar  1 14:45:26 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:59321678:T:G_CTL_0.8.ld, data/chr1:59321678:T:G_CTL_ld_rsids.csv
+    output: data/chr1:59321678:T:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:59321678:T:G.out, logs/join_LDbuddies_CTL_chr1:59321678:T:G.err
+    jobid: 582
+    wildcards: snp=chr1:59321678:T:G, condition=CTL
+
+Submitted job 582 with external jobid '1605009'.
+
+[Wed Mar  1 14:45:26 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:59321678:T:G_FNF_0.8.ld, data/chr1:59321678:T:G_FNF_ld_rsids.csv
+    output: data/chr1:59321678:T:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:59321678:T:G.out, logs/join_LDbuddies_FNF_chr1:59321678:T:G.err
+    jobid: 675
+    wildcards: snp=chr1:59321678:T:G, condition=FNF
+
+Submitted job 675 with external jobid '1605010'.
+
+[Wed Mar  1 14:45:27 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:30783634:G:A_CTL_0.8.ld, data/chr17:30783634:G:A_CTL_ld_rsids.csv
+    output: data/chr17:30783634:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr17:30783634:G:A.out, logs/join_LDbuddies_CTL_chr17:30783634:G:A.err
+    jobid: 569
+    wildcards: snp=chr17:30783634:G:A, condition=CTL
+
+Submitted job 569 with external jobid '1605011'.
+
+[Wed Mar  1 14:45:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:65443863:T:C_FNF_0.8.ld, data/chr15:65443863:T:C_FNF_ld_rsids.csv
+    output: data/chr15:65443863:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr15:65443863:T:C.out, logs/join_LDbuddies_FNF_chr15:65443863:T:C.err
+    jobid: 706
+    wildcards: snp=chr15:65443863:T:C, condition=FNF
+
+Submitted job 706 with external jobid '1605012'.
+
+[Wed Mar  1 14:45:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:37500898:T:C_FNF_0.8.ld, data/chr9:37500898:T:C_FNF_ld_rsids.csv
+    output: data/chr9:37500898:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr9:37500898:T:C.out, logs/join_LDbuddies_FNF_chr9:37500898:T:C.err
+    jobid: 630
+    wildcards: snp=chr9:37500898:T:C, condition=FNF
+
+Submitted job 630 with external jobid '1605014'.
+
+[Wed Mar  1 14:45:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:65443863:T:C_CTL_0.8.ld, data/chr15:65443863:T:C_CTL_ld_rsids.csv
+    output: data/chr15:65443863:T:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr15:65443863:T:C.out, logs/join_LDbuddies_CTL_chr15:65443863:T:C.err
+    jobid: 590
+    wildcards: snp=chr15:65443863:T:C, condition=CTL
+
+Submitted job 590 with external jobid '1605015'.
+
+[Wed Mar  1 14:45:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:30783634:G:A_FNF_0.8.ld, data/chr17:30783634:G:A_FNF_ld_rsids.csv
+    output: data/chr17:30783634:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr17:30783634:G:A.out, logs/join_LDbuddies_FNF_chr17:30783634:G:A.err
+    jobid: 692
+    wildcards: snp=chr17:30783634:G:A, condition=FNF
+
+Submitted job 692 with external jobid '1605016'.
+
+[Wed Mar  1 14:45:29 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:37500898:T:C_CTL_0.8.ld, data/chr9:37500898:T:C_CTL_ld_rsids.csv
+    output: data/chr9:37500898:T:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr9:37500898:T:C.out, logs/join_LDbuddies_CTL_chr9:37500898:T:C.err
+    jobid: 572
+    wildcards: snp=chr9:37500898:T:C, condition=CTL
+
+Submitted job 572 with external jobid '1605017'.
+
+[Wed Mar  1 14:45:29 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:59359129:A:G_FNF_0.8.ld, data/chr18:59359129:A:G_FNF_ld_rsids.csv
+    output: data/chr18:59359129:A:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr18:59359129:A:G.out, logs/join_LDbuddies_FNF_chr18:59359129:A:G.err
+    jobid: 645
+    wildcards: snp=chr18:59359129:A:G, condition=FNF
+
+Submitted job 645 with external jobid '1605018'.
+
+[Wed Mar  1 14:45:29 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:82151483:C:T_CTL_0.8.ld, data/chr15:82151483:C:T_CTL_ld_rsids.csv
+    output: data/chr15:82151483:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr15:82151483:C:T.out, logs/join_LDbuddies_CTL_chr15:82151483:C:T.err
+    jobid: 524
+    wildcards: snp=chr15:82151483:C:T, condition=CTL
+
+Submitted job 524 with external jobid '1605019'.
+
+[Wed Mar  1 14:45:29 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:59359129:A:G_CTL_0.8.ld, data/chr18:59359129:A:G_CTL_ld_rsids.csv
+    output: data/chr18:59359129:A:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr18:59359129:A:G.out, logs/join_LDbuddies_CTL_chr18:59359129:A:G.err
+    jobid: 577
+    wildcards: snp=chr18:59359129:A:G, condition=CTL
+
+Submitted job 577 with external jobid '1605020'.
+
+[Wed Mar  1 14:45:30 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:82151483:C:T_FNF_0.8.ld, data/chr15:82151483:C:T_FNF_ld_rsids.csv
+    output: data/chr15:82151483:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr15:82151483:C:T.out, logs/join_LDbuddies_FNF_chr15:82151483:C:T.err
+    jobid: 666
+    wildcards: snp=chr15:82151483:C:T, condition=FNF
+
+Submitted job 666 with external jobid '1605021'.
+
+[Wed Mar  1 14:45:30 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:24099899:C:T_FNF_0.8.ld, data/chr2:24099899:C:T_FNF_ld_rsids.csv
+    output: data/chr2:24099899:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr2:24099899:C:T.out, logs/join_LDbuddies_FNF_chr2:24099899:C:T.err
+    jobid: 651
+    wildcards: snp=chr2:24099899:C:T, condition=FNF
+
+Submitted job 651 with external jobid '1605023'.
+
+[Wed Mar  1 14:45:30 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:113594496:C:T_CTL_0.8.ld, data/chr9:113594496:C:T_CTL_ld_rsids.csv
+    output: data/chr9:113594496:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr9:113594496:C:T.out, logs/join_LDbuddies_CTL_chr9:113594496:C:T.err
+    jobid: 517
+    wildcards: snp=chr9:113594496:C:T, condition=CTL
+
+Submitted job 517 with external jobid '1605024'.
+
+[Wed Mar  1 14:45:30 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr14:51256420:T:C_CTL_0.8.ld, data/chr14:51256420:T:C_CTL_ld_rsids.csv
+    output: data/chr14:51256420:T:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr14:51256420:T:C.out, logs/join_LDbuddies_CTL_chr14:51256420:T:C.err
+    jobid: 513
+    wildcards: snp=chr14:51256420:T:C, condition=CTL
+
+Submitted job 513 with external jobid '1605025'.
+
+[Wed Mar  1 14:45:31 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:33006506:G:T_FNF_0.8.ld, data/chr7:33006506:G:T_FNF_ld_rsids.csv
+    output: data/chr7:33006506:G:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr7:33006506:G:T.out, logs/join_LDbuddies_FNF_chr7:33006506:G:T.err
+    jobid: 680
+    wildcards: snp=chr7:33006506:G:T, condition=FNF
+
+Submitted job 680 with external jobid '1605026'.
+
+[Wed Mar  1 14:45:31 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:58417855:G:A_CTL_0.8.ld, data/chr19:58417855:G:A_CTL_ld_rsids.csv
+    output: data/chr19:58417855:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr19:58417855:G:A.out, logs/join_LDbuddies_CTL_chr19:58417855:G:A.err
+    jobid: 571
+    wildcards: snp=chr19:58417855:G:A, condition=CTL
+
+Submitted job 571 with external jobid '1605027'.
+
+[Wed Mar  1 14:45:31 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:33006506:G:T_CTL_0.8.ld, data/chr7:33006506:G:T_CTL_ld_rsids.csv
+    output: data/chr7:33006506:G:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr7:33006506:G:T.out, logs/join_LDbuddies_CTL_chr7:33006506:G:T.err
+    jobid: 515
+    wildcards: snp=chr7:33006506:G:T, condition=CTL
+
+Submitted job 515 with external jobid '1605028'.
+
+[Wed Mar  1 14:45:31 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr14:51256420:T:C_FNF_0.8.ld, data/chr14:51256420:T:C_FNF_ld_rsids.csv
+    output: data/chr14:51256420:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr14:51256420:T:C.out, logs/join_LDbuddies_FNF_chr14:51256420:T:C.err
+    jobid: 628
+    wildcards: snp=chr14:51256420:T:C, condition=FNF
+
+Submitted job 628 with external jobid '1605029'.
+
+[Wed Mar  1 14:45:32 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr13:48076356:A:G_CTL_0.8.ld, data/chr13:48076356:A:G_CTL_ld_rsids.csv
+    output: data/chr13:48076356:A:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr13:48076356:A:G.out, logs/join_LDbuddies_CTL_chr13:48076356:A:G.err
+    jobid: 526
+    wildcards: snp=chr13:48076356:A:G, condition=CTL
+
+Submitted job 526 with external jobid '1605030'.
+
+[Wed Mar  1 14:45:32 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:62945295:T:G_CTL_0.8.ld, data/chr20:62945295:T:G_CTL_ld_rsids.csv
+    output: data/chr20:62945295:T:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr20:62945295:T:G.out, logs/join_LDbuddies_CTL_chr20:62945295:T:G.err
+    jobid: 504
+    wildcards: snp=chr20:62945295:T:G, condition=CTL
+
+Submitted job 504 with external jobid '1605031'.
+
+[Wed Mar  1 14:45:32 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:113471049:G:A_CTL_0.8.ld, data/chr2:113471049:G:A_CTL_ld_rsids.csv
+    output: data/chr2:113471049:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr2:113471049:G:A.out, logs/join_LDbuddies_CTL_chr2:113471049:G:A.err
+    jobid: 501
+    wildcards: snp=chr2:113471049:G:A, condition=CTL
+
+Submitted job 501 with external jobid '1605032'.
+
+[Wed Mar  1 14:45:32 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:136001831:T:C_FNF_0.8.ld, data/chr3:136001831:T:C_FNF_ld_rsids.csv
+    output: data/chr3:136001831:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr3:136001831:T:C.out, logs/join_LDbuddies_FNF_chr3:136001831:T:C.err
+    jobid: 704
+    wildcards: snp=chr3:136001831:T:C, condition=FNF
+
+Submitted job 704 with external jobid '1605033'.
+
+[Wed Mar  1 14:45:33 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:136001831:T:C_CTL_0.8.ld, data/chr3:136001831:T:C_CTL_ld_rsids.csv
+    output: data/chr3:136001831:T:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr3:136001831:T:C.out, logs/join_LDbuddies_CTL_chr3:136001831:T:C.err
+    jobid: 588
+    wildcards: snp=chr3:136001831:T:C, condition=CTL
+
+Submitted job 588 with external jobid '1605034'.
+
+[Wed Mar  1 14:45:33 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:66152686:G:A_CTL_0.8.ld, data/chr7:66152686:G:A_CTL_ld_rsids.csv
+    output: data/chr7:66152686:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr7:66152686:G:A.out, logs/join_LDbuddies_CTL_chr7:66152686:G:A.err
+    jobid: 557
+    wildcards: snp=chr7:66152686:G:A, condition=CTL
+
+Submitted job 557 with external jobid '1605035'.
+
+[Wed Mar  1 14:45:33 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:10307512:G:A_FNF_0.8.ld, data/chr1:10307512:G:A_FNF_ld_rsids.csv
+    output: data/chr1:10307512:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:10307512:G:A.out, logs/join_LDbuddies_FNF_chr1:10307512:G:A.err
+    jobid: 603
+    wildcards: snp=chr1:10307512:G:A, condition=FNF
+
+Submitted job 603 with external jobid '1605036'.
+
+[Wed Mar  1 14:45:33 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:10307512:G:A_CTL_0.8.ld, data/chr1:10307512:G:A_CTL_ld_rsids.csv
+    output: data/chr1:10307512:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:10307512:G:A.out, logs/join_LDbuddies_CTL_chr1:10307512:G:A.err
+    jobid: 523
+    wildcards: snp=chr1:10307512:G:A, condition=CTL
+
+Submitted job 523 with external jobid '1605037'.
+
+[Wed Mar  1 14:45:34 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:48144715:G:C_FNF_0.8.ld, data/chr11:48144715:G:C_FNF_ld_rsids.csv
+    output: data/chr11:48144715:G:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr11:48144715:G:C.out, logs/join_LDbuddies_FNF_chr11:48144715:G:C.err
+    jobid: 707
+    wildcards: snp=chr11:48144715:G:C, condition=FNF
+
+Submitted job 707 with external jobid '1605038'.
+
+[Wed Mar  1 14:45:34 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:66152686:G:A_FNF_0.8.ld, data/chr7:66152686:G:A_FNF_ld_rsids.csv
+    output: data/chr7:66152686:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr7:66152686:G:A.out, logs/join_LDbuddies_FNF_chr7:66152686:G:A.err
+    jobid: 709
+    wildcards: snp=chr7:66152686:G:A, condition=FNF
+
+Submitted job 709 with external jobid '1605039'.
+
+[Wed Mar  1 14:45:34 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:48048796:G:A_CTL_0.8.ld, data/chr17:48048796:G:A_CTL_ld_rsids.csv
+    output: data/chr17:48048796:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr17:48048796:G:A.out, logs/join_LDbuddies_CTL_chr17:48048796:G:A.err
+    jobid: 509
+    wildcards: snp=chr17:48048796:G:A, condition=CTL
+
+Submitted job 509 with external jobid '1605040'.
+
+[Wed Mar  1 14:45:34 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr22:45341429:A:G_CTL_0.8.ld, data/chr22:45341429:A:G_CTL_ld_rsids.csv
+    output: data/chr22:45341429:A:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr22:45341429:A:G.out, logs/join_LDbuddies_CTL_chr22:45341429:A:G.err
+    jobid: 510
+    wildcards: snp=chr22:45341429:A:G, condition=CTL
+
+Submitted job 510 with external jobid '1605041'.
+
+[Wed Mar  1 14:45:35 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:48048796:G:A_FNF_0.8.ld, data/chr17:48048796:G:A_FNF_ld_rsids.csv
+    output: data/chr17:48048796:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr17:48048796:G:A.out, logs/join_LDbuddies_FNF_chr17:48048796:G:A.err
+    jobid: 642
+    wildcards: snp=chr17:48048796:G:A, condition=FNF
+
+Submitted job 642 with external jobid '1605042'.
+
+[Wed Mar  1 14:45:35 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr22:45341429:A:G_FNF_0.8.ld, data/chr22:45341429:A:G_FNF_ld_rsids.csv
+    output: data/chr22:45341429:A:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr22:45341429:A:G.out, logs/join_LDbuddies_FNF_chr22:45341429:A:G.err
+    jobid: 654
+    wildcards: snp=chr22:45341429:A:G, condition=FNF
+
+Submitted job 654 with external jobid '1605043'.
+
+[Wed Mar  1 14:45:35 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:87108231:A:T_FNF_0.8.ld, data/chr1:87108231:A:T_FNF_ld_rsids.csv
+    output: data/chr1:87108231:A:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:87108231:A:T.out, logs/join_LDbuddies_FNF_chr1:87108231:A:T.err
+    jobid: 608
+    wildcards: snp=chr1:87108231:A:T, condition=FNF
+
+Submitted job 608 with external jobid '1605044'.
+
+[Wed Mar  1 14:45:35 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:28874919:A:G_FNF_0.8.ld, data/chr21:28874919:A:G_FNF_ld_rsids.csv
+    output: data/chr21:28874919:A:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr21:28874919:A:G.out, logs/join_LDbuddies_FNF_chr21:28874919:A:G.err
+    jobid: 644
+    wildcards: snp=chr21:28874919:A:G, condition=FNF
+
+Submitted job 644 with external jobid '1605045'.
+
+[Wed Mar  1 14:45:36 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:49447735:C:T_CTL_0.8.ld, data/chr6:49447735:C:T_CTL_ld_rsids.csv
+    output: data/chr6:49447735:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr6:49447735:C:T.out, logs/join_LDbuddies_CTL_chr6:49447735:C:T.err
+    jobid: 585
+    wildcards: snp=chr6:49447735:C:T, condition=CTL
+
+Submitted job 585 with external jobid '1605046'.
+
+[Wed Mar  1 14:45:36 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:78487278:G:A_FNF_0.8.ld, data/chr5:78487278:G:A_FNF_ld_rsids.csv
+    output: data/chr5:78487278:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr5:78487278:G:A.out, logs/join_LDbuddies_FNF_chr5:78487278:G:A.err
+    jobid: 710
+    wildcards: snp=chr5:78487278:G:A, condition=FNF
+
+Submitted job 710 with external jobid '1605047'.
+
+[Wed Mar  1 14:45:36 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:133156038:C:T_CTL_0.8.ld, data/chr12:133156038:C:T_CTL_ld_rsids.csv
+    output: data/chr12:133156038:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr12:133156038:C:T.out, logs/join_LDbuddies_CTL_chr12:133156038:C:T.err
+    jobid: 580
+    wildcards: snp=chr12:133156038:C:T, condition=CTL
+
+Submitted job 580 with external jobid '1605048'.
+
+[Wed Mar  1 14:45:36 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:133191967:A:T_FNF_0.8.ld, data/chr12:133191967:A:T_FNF_ld_rsids.csv
+    output: data/chr12:133191967:A:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr12:133191967:A:T.out, logs/join_LDbuddies_FNF_chr12:133191967:A:T.err
+    jobid: 670
+    wildcards: snp=chr12:133191967:A:T, condition=FNF
+
+Submitted job 670 with external jobid '1605049'.
+
+[Wed Mar  1 14:45:37 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:37863152:G:C_CTL_0.8.ld, data/chr9:37863152:G:C_CTL_ld_rsids.csv
+    output: data/chr9:37863152:G:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr9:37863152:G:C.out, logs/join_LDbuddies_CTL_chr9:37863152:G:C.err
+    jobid: 547
+    wildcards: snp=chr9:37863152:G:C, condition=CTL
+
+Submitted job 547 with external jobid '1605050'.
+
+[Wed Mar  1 14:45:37 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:133191967:A:T_CTL_0.8.ld, data/chr12:133191967:A:T_CTL_ld_rsids.csv
+    output: data/chr12:133191967:A:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr12:133191967:A:T.out, logs/join_LDbuddies_CTL_chr12:133191967:A:T.err
+    jobid: 539
+    wildcards: snp=chr12:133191967:A:T, condition=CTL
+
+Submitted job 539 with external jobid '1605051'.
+
+[Wed Mar  1 14:45:37 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:31317834:G:A_FNF_0.8.ld, data/chr17:31317834:G:A_FNF_ld_rsids.csv
+    output: data/chr17:31317834:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr17:31317834:G:A.out, logs/join_LDbuddies_FNF_chr17:31317834:G:A.err
+    jobid: 698
+    wildcards: snp=chr17:31317834:G:A, condition=FNF
+
+Submitted job 698 with external jobid '1605052'.
+
+[Wed Mar  1 14:45:37 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:31317834:G:A_CTL_0.8.ld, data/chr17:31317834:G:A_CTL_ld_rsids.csv
+    output: data/chr17:31317834:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr17:31317834:G:A.out, logs/join_LDbuddies_CTL_chr17:31317834:G:A.err
+    jobid: 586
+    wildcards: snp=chr17:31317834:G:A, condition=CTL
+
+Submitted job 586 with external jobid '1605053'.
+
+[Wed Mar  1 14:45:38 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:5536901:T:C_FNF_0.8.ld, data/chr17:5536901:T:C_FNF_ld_rsids.csv
+    output: data/chr17:5536901:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr17:5536901:T:C.out, logs/join_LDbuddies_FNF_chr17:5536901:T:C.err
+    jobid: 671
+    wildcards: snp=chr17:5536901:T:C, condition=FNF
+
+Submitted job 671 with external jobid '1605054'.
+
+[Wed Mar  1 14:45:38 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:23961694:A:C_FNF_0.8.ld, data/chr1:23961694:A:C_FNF_ld_rsids.csv
+    output: data/chr1:23961694:A:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:23961694:A:C.out, logs/join_LDbuddies_FNF_chr1:23961694:A:C.err
+    jobid: 676
+    wildcards: snp=chr1:23961694:A:C, condition=FNF
+
+Submitted job 676 with external jobid '1605055'.
+
+[Wed Mar  1 14:45:38 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:3018500:A:C_CTL_0.8.ld, data/chr6:3018500:A:C_CTL_ld_rsids.csv
+    output: data/chr6:3018500:A:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr6:3018500:A:C.out, logs/join_LDbuddies_CTL_chr6:3018500:A:C.err
+    jobid: 478
+    wildcards: snp=chr6:3018500:A:C, condition=CTL
+
+Submitted job 478 with external jobid '1605056'.
+
+[Wed Mar  1 14:45:38 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:3018500:A:C_FNF_0.8.ld, data/chr6:3018500:A:C_FNF_ld_rsids.csv
+    output: data/chr6:3018500:A:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr6:3018500:A:C.out, logs/join_LDbuddies_FNF_chr6:3018500:A:C.err
+    jobid: 593
+    wildcards: snp=chr6:3018500:A:C, condition=FNF
+
+Submitted job 593 with external jobid '1605058'.
+
+[Wed Mar  1 14:45:38 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:86382272:G:A_FNF_0.8.ld, data/chr1:86382272:G:A_FNF_ld_rsids.csv
+    output: data/chr1:86382272:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:86382272:G:A.out, logs/join_LDbuddies_FNF_chr1:86382272:G:A.err
+    jobid: 683
+    wildcards: snp=chr1:86382272:G:A, condition=FNF
+
+Submitted job 683 with external jobid '1605060'.
+
+[Wed Mar  1 14:45:39 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:96267572:C:T_FNF_0.8.ld, data/chr12:96267572:C:T_FNF_ld_rsids.csv
+    output: data/chr12:96267572:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr12:96267572:C:T.out, logs/join_LDbuddies_FNF_chr12:96267572:C:T.err
+    jobid: 620
+    wildcards: snp=chr12:96267572:C:T, condition=FNF
+
+Submitted job 620 with external jobid '1605063'.
+
+[Wed Mar  1 14:45:39 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:119032547:C:A_FNF_0.8.ld, data/chr1:119032547:C:A_FNF_ld_rsids.csv
+    output: data/chr1:119032547:C:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:119032547:C:A.out, logs/join_LDbuddies_FNF_chr1:119032547:C:A.err
+    jobid: 619
+    wildcards: snp=chr1:119032547:C:A, condition=FNF
+
+Submitted job 619 with external jobid '1605065'.
+
+[Wed Mar  1 14:45:39 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:123613219:A:G_CTL_0.8.ld, data/chr12:123613219:A:G_CTL_ld_rsids.csv
+    output: data/chr12:123613219:A:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr12:123613219:A:G.out, logs/join_LDbuddies_CTL_chr12:123613219:A:G.err
+    jobid: 558
+    wildcards: snp=chr12:123613219:A:G, condition=CTL
+
+Submitted job 558 with external jobid '1605066'.
+
+[Wed Mar  1 14:45:39 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:86382272:G:A_CTL_0.8.ld, data/chr1:86382272:G:A_CTL_ld_rsids.csv
+    output: data/chr1:86382272:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:86382272:G:A.out, logs/join_LDbuddies_CTL_chr1:86382272:G:A.err
+    jobid: 561
+    wildcards: snp=chr1:86382272:G:A, condition=CTL
+
+Submitted job 561 with external jobid '1605067'.
+
+[Wed Mar  1 14:45:40 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:119032547:C:A_CTL_0.8.ld, data/chr1:119032547:C:A_CTL_ld_rsids.csv
+    output: data/chr1:119032547:C:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:119032547:C:A.out, logs/join_LDbuddies_CTL_chr1:119032547:C:A.err
+    jobid: 494
+    wildcards: snp=chr1:119032547:C:A, condition=CTL
+
+Submitted job 494 with external jobid '1605068'.
+
+[Wed Mar  1 14:45:40 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:24100236:A:G_CTL_0.8.ld, data/chr2:24100236:A:G_CTL_ld_rsids.csv
+    output: data/chr2:24100236:A:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr2:24100236:A:G.out, logs/join_LDbuddies_CTL_chr2:24100236:A:G.err
+    jobid: 527
+    wildcards: snp=chr2:24100236:A:G, condition=CTL
+
+Submitted job 527 with external jobid '1605069'.
+
+[Wed Mar  1 14:45:40 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:132841483:C:T_CTL_0.8.ld, data/chr12:132841483:C:T_CTL_ld_rsids.csv
+    output: data/chr12:132841483:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr12:132841483:C:T.out, logs/join_LDbuddies_CTL_chr12:132841483:C:T.err
+    jobid: 540
+    wildcards: snp=chr12:132841483:C:T, condition=CTL
+
+Submitted job 540 with external jobid '1605070'.
+
+[Wed Mar  1 14:45:40 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:58655671:T:A_CTL_0.8.ld, data/chr1:58655671:T:A_CTL_ld_rsids.csv
+    output: data/chr1:58655671:T:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:58655671:T:A.out, logs/join_LDbuddies_CTL_chr1:58655671:T:A.err
+    jobid: 581
+    wildcards: snp=chr1:58655671:T:A, condition=CTL
+
+Submitted job 581 with external jobid '1605071'.
+
+[Wed Mar  1 14:45:41 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:24100236:A:G_FNF_0.8.ld, data/chr2:24100236:A:G_FNF_ld_rsids.csv
+    output: data/chr2:24100236:A:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr2:24100236:A:G.out, logs/join_LDbuddies_FNF_chr2:24100236:A:G.err
+    jobid: 646
+    wildcards: snp=chr2:24100236:A:G, condition=FNF
+
+Submitted job 646 with external jobid '1605072'.
+
+[Wed Mar  1 14:45:41 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:58655671:T:A_FNF_0.8.ld, data/chr1:58655671:T:A_FNF_ld_rsids.csv
+    output: data/chr1:58655671:T:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:58655671:T:A.out, logs/join_LDbuddies_FNF_chr1:58655671:T:A.err
+    jobid: 685
+    wildcards: snp=chr1:58655671:T:A, condition=FNF
+
+Submitted job 685 with external jobid '1605073'.
+
+[Wed Mar  1 14:45:41 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:132841483:C:T_FNF_0.8.ld, data/chr12:132841483:C:T_FNF_ld_rsids.csv
+    output: data/chr12:132841483:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr12:132841483:C:T.out, logs/join_LDbuddies_FNF_chr12:132841483:C:T.err
+    jobid: 686
+    wildcards: snp=chr12:132841483:C:T, condition=FNF
+
+Submitted job 686 with external jobid '1605074'.
+
+[Wed Mar  1 14:45:41 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:13095592:G:A_CTL_0.8.ld, data/chr18:13095592:G:A_CTL_ld_rsids.csv
+    output: data/chr18:13095592:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr18:13095592:G:A.out, logs/join_LDbuddies_CTL_chr18:13095592:G:A.err
+    jobid: 514
+    wildcards: snp=chr18:13095592:G:A, condition=CTL
+
+Submitted job 514 with external jobid '1605075'.
+
+[Wed Mar  1 14:45:42 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:238447385:C:T_CTL_0.8.ld, data/chr2:238447385:C:T_CTL_ld_rsids.csv
+    output: data/chr2:238447385:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr2:238447385:C:T.out, logs/join_LDbuddies_CTL_chr2:238447385:C:T.err
+    jobid: 488
+    wildcards: snp=chr2:238447385:C:T, condition=CTL
+
+Submitted job 488 with external jobid '1605077'.
+
+[Wed Mar  1 14:45:42 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:186306628:G:A_CTL_0.8.ld, data/chr1:186306628:G:A_CTL_ld_rsids.csv
+    output: data/chr1:186306628:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:186306628:G:A.out, logs/join_LDbuddies_CTL_chr1:186306628:G:A.err
+    jobid: 497
+    wildcards: snp=chr1:186306628:G:A, condition=CTL
+
+Submitted job 497 with external jobid '1605078'.
+
+[Wed Mar  1 14:45:42 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:24100237:G:A_CTL_0.8.ld, data/chr2:24100237:G:A_CTL_ld_rsids.csv
+    output: data/chr2:24100237:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr2:24100237:G:A.out, logs/join_LDbuddies_CTL_chr2:24100237:G:A.err
+    jobid: 528
+    wildcards: snp=chr2:24100237:G:A, condition=CTL
+
+Submitted job 528 with external jobid '1605079'.
+
+[Wed Mar  1 14:45:42 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:13095592:G:A_FNF_0.8.ld, data/chr18:13095592:G:A_FNF_ld_rsids.csv
+    output: data/chr18:13095592:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr18:13095592:G:A.out, logs/join_LDbuddies_FNF_chr18:13095592:G:A.err
+    jobid: 649
+    wildcards: snp=chr18:13095592:G:A, condition=FNF
+
+Submitted job 649 with external jobid '1605080'.
+
+[Wed Mar  1 14:45:42 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:238447385:C:T_FNF_0.8.ld, data/chr2:238447385:C:T_FNF_ld_rsids.csv
+    output: data/chr2:238447385:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr2:238447385:C:T.out, logs/join_LDbuddies_FNF_chr2:238447385:C:T.err
+    jobid: 604
+    wildcards: snp=chr2:238447385:C:T, condition=FNF
+
+Submitted job 604 with external jobid '1605082'.
+
+[Wed Mar  1 14:45:43 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:186306628:G:A_FNF_0.8.ld, data/chr1:186306628:G:A_FNF_ld_rsids.csv
+    output: data/chr1:186306628:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:186306628:G:A.out, logs/join_LDbuddies_FNF_chr1:186306628:G:A.err
+    jobid: 637
+    wildcards: snp=chr1:186306628:G:A, condition=FNF
+
+Submitted job 637 with external jobid '1605083'.
+
+[Wed Mar  1 14:45:43 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:24100237:G:A_FNF_0.8.ld, data/chr2:24100237:G:A_FNF_ld_rsids.csv
+    output: data/chr2:24100237:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr2:24100237:G:A.out, logs/join_LDbuddies_FNF_chr2:24100237:G:A.err
+    jobid: 656
+    wildcards: snp=chr2:24100237:G:A, condition=FNF
+
+Submitted job 656 with external jobid '1605084'.
+
+[Wed Mar  1 14:45:43 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:52384184:A:C_CTL_0.8.ld, data/chr19:52384184:A:C_CTL_ld_rsids.csv
+    output: data/chr19:52384184:A:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr19:52384184:A:C.out, logs/join_LDbuddies_CTL_chr19:52384184:A:C.err
+    jobid: 480
+    wildcards: snp=chr19:52384184:A:C, condition=CTL
+
+Submitted job 480 with external jobid '1605085'.
+
+[Wed Mar  1 14:45:43 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:43313429:C:T_FNF_0.8.ld, data/chr5:43313429:C:T_FNF_ld_rsids.csv
+    output: data/chr5:43313429:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr5:43313429:C:T.out, logs/join_LDbuddies_FNF_chr5:43313429:C:T.err
+    jobid: 694
+    wildcards: snp=chr5:43313429:C:T, condition=FNF
+
+Submitted job 694 with external jobid '1605086'.
+
+[Wed Mar  1 14:45:44 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:52384184:A:C_FNF_0.8.ld, data/chr19:52384184:A:C_FNF_ld_rsids.csv
+    output: data/chr19:52384184:A:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr19:52384184:A:C.out, logs/join_LDbuddies_FNF_chr19:52384184:A:C.err
+    jobid: 595
+    wildcards: snp=chr19:52384184:A:C, condition=FNF
+
+Submitted job 595 with external jobid '1605087'.
+
+[Wed Mar  1 14:45:44 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:119182778:G:A_CTL_0.8.ld, data/chr1:119182778:G:A_CTL_ld_rsids.csv
+    output: data/chr1:119182778:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:119182778:G:A.out, logs/join_LDbuddies_CTL_chr1:119182778:G:A.err
+    jobid: 505
+    wildcards: snp=chr1:119182778:G:A, condition=CTL
+
+Submitted job 505 with external jobid '1605088'.
+
+[Wed Mar  1 14:45:44 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:119182778:G:A_FNF_0.8.ld, data/chr1:119182778:G:A_FNF_ld_rsids.csv
+    output: data/chr1:119182778:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:119182778:G:A.out, logs/join_LDbuddies_FNF_chr1:119182778:G:A.err
+    jobid: 623
+    wildcards: snp=chr1:119182778:G:A, condition=FNF
+
+Submitted job 623 with external jobid '1605089'.
+
+[Wed Mar  1 14:45:44 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:74529049:G:C_FNF_0.8.ld, data/chr2:74529049:G:C_FNF_ld_rsids.csv
+    output: data/chr2:74529049:G:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr2:74529049:G:C.out, logs/join_LDbuddies_FNF_chr2:74529049:G:C.err
+    jobid: 664
+    wildcards: snp=chr2:74529049:G:C, condition=FNF
+
+Submitted job 664 with external jobid '1605090'.
+
+[Wed Mar  1 14:45:45 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:179399804:T:A_FNF_0.8.ld, data/chr3:179399804:T:A_FNF_ld_rsids.csv
+    output: data/chr3:179399804:T:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr3:179399804:T:A.out, logs/join_LDbuddies_FNF_chr3:179399804:T:A.err
+    jobid: 597
+    wildcards: snp=chr3:179399804:T:A, condition=FNF
+
+Submitted job 597 with external jobid '1605091'.
+
+[Wed Mar  1 14:45:45 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:179399804:T:A_CTL_0.8.ld, data/chr3:179399804:T:A_CTL_ld_rsids.csv
+    output: data/chr3:179399804:T:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr3:179399804:T:A.out, logs/join_LDbuddies_CTL_chr3:179399804:T:A.err
+    jobid: 519
+    wildcards: snp=chr3:179399804:T:A, condition=CTL
+
+Submitted job 519 with external jobid '1605092'.
+
+[Wed Mar  1 14:45:45 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:163147088:T:G_FNF_0.8.ld, data/chr1:163147088:T:G_FNF_ld_rsids.csv
+    output: data/chr1:163147088:T:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:163147088:T:G.out, logs/join_LDbuddies_FNF_chr1:163147088:T:G.err
+    jobid: 625
+    wildcards: snp=chr1:163147088:T:G, condition=FNF
+
+Submitted job 625 with external jobid '1605093'.
+
+[Wed Mar  1 14:45:45 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:34022573:T:C_FNF_0.8.ld, data/chr12:34022573:T:C_FNF_ld_rsids.csv
+    output: data/chr12:34022573:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr12:34022573:T:C.out, logs/join_LDbuddies_FNF_chr12:34022573:T:C.err
+    jobid: 690
+    wildcards: snp=chr12:34022573:T:C, condition=FNF
+
+Submitted job 690 with external jobid '1605094'.
+
+[Wed Mar  1 14:45:46 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:5533965:G:A_FNF_0.8.ld, data/chr17:5533965:G:A_FNF_ld_rsids.csv
+    output: data/chr17:5533965:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr17:5533965:G:A.out, logs/join_LDbuddies_FNF_chr17:5533965:G:A.err
+    jobid: 635
+    wildcards: snp=chr17:5533965:G:A, condition=FNF
+
+Submitted job 635 with external jobid '1605095'.
+
+[Wed Mar  1 14:45:46 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:5533965:G:A_CTL_0.8.ld, data/chr17:5533965:G:A_CTL_ld_rsids.csv
+    output: data/chr17:5533965:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr17:5533965:G:A.out, logs/join_LDbuddies_CTL_chr17:5533965:G:A.err
+    jobid: 496
+    wildcards: snp=chr17:5533965:G:A, condition=CTL
+
+Submitted job 496 with external jobid '1605096'.
+
+[Wed Mar  1 14:45:46 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:62945340:C:T_CTL_0.8.ld, data/chr20:62945340:C:T_CTL_ld_rsids.csv
+    output: data/chr20:62945340:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr20:62945340:C:T.out, logs/join_LDbuddies_CTL_chr20:62945340:C:T.err
+    jobid: 486
+    wildcards: snp=chr20:62945340:C:T, condition=CTL
+
+Submitted job 486 with external jobid '1605097'.
+
+[Wed Mar  1 14:45:46 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:46361813:C:T_CTL_0.8.ld, data/chr1:46361813:C:T_CTL_ld_rsids.csv
+    output: data/chr1:46361813:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:46361813:C:T.out, logs/join_LDbuddies_CTL_chr1:46361813:C:T.err
+    jobid: 532
+    wildcards: snp=chr1:46361813:C:T, condition=CTL
+
+Submitted job 532 with external jobid '1605098'.
+
+[Wed Mar  1 14:45:47 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:62945340:C:T_FNF_0.8.ld, data/chr20:62945340:C:T_FNF_ld_rsids.csv
+    output: data/chr20:62945340:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr20:62945340:C:T.out, logs/join_LDbuddies_FNF_chr20:62945340:C:T.err
+    jobid: 621
+    wildcards: snp=chr20:62945340:C:T, condition=FNF
+
+Submitted job 621 with external jobid '1605099'.
+
+[Wed Mar  1 14:45:47 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:46361813:C:T_FNF_0.8.ld, data/chr1:46361813:C:T_FNF_ld_rsids.csv
+    output: data/chr1:46361813:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:46361813:C:T.out, logs/join_LDbuddies_FNF_chr1:46361813:C:T.err
+    jobid: 606
+    wildcards: snp=chr1:46361813:C:T, condition=FNF
+
+Submitted job 606 with external jobid '1605100'.
+
+[Wed Mar  1 14:45:47 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:24698499:G:A_CTL_0.8.ld, data/chr7:24698499:G:A_CTL_ld_rsids.csv
+    output: data/chr7:24698499:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr7:24698499:G:A.out, logs/join_LDbuddies_CTL_chr7:24698499:G:A.err
+    jobid: 477
+    wildcards: snp=chr7:24698499:G:A, condition=CTL
+
+Submitted job 477 with external jobid '1605101'.
+
+[Wed Mar  1 14:45:47 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr14:51256361:A:C_CTL_0.8.ld, data/chr14:51256361:A:C_CTL_ld_rsids.csv
+    output: data/chr14:51256361:A:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr14:51256361:A:C.out, logs/join_LDbuddies_CTL_chr14:51256361:A:C.err
+    jobid: 531
+    wildcards: snp=chr14:51256361:A:C, condition=CTL
+
+Submitted job 531 with external jobid '1605102'.
+
+[Wed Mar  1 14:45:47 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:47850893:G:A_CTL_0.8.ld, data/chr3:47850893:G:A_CTL_ld_rsids.csv
+    output: data/chr3:47850893:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr3:47850893:G:A.out, logs/join_LDbuddies_CTL_chr3:47850893:G:A.err
+    jobid: 485
+    wildcards: snp=chr3:47850893:G:A, condition=CTL
+
+Submitted job 485 with external jobid '1605103'.
+
+[Wed Mar  1 14:45:48 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:24698499:G:A_FNF_0.8.ld, data/chr7:24698499:G:A_FNF_ld_rsids.csv
+    output: data/chr7:24698499:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr7:24698499:G:A.out, logs/join_LDbuddies_FNF_chr7:24698499:G:A.err
+    jobid: 598
+    wildcards: snp=chr7:24698499:G:A, condition=FNF
+
+Submitted job 598 with external jobid '1605104'.
+
+[Wed Mar  1 14:45:48 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr14:51256361:A:C_FNF_0.8.ld, data/chr14:51256361:A:C_FNF_ld_rsids.csv
+    output: data/chr14:51256361:A:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr14:51256361:A:C.out, logs/join_LDbuddies_FNF_chr14:51256361:A:C.err
+    jobid: 605
+    wildcards: snp=chr14:51256361:A:C, condition=FNF
+
+Submitted job 605 with external jobid '1605105'.
+
+[Wed Mar  1 14:45:48 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:32441343:T:C_FNF_0.8.ld, data/chr2:32441343:T:C_FNF_ld_rsids.csv
+    output: data/chr2:32441343:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr2:32441343:T:C.out, logs/join_LDbuddies_FNF_chr2:32441343:T:C.err
+    jobid: 689
+    wildcards: snp=chr2:32441343:T:C, condition=FNF
+
+Submitted job 689 with external jobid '1605106'.
+
+[Wed Mar  1 14:45:48 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:26414145:G:C_FNF_0.8.ld, data/chr6:26414145:G:C_FNF_ld_rsids.csv
+    output: data/chr6:26414145:G:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr6:26414145:G:C.out, logs/join_LDbuddies_FNF_chr6:26414145:G:C.err
+    jobid: 688
+    wildcards: snp=chr6:26414145:G:C, condition=FNF
+
+Submitted job 688 with external jobid '1605107'.
+
+[Wed Mar  1 14:45:49 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:11787715:G:T_CTL_0.8.ld, data/chr1:11787715:G:T_CTL_ld_rsids.csv
+    output: data/chr1:11787715:G:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:11787715:G:T.out, logs/join_LDbuddies_CTL_chr1:11787715:G:T.err
+    jobid: 521
+    wildcards: snp=chr1:11787715:G:T, condition=CTL
+
+Submitted job 521 with external jobid '1605108'.
+
+[Wed Mar  1 14:45:49 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:89339900:A:G_FNF_0.8.ld, data/chr10:89339900:A:G_FNF_ld_rsids.csv
+    output: data/chr10:89339900:A:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr10:89339900:A:G.out, logs/join_LDbuddies_FNF_chr10:89339900:A:G.err
+    jobid: 713
+    wildcards: snp=chr10:89339900:A:G, condition=FNF
+
+Submitted job 713 with external jobid '1605109'.
+Waiting at most 30 seconds for missing files.
+[Wed Mar  1 14:46:50 2023]
+Finished job 615.
+1 of 239 steps (0.42%) done
+
+[Wed Mar  1 14:46:50 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:68841383:T:G_FNF_0.8.ld, data/chr12:68841383:T:G_FNF_ld_rsids.csv
+    output: data/chr12:68841383:T:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr12:68841383:T:G.out, logs/join_LDbuddies_FNF_chr12:68841383:T:G.err
+    jobid: 650
+    wildcards: snp=chr12:68841383:T:G, condition=FNF
+
+[Wed Mar  1 14:46:50 2023]
+Finished job 512.
+2 of 239 steps (0.84%) done
+Submitted job 650 with external jobid '1605138'.
+
+[Wed Mar  1 14:46:50 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:81701782:C:T_FNF_0.8.ld, data/chr17:81701782:C:T_FNF_ld_rsids.csv
+    output: data/chr17:81701782:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr17:81701782:C:T.out, logs/join_LDbuddies_FNF_chr17:81701782:C:T.err
+    jobid: 609
+    wildcards: snp=chr17:81701782:C:T, condition=FNF
+
+Submitted job 609 with external jobid '1605139'.
+[Wed Mar  1 14:46:51 2023]
+Finished job 479.
+3 of 239 steps (1%) done
+
+[Wed Mar  1 14:46:51 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:81701782:C:T_CTL_0.8.ld, data/chr17:81701782:C:T_CTL_ld_rsids.csv
+    output: data/chr17:81701782:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr17:81701782:C:T.out, logs/join_LDbuddies_CTL_chr17:81701782:C:T.err
+    jobid: 508
+    wildcards: snp=chr17:81701782:C:T, condition=CTL
+
+Submitted job 508 with external jobid '1605140'.
+[Wed Mar  1 14:46:51 2023]
+Finished job 564.
+4 of 239 steps (2%) done
+
+[Wed Mar  1 14:46:51 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:5515479:G:A_CTL_0.8.ld, data/chr17:5515479:G:A_CTL_ld_rsids.csv
+    output: data/chr17:5515479:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr17:5515479:G:A.out, logs/join_LDbuddies_CTL_chr17:5515479:G:A.err
+    jobid: 552
+    wildcards: snp=chr17:5515479:G:A, condition=CTL
+
+Submitted job 552 with external jobid '1605141'.
+[Wed Mar  1 14:46:51 2023]
+Finished job 594.
+5 of 239 steps (2%) done
+
+[Wed Mar  1 14:46:51 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:62852790:A:G_CTL_0.8.ld, data/chr20:62852790:A:G_CTL_ld_rsids.csv
+    output: data/chr20:62852790:A:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr20:62852790:A:G.out, logs/join_LDbuddies_CTL_chr20:62852790:A:G.err
+    jobid: 546
+    wildcards: snp=chr20:62852790:A:G, condition=CTL
+
+Submitted job 546 with external jobid '1605142'.
+[Wed Mar  1 14:46:51 2023]
+Finished job 636.
+6 of 239 steps (3%) done
+[Wed Mar  1 14:46:51 2023]
+Finished job 518.
+7 of 239 steps (3%) done
+
+[Wed Mar  1 14:46:51 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:196741787:A:G_FNF_0.8.ld, data/chr1:196741787:A:G_FNF_ld_rsids.csv
+    output: data/chr1:196741787:A:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:196741787:A:G.out, logs/join_LDbuddies_FNF_chr1:196741787:A:G.err
+    jobid: 655
+    wildcards: snp=chr1:196741787:A:G, condition=FNF
+
+[Wed Mar  1 14:46:52 2023]
+Finished job 657.
+8 of 239 steps (3%) done
+[Wed Mar  1 14:46:52 2023]
+Finished job 582.
+9 of 239 steps (4%) done
+Submitted job 655 with external jobid '1605143'.
+
+[Wed Mar  1 14:46:52 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:23574292:C:G_FNF_0.8.ld, data/chr8:23574292:C:G_FNF_ld_rsids.csv
+    output: data/chr8:23574292:C:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr8:23574292:C:G.out, logs/join_LDbuddies_FNF_chr8:23574292:C:G.err
+    jobid: 674
+    wildcards: snp=chr8:23574292:C:G, condition=FNF
+
+[Wed Mar  1 14:46:52 2023]
+Finished job 675.
+10 of 239 steps (4%) done
+[Wed Mar  1 14:46:52 2023]
+Finished job 569.
+11 of 239 steps (5%) done
+Submitted job 674 with external jobid '1605144'.
+
+[Wed Mar  1 14:46:52 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr16:82000007:T:C_CTL_0.8.ld, data/chr16:82000007:T:C_CTL_ld_rsids.csv
+    output: data/chr16:82000007:T:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr16:82000007:T:C.out, logs/join_LDbuddies_CTL_chr16:82000007:T:C.err
+    jobid: 507
+    wildcards: snp=chr16:82000007:T:C, condition=CTL
+
+Submitted job 507 with external jobid '1605145'.
+
+[Wed Mar  1 14:46:52 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr16:82000007:T:C_FNF_0.8.ld, data/chr16:82000007:T:C_FNF_ld_rsids.csv
+    output: data/chr16:82000007:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr16:82000007:T:C.out, logs/join_LDbuddies_FNF_chr16:82000007:T:C.err
+    jobid: 633
+    wildcards: snp=chr16:82000007:T:C, condition=FNF
+
+Submitted job 633 with external jobid '1605146'.
+
+[Wed Mar  1 14:46:53 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:126049361:G:A_FNF_0.8.ld, data/chr10:126049361:G:A_FNF_ld_rsids.csv
+    output: data/chr10:126049361:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr10:126049361:G:A.out, logs/join_LDbuddies_FNF_chr10:126049361:G:A.err
+    jobid: 693
+    wildcards: snp=chr10:126049361:G:A, condition=FNF
+
+[Wed Mar  1 14:46:53 2023]
+Finished job 706.
+12 of 239 steps (5%) done
+[Wed Mar  1 14:46:53 2023]
+Finished job 630.
+13 of 239 steps (5%) done
+[Wed Mar  1 14:46:53 2023]
+Finished job 590.
+14 of 239 steps (6%) done
+[Wed Mar  1 14:46:53 2023]
+Finished job 692.
+15 of 239 steps (6%) done
+[Wed Mar  1 14:46:53 2023]
+Finished job 572.
+16 of 239 steps (7%) done
+[Wed Mar  1 14:46:54 2023]
+Finished job 645.
+17 of 239 steps (7%) done
+[Wed Mar  1 14:46:54 2023]
+Finished job 524.
+18 of 239 steps (8%) done
+[Wed Mar  1 14:46:54 2023]
+Finished job 577.
+19 of 239 steps (8%) done
+Submitted job 693 with external jobid '1605147'.
+
+[Wed Mar  1 14:46:55 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:130821733:T:C_FNF_0.8.ld, data/chr12:130821733:T:C_FNF_ld_rsids.csv
+    output: data/chr12:130821733:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr12:130821733:T:C.out, logs/join_LDbuddies_FNF_chr12:130821733:T:C.err
+    jobid: 659
+    wildcards: snp=chr12:130821733:T:C, condition=FNF
+
+Submitted job 659 with external jobid '1605148'.
+
+[Wed Mar  1 14:46:55 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:56554644:C:T_FNF_0.8.ld, data/chr19:56554644:C:T_FNF_ld_rsids.csv
+    output: data/chr19:56554644:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr19:56554644:C:T.out, logs/join_LDbuddies_FNF_chr19:56554644:C:T.err
+    jobid: 699
+    wildcards: snp=chr19:56554644:C:T, condition=FNF
+
+Submitted job 699 with external jobid '1605149'.
+
+[Wed Mar  1 14:46:55 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:204680:G:A_CTL_0.8.ld, data/chr11:204680:G:A_CTL_ld_rsids.csv
+    output: data/chr11:204680:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr11:204680:G:A.out, logs/join_LDbuddies_CTL_chr11:204680:G:A.err
+    jobid: 529
+    wildcards: snp=chr11:204680:G:A, condition=CTL
+
+Submitted job 529 with external jobid '1605150'.
+
+[Wed Mar  1 14:46:55 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:204680:G:A_FNF_0.8.ld, data/chr11:204680:G:A_FNF_ld_rsids.csv
+    output: data/chr11:204680:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr11:204680:G:A.out, logs/join_LDbuddies_FNF_chr11:204680:G:A.err
+    jobid: 658
+    wildcards: snp=chr11:204680:G:A, condition=FNF
+
+Submitted job 658 with external jobid '1605151'.
+
+[Wed Mar  1 14:46:56 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:100962892:C:T_CTL_0.8.ld, data/chr10:100962892:C:T_CTL_ld_rsids.csv
+    output: data/chr10:100962892:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr10:100962892:C:T.out, logs/join_LDbuddies_CTL_chr10:100962892:C:T.err
+    jobid: 567
+    wildcards: snp=chr10:100962892:C:T, condition=CTL
+
+Submitted job 567 with external jobid '1605152'.
+
+[Wed Mar  1 14:46:56 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:100962892:C:T_FNF_0.8.ld, data/chr10:100962892:C:T_FNF_ld_rsids.csv
+    output: data/chr10:100962892:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr10:100962892:C:T.out, logs/join_LDbuddies_FNF_chr10:100962892:C:T.err
+    jobid: 677
+    wildcards: snp=chr10:100962892:C:T, condition=FNF
+
+Submitted job 677 with external jobid '1605153'.
+
+[Wed Mar  1 14:46:56 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:121778986:A:G_FNF_0.8.ld, data/chr12:121778986:A:G_FNF_ld_rsids.csv
+    output: data/chr12:121778986:A:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr12:121778986:A:G.out, logs/join_LDbuddies_FNF_chr12:121778986:A:G.err
+    jobid: 622
+    wildcards: snp=chr12:121778986:A:G, condition=FNF
+
+Submitted job 622 with external jobid '1605154'.
+
+[Wed Mar  1 14:46:57 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:20651728:C:T_FNF_0.8.ld, data/chr1:20651728:C:T_FNF_ld_rsids.csv
+    output: data/chr1:20651728:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:20651728:C:T.out, logs/join_LDbuddies_FNF_chr1:20651728:C:T.err
+    jobid: 647
+    wildcards: snp=chr1:20651728:C:T, condition=FNF
+
+Submitted job 647 with external jobid '1605155'.
+
+[Wed Mar  1 14:46:58 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:85606203:C:T_CTL_0.8.ld, data/chr2:85606203:C:T_CTL_ld_rsids.csv
+    output: data/chr2:85606203:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr2:85606203:C:T.out, logs/join_LDbuddies_CTL_chr2:85606203:C:T.err
+    jobid: 573
+    wildcards: snp=chr2:85606203:C:T, condition=CTL
+
+Submitted job 573 with external jobid '1605156'.
+[Wed Mar  1 14:47:20 2023]
+Finished job 704.
+20 of 239 steps (8%) done
+
+[Wed Mar  1 14:47:20 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:79936498:A:G_CTL_0.8.ld, data/chr17:79936498:A:G_CTL_ld_rsids.csv
+    output: data/chr17:79936498:A:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr17:79936498:A:G.out, logs/join_LDbuddies_CTL_chr17:79936498:A:G.err
+    jobid: 570
+    wildcards: snp=chr17:79936498:A:G, condition=CTL
+
+[Wed Mar  1 14:47:20 2023]
+Finished job 588.
+21 of 239 steps (9%) done
+[Wed Mar  1 14:47:20 2023]
+Finished job 557.
+22 of 239 steps (9%) done
+[Wed Mar  1 14:47:20 2023]
+Finished job 603.
+23 of 239 steps (10%) done
+[Wed Mar  1 14:47:21 2023]
+Finished job 523.
+24 of 239 steps (10%) done
+[Wed Mar  1 14:47:21 2023]
+Finished job 707.
+25 of 239 steps (10%) done
+[Wed Mar  1 14:47:21 2023]
+Finished job 709.
+26 of 239 steps (11%) done
+Submitted job 570 with external jobid '1605190'.
+
+[Wed Mar  1 14:47:21 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:4997014:T:C_CTL_0.8.ld, data/chr7:4997014:T:C_CTL_ld_rsids.csv
+    output: data/chr7:4997014:T:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr7:4997014:T:C.out, logs/join_LDbuddies_CTL_chr7:4997014:T:C.err
+    jobid: 491
+    wildcards: snp=chr7:4997014:T:C, condition=CTL
+
+[Wed Mar  1 14:47:21 2023]
+Finished job 509.
+27 of 239 steps (11%) done
+Submitted job 491 with external jobid '1605191'.
+
+[Wed Mar  1 14:47:21 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:4997014:T:C_FNF_0.8.ld, data/chr7:4997014:T:C_FNF_ld_rsids.csv
+    output: data/chr7:4997014:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr7:4997014:T:C.out, logs/join_LDbuddies_FNF_chr7:4997014:T:C.err
+    jobid: 612
+    wildcards: snp=chr7:4997014:T:C, condition=FNF
+
+Submitted job 612 with external jobid '1605192'.
+
+[Wed Mar  1 14:47:21 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:40779010:C:T_CTL_0.8.ld, data/chr19:40779010:C:T_CTL_ld_rsids.csv
+    output: data/chr19:40779010:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr19:40779010:C:T.out, logs/join_LDbuddies_CTL_chr19:40779010:C:T.err
+    jobid: 551
+    wildcards: snp=chr19:40779010:C:T, condition=CTL
+
+Submitted job 551 with external jobid '1605193'.
+[Wed Mar  1 14:47:21 2023]
+Finished job 510.
+28 of 239 steps (12%) done
+
+[Wed Mar  1 14:47:21 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:40779010:C:T_FNF_0.8.ld, data/chr19:40779010:C:T_FNF_ld_rsids.csv
+    output: data/chr19:40779010:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr19:40779010:C:T.out, logs/join_LDbuddies_FNF_chr19:40779010:C:T.err
+    jobid: 614
+    wildcards: snp=chr19:40779010:C:T, condition=FNF
+
+[Wed Mar  1 14:47:22 2023]
+Finished job 642.
+29 of 239 steps (12%) done
+[Wed Mar  1 14:47:22 2023]
+Finished job 654.
+30 of 239 steps (13%) done
+[Wed Mar  1 14:47:22 2023]
+Finished job 608.
+31 of 239 steps (13%) done
+[Wed Mar  1 14:47:22 2023]
+Finished job 644.
+32 of 239 steps (13%) done
+Submitted job 614 with external jobid '1605194'.
+
+[Wed Mar  1 14:47:23 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:30522671:G:A_CTL_0.8.ld, data/chr17:30522671:G:A_CTL_ld_rsids.csv
+    output: data/chr17:30522671:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr17:30522671:G:A.out, logs/join_LDbuddies_CTL_chr17:30522671:G:A.err
+    jobid: 511
+    wildcards: snp=chr17:30522671:G:A, condition=CTL
+
+Submitted job 511 with external jobid '1605195'.
+
+[Wed Mar  1 14:47:24 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:79936498:A:G_FNF_0.8.ld, data/chr17:79936498:A:G_FNF_ld_rsids.csv
+    output: data/chr17:79936498:A:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr17:79936498:A:G.out, logs/join_LDbuddies_FNF_chr17:79936498:A:G.err
+    jobid: 705
+    wildcards: snp=chr17:79936498:A:G, condition=FNF
+
+Submitted job 705 with external jobid '1605196'.
+
+[Wed Mar  1 14:47:24 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr16:23570957:A:G_FNF_0.8.ld, data/chr16:23570957:A:G_FNF_ld_rsids.csv
+    output: data/chr16:23570957:A:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr16:23570957:A:G.out, logs/join_LDbuddies_FNF_chr16:23570957:A:G.err
+    jobid: 662
+    wildcards: snp=chr16:23570957:A:G, condition=FNF
+
+Submitted job 662 with external jobid '1605199'.
+
+[Wed Mar  1 14:47:24 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:31515550:G:A_CTL_0.8.ld, data/chr5:31515550:G:A_CTL_ld_rsids.csv
+    output: data/chr5:31515550:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr5:31515550:G:A.out, logs/join_LDbuddies_CTL_chr5:31515550:G:A.err
+    jobid: 545
+    wildcards: snp=chr5:31515550:G:A, condition=CTL
+
+Submitted job 545 with external jobid '1605200'.
+
+[Wed Mar  1 14:47:24 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:31515550:G:A_FNF_0.8.ld, data/chr5:31515550:G:A_FNF_ld_rsids.csv
+    output: data/chr5:31515550:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr5:31515550:G:A.out, logs/join_LDbuddies_FNF_chr5:31515550:G:A.err
+    jobid: 661
+    wildcards: snp=chr5:31515550:G:A, condition=FNF
+
+Submitted job 661 with external jobid '1605201'.
+
+[Wed Mar  1 14:47:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:52893812:G:A_FNF_0.8.ld, data/chr19:52893812:G:A_FNF_ld_rsids.csv
+    output: data/chr19:52893812:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr19:52893812:G:A.out, logs/join_LDbuddies_FNF_chr19:52893812:G:A.err
+    jobid: 601
+    wildcards: snp=chr19:52893812:G:A, condition=FNF
+
+Submitted job 601 with external jobid '1605202'.
+
+[Wed Mar  1 14:47:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:52893812:G:A_CTL_0.8.ld, data/chr19:52893812:G:A_CTL_ld_rsids.csv
+    output: data/chr19:52893812:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr19:52893812:G:A.out, logs/join_LDbuddies_CTL_chr19:52893812:G:A.err
+    jobid: 483
+    wildcards: snp=chr19:52893812:G:A, condition=CTL
+
+Submitted job 483 with external jobid '1605203'.
+
+[Wed Mar  1 14:47:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:57620255:G:A_FNF_0.8.ld, data/chr19:57620255:G:A_FNF_ld_rsids.csv
+    output: data/chr19:57620255:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr19:57620255:G:A.out, logs/join_LDbuddies_FNF_chr19:57620255:G:A.err
+    jobid: 640
+    wildcards: snp=chr19:57620255:G:A, condition=FNF
+
+Submitted job 640 with external jobid '1605204'.
+[Wed Mar  1 14:47:27 2023]
+Finished job 666.
+33 of 239 steps (14%) done
+
+[Wed Mar  1 14:47:27 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:6681927:T:A_FNF_0.8.ld, data/chr11:6681927:T:A_FNF_ld_rsids.csv
+    output: data/chr11:6681927:T:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr11:6681927:T:A.out, logs/join_LDbuddies_FNF_chr11:6681927:T:A.err
+    jobid: 679
+    wildcards: snp=chr11:6681927:T:A, condition=FNF
+
+[Wed Mar  1 14:47:27 2023]
+Finished job 651.
+34 of 239 steps (14%) done
+[Wed Mar  1 14:47:27 2023]
+Finished job 517.
+35 of 239 steps (15%) done
+Submitted job 679 with external jobid '1605206'.
+[Wed Mar  1 14:47:27 2023]
+Finished job 513.
+36 of 239 steps (15%) done
+
+[Wed Mar  1 14:47:27 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:6681928:T:A_FNF_0.8.ld, data/chr11:6681928:T:A_FNF_ld_rsids.csv
+    output: data/chr11:6681928:T:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr11:6681928:T:A.out, logs/join_LDbuddies_FNF_chr11:6681928:T:A.err
+    jobid: 682
+    wildcards: snp=chr11:6681928:T:A, condition=FNF
+
+[Wed Mar  1 14:47:27 2023]
+Finished job 680.
+37 of 239 steps (15%) done
+Submitted job 682 with external jobid '1605209'.
+
+[Wed Mar  1 14:47:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:6681188:T:G_CTL_0.8.ld, data/chr11:6681188:T:G_CTL_ld_rsids.csv
+    output: data/chr11:6681188:T:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr11:6681188:T:G.out, logs/join_LDbuddies_CTL_chr11:6681188:T:G.err
+    jobid: 502
+    wildcards: snp=chr11:6681188:T:G, condition=CTL
+
+Submitted job 502 with external jobid '1605211'.
+
+[Wed Mar  1 14:47:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:6681188:T:G_FNF_0.8.ld, data/chr11:6681188:T:G_FNF_ld_rsids.csv
+    output: data/chr11:6681188:T:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr11:6681188:T:G.out, logs/join_LDbuddies_FNF_chr11:6681188:T:G.err
+    jobid: 618
+    wildcards: snp=chr11:6681188:T:G, condition=FNF
+
+[Wed Mar  1 14:47:28 2023]
+Finished job 571.
+38 of 239 steps (16%) done
+Submitted job 618 with external jobid '1605214'.
+
+[Wed Mar  1 14:47:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:67340357:C:T_FNF_0.8.ld, data/chr17:67340357:C:T_FNF_ld_rsids.csv
+    output: data/chr17:67340357:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr17:67340357:C:T.out, logs/join_LDbuddies_FNF_chr17:67340357:C:T.err
+    jobid: 684
+    wildcards: snp=chr17:67340357:C:T, condition=FNF
+
+Submitted job 684 with external jobid '1605217'.
+[Wed Mar  1 14:47:28 2023]
+Finished job 515.
+39 of 239 steps (16%) done
+[Wed Mar  1 14:47:28 2023]
+Finished job 628.
+40 of 239 steps (17%) done
+
+[Wed Mar  1 14:47:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:67340357:C:T_CTL_0.8.ld, data/chr17:67340357:C:T_CTL_ld_rsids.csv
+    output: data/chr17:67340357:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr17:67340357:C:T.out, logs/join_LDbuddies_CTL_chr17:67340357:C:T.err
+    jobid: 562
+    wildcards: snp=chr17:67340357:C:T, condition=CTL
+
+Submitted job 562 with external jobid '1605221'.
+[Wed Mar  1 14:47:28 2023]
+Finished job 526.
+41 of 239 steps (17%) done
+
+[Wed Mar  1 14:47:29 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:57313672:G:C_FNF_0.8.ld, data/chr11:57313672:G:C_FNF_ld_rsids.csv
+    output: data/chr11:57313672:G:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr11:57313672:G:C.out, logs/join_LDbuddies_FNF_chr11:57313672:G:C.err
+    jobid: 617
+    wildcards: snp=chr11:57313672:G:C, condition=FNF
+
+Submitted job 617 with external jobid '1605224'.
+
+[Wed Mar  1 14:47:29 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:22613634:G:T_FNF_0.8.ld, data/chr8:22613634:G:T_FNF_ld_rsids.csv
+    output: data/chr8:22613634:G:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr8:22613634:G:T.out, logs/join_LDbuddies_FNF_chr8:22613634:G:T.err
+    jobid: 667
+    wildcards: snp=chr8:22613634:G:T, condition=FNF
+
+[Wed Mar  1 14:47:29 2023]
+Finished job 504.
+42 of 239 steps (18%) done
+Submitted job 667 with external jobid '1605225'.
+[Wed Mar  1 14:47:29 2023]
+Finished job 501.
+43 of 239 steps (18%) done
+
+[Wed Mar  1 14:47:29 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:27495171:T:A_FNF_0.8.ld, data/chr11:27495171:T:A_FNF_ld_rsids.csv
+    output: data/chr11:27495171:T:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr11:27495171:T:A.out, logs/join_LDbuddies_FNF_chr11:27495171:T:A.err
+    jobid: 641
+    wildcards: snp=chr11:27495171:T:A, condition=FNF
+
+Submitted job 641 with external jobid '1605226'.
+
+[Wed Mar  1 14:47:29 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:70115028:C:T_CTL_0.8.ld, data/chr10:70115028:C:T_CTL_ld_rsids.csv
+    output: data/chr10:70115028:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr10:70115028:C:T.out, logs/join_LDbuddies_CTL_chr10:70115028:C:T.err
+    jobid: 500
+    wildcards: snp=chr10:70115028:C:T, condition=CTL
+
+Submitted job 500 with external jobid '1605227'.
+
+[Wed Mar  1 14:47:29 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:70115028:C:T_FNF_0.8.ld, data/chr10:70115028:C:T_FNF_ld_rsids.csv
+    output: data/chr10:70115028:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr10:70115028:C:T.out, logs/join_LDbuddies_FNF_chr10:70115028:C:T.err
+    jobid: 626
+    wildcards: snp=chr10:70115028:C:T, condition=FNF
+
+Submitted job 626 with external jobid '1605228'.
+[Wed Mar  1 14:48:32 2023]
+Finished job 585.
+44 of 239 steps (18%) done
+
+[Wed Mar  1 14:48:33 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:6681654:C:G_FNF_0.8.ld, data/chr11:6681654:C:G_FNF_ld_rsids.csv
+    output: data/chr11:6681654:C:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr11:6681654:C:G.out, logs/join_LDbuddies_FNF_chr11:6681654:C:G.err
+    jobid: 616
+    wildcards: snp=chr11:6681654:C:G, condition=FNF
+
+[Wed Mar  1 14:48:33 2023]
+Finished job 710.
+45 of 239 steps (19%) done
+Submitted job 616 with external jobid '1605261'.
+[Wed Mar  1 14:48:33 2023]
+Finished job 580.
+46 of 239 steps (19%) done
+
+[Wed Mar  1 14:48:33 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:71745318:C:T_CTL_0.8.ld, data/chr9:71745318:C:T_CTL_ld_rsids.csv
+    output: data/chr9:71745318:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr9:71745318:C:T.out, logs/join_LDbuddies_CTL_chr9:71745318:C:T.err
+    jobid: 544
+    wildcards: snp=chr9:71745318:C:T, condition=CTL
+
+Submitted job 544 with external jobid '1605262'.
+
+[Wed Mar  1 14:48:33 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:6681654:C:G_CTL_0.8.ld, data/chr11:6681654:C:G_CTL_ld_rsids.csv
+    output: data/chr11:6681654:C:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr11:6681654:C:G.out, logs/join_LDbuddies_CTL_chr11:6681654:C:G.err
+    jobid: 530
+    wildcards: snp=chr11:6681654:C:G, condition=CTL
+
+Submitted job 530 with external jobid '1605263'.
+[Wed Mar  1 14:48:33 2023]
+Finished job 670.
+47 of 239 steps (20%) done
+
+[Wed Mar  1 14:48:33 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:71745318:C:T_FNF_0.8.ld, data/chr9:71745318:C:T_FNF_ld_rsids.csv
+    output: data/chr9:71745318:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr9:71745318:C:T.out, logs/join_LDbuddies_FNF_chr9:71745318:C:T.err
+    jobid: 653
+    wildcards: snp=chr9:71745318:C:T, condition=FNF
+
+Submitted job 653 with external jobid '1605264'.
+[Wed Mar  1 14:48:33 2023]
+Finished job 547.
+48 of 239 steps (20%) done
+
+[Wed Mar  1 14:48:33 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:161961083:A:G_CTL_0.8.ld, data/chr1:161961083:A:G_CTL_ld_rsids.csv
+    output: data/chr1:161961083:A:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:161961083:A:G.out, logs/join_LDbuddies_CTL_chr1:161961083:A:G.err
+    jobid: 536
+    wildcards: snp=chr1:161961083:A:G, condition=CTL
+
+Submitted job 536 with external jobid '1605265'.
+[Wed Mar  1 14:48:34 2023]
+Finished job 539.
+49 of 239 steps (21%) done
+[Wed Mar  1 14:48:34 2023]
+Finished job 698.
+50 of 239 steps (21%) done
+
+[Wed Mar  1 14:48:34 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:101826262:G:C_CTL_0.8.ld, data/chr3:101826262:G:C_CTL_ld_rsids.csv
+    output: data/chr3:101826262:G:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr3:101826262:G:C.out, logs/join_LDbuddies_CTL_chr3:101826262:G:C.err
+    jobid: 566
+    wildcards: snp=chr3:101826262:G:C, condition=CTL
+
+[Wed Mar  1 14:48:34 2023]
+Finished job 586.
+51 of 239 steps (21%) done
+Submitted job 566 with external jobid '1605266'.
+[Wed Mar  1 14:48:34 2023]
+Finished job 671.
+52 of 239 steps (22%) done
+
+[Wed Mar  1 14:48:34 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:19892767:C:G_FNF_0.8.ld, data/chr19:19892767:C:G_FNF_ld_rsids.csv
+    output: data/chr19:19892767:C:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr19:19892767:C:G.out, logs/join_LDbuddies_FNF_chr19:19892767:C:G.err
+    jobid: 631
+    wildcards: snp=chr19:19892767:C:G, condition=FNF
+
+Submitted job 631 with external jobid '1605267'.
+
+[Wed Mar  1 14:48:34 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:26411516:C:T_CTL_0.8.ld, data/chr8:26411516:C:T_CTL_ld_rsids.csv
+    output: data/chr8:26411516:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr8:26411516:C:T.out, logs/join_LDbuddies_CTL_chr8:26411516:C:T.err
+    jobid: 538
+    wildcards: snp=chr8:26411516:C:T, condition=CTL
+
+Submitted job 538 with external jobid '1605268'.
+
+[Wed Mar  1 14:48:35 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:48599465:C:A_FNF_0.8.ld, data/chr2:48599465:C:A_FNF_ld_rsids.csv
+    output: data/chr2:48599465:C:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr2:48599465:C:A.out, logs/join_LDbuddies_FNF_chr2:48599465:C:A.err
+    jobid: 599
+    wildcards: snp=chr2:48599465:C:A, condition=FNF
+
+Submitted job 599 with external jobid '1605269'.
+[Wed Mar  1 14:48:35 2023]
+Finished job 676.
+53 of 239 steps (22%) done
+
+[Wed Mar  1 14:48:35 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:48599465:C:A_CTL_0.8.ld, data/chr2:48599465:C:A_CTL_ld_rsids.csv
+    output: data/chr2:48599465:C:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr2:48599465:C:A.out, logs/join_LDbuddies_CTL_chr2:48599465:C:A.err
+    jobid: 481
+    wildcards: snp=chr2:48599465:C:A, condition=CTL
+
+[Wed Mar  1 14:48:35 2023]
+Finished job 478.
+54 of 239 steps (23%) done
+Submitted job 481 with external jobid '1605270'.
+[Wed Mar  1 14:48:35 2023]
+Finished job 593.
+55 of 239 steps (23%) done
+
+[Wed Mar  1 14:48:35 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:160332508:T:C_CTL_0.8.ld, data/chr1:160332508:T:C_CTL_ld_rsids.csv
+    output: data/chr1:160332508:T:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:160332508:T:C.out, logs/join_LDbuddies_CTL_chr1:160332508:T:C.err
+    jobid: 592
+    wildcards: snp=chr1:160332508:T:C, condition=CTL
+
+Submitted job 592 with external jobid '1605271'.
+
+[Wed Mar  1 14:48:35 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:157138361:G:T_FNF_0.8.ld, data/chr5:157138361:G:T_FNF_ld_rsids.csv
+    output: data/chr5:157138361:G:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr5:157138361:G:T.out, logs/join_LDbuddies_FNF_chr5:157138361:G:T.err
+    jobid: 665
+    wildcards: snp=chr5:157138361:G:T, condition=FNF
+
+[Wed Mar  1 14:48:35 2023]
+Finished job 683.
+56 of 239 steps (23%) done
+Submitted job 665 with external jobid '1605272'.
+
+[Wed Mar  1 14:48:36 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:236897797:A:G_CTL_0.8.ld, data/chr1:236897797:A:G_CTL_ld_rsids.csv
+    output: data/chr1:236897797:A:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:236897797:A:G.out, logs/join_LDbuddies_CTL_chr1:236897797:A:G.err
+    jobid: 543
+    wildcards: snp=chr1:236897797:A:G, condition=CTL
+
+Submitted job 543 with external jobid '1605273'.
+[Wed Mar  1 14:48:36 2023]
+Finished job 620.
+57 of 239 steps (24%) done
+
+[Wed Mar  1 14:48:36 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr16:57994956:G:A_CTL_0.8.ld, data/chr16:57994956:G:A_CTL_ld_rsids.csv
+    output: data/chr16:57994956:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr16:57994956:G:A.out, logs/join_LDbuddies_CTL_chr16:57994956:G:A.err
+    jobid: 574
+    wildcards: snp=chr16:57994956:G:A, condition=CTL
+
+[Wed Mar  1 14:48:36 2023]
+Finished job 619.
+58 of 239 steps (24%) done
+Submitted job 574 with external jobid '1605274'.
+
+[Wed Mar  1 14:48:36 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr16:57994956:G:A_FNF_0.8.ld, data/chr16:57994956:G:A_FNF_ld_rsids.csv
+    output: data/chr16:57994956:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr16:57994956:G:A.out, logs/join_LDbuddies_FNF_chr16:57994956:G:A.err
+    jobid: 634
+    wildcards: snp=chr16:57994956:G:A, condition=FNF
+
+Submitted job 634 with external jobid '1605275'.
+[Wed Mar  1 14:48:36 2023]
+Finished job 558.
+59 of 239 steps (25%) done
+
+[Wed Mar  1 14:48:37 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:38765615:C:T_CTL_0.8.ld, data/chr7:38765615:C:T_CTL_ld_rsids.csv
+    output: data/chr7:38765615:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr7:38765615:C:T.out, logs/join_LDbuddies_CTL_chr7:38765615:C:T.err
+    jobid: 576
+    wildcards: snp=chr7:38765615:C:T, condition=CTL
+
+[Wed Mar  1 14:48:37 2023]
+Finished job 561.
+60 of 239 steps (25%) done
+[Wed Mar  1 14:48:37 2023]
+Finished job 494.
+61 of 239 steps (26%) done
+Submitted job 576 with external jobid '1605276'.
+
+[Wed Mar  1 14:48:37 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:32917329:C:T_FNF_0.8.ld, data/chr7:32917329:C:T_FNF_ld_rsids.csv
+    output: data/chr7:32917329:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr7:32917329:C:T.out, logs/join_LDbuddies_FNF_chr7:32917329:C:T.err
+    jobid: 669
+    wildcards: snp=chr7:32917329:C:T, condition=FNF
+
+[Wed Mar  1 14:48:37 2023]
+Finished job 527.
+62 of 239 steps (26%) done
+Submitted job 669 with external jobid '1605277'.
+
+[Wed Mar  1 14:48:37 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:21247362:G:A_FNF_0.8.ld, data/chr1:21247362:G:A_FNF_ld_rsids.csv
+    output: data/chr1:21247362:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:21247362:G:A.out, logs/join_LDbuddies_FNF_chr1:21247362:G:A.err
+    jobid: 701
+    wildcards: snp=chr1:21247362:G:A, condition=FNF
+
+[Wed Mar  1 14:48:37 2023]
+Finished job 540.
+63 of 239 steps (26%) done
+Submitted job 701 with external jobid '1605278'.
+
+[Wed Mar  1 14:48:37 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:38126634:A:C_CTL_0.8.ld, data/chr3:38126634:A:C_CTL_ld_rsids.csv
+    output: data/chr3:38126634:A:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr3:38126634:A:C.out, logs/join_LDbuddies_CTL_chr3:38126634:A:C.err
+    jobid: 534
+    wildcards: snp=chr3:38126634:A:C, condition=CTL
+
+Submitted job 534 with external jobid '1605279'.
+
+[Wed Mar  1 14:48:38 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr22:38735830:T:C_CTL_0.8.ld, data/chr22:38735830:T:C_CTL_ld_rsids.csv
+    output: data/chr22:38735830:T:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr22:38735830:T:C.out, logs/join_LDbuddies_CTL_chr22:38735830:T:C.err
+    jobid: 554
+    wildcards: snp=chr22:38735830:T:C, condition=CTL
+
+[Wed Mar  1 14:48:38 2023]
+Finished job 581.
+64 of 239 steps (27%) done
+Submitted job 554 with external jobid '1605280'.
+[Wed Mar  1 14:48:38 2023]
+Finished job 646.
+65 of 239 steps (27%) done
+
+[Wed Mar  1 14:48:38 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:64041782:C:T_CTL_0.8.ld, data/chr17:64041782:C:T_CTL_ld_rsids.csv
+    output: data/chr17:64041782:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr17:64041782:C:T.out, logs/join_LDbuddies_CTL_chr17:64041782:C:T.err
+    jobid: 579
+    wildcards: snp=chr17:64041782:C:T, condition=CTL
+
+Submitted job 579 with external jobid '1605281'.
+[Wed Mar  1 14:48:38 2023]
+Finished job 685.
+66 of 239 steps (28%) done
+
+[Wed Mar  1 14:48:38 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:64041782:C:T_FNF_0.8.ld, data/chr17:64041782:C:T_FNF_ld_rsids.csv
+    output: data/chr17:64041782:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr17:64041782:C:T.out, logs/join_LDbuddies_FNF_chr17:64041782:C:T.err
+    jobid: 711
+    wildcards: snp=chr17:64041782:C:T, condition=FNF
+
+[Wed Mar  1 14:48:39 2023]
+Finished job 686.
+67 of 239 steps (28%) done
+[Wed Mar  1 14:48:39 2023]
+Finished job 514.
+68 of 239 steps (28%) done
+Submitted job 711 with external jobid '1605282'.
+
+[Wed Mar  1 14:48:39 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:141388424:G:A_CTL_0.8.ld, data/chr5:141388424:G:A_CTL_ld_rsids.csv
+    output: data/chr5:141388424:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr5:141388424:G:A.out, logs/join_LDbuddies_CTL_chr5:141388424:G:A.err
+    jobid: 548
+    wildcards: snp=chr5:141388424:G:A, condition=CTL
+
+[Wed Mar  1 14:48:39 2023]
+Finished job 488.
+69 of 239 steps (29%) done
+Submitted job 548 with external jobid '1605283'.
+
+[Wed Mar  1 14:48:39 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:39342936:C:T_FNF_0.8.ld, data/chr21:39342936:C:T_FNF_ld_rsids.csv
+    output: data/chr21:39342936:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr21:39342936:C:T.out, logs/join_LDbuddies_FNF_chr21:39342936:C:T.err
+    jobid: 607
+    wildcards: snp=chr21:39342936:C:T, condition=FNF
+
+Submitted job 607 with external jobid '1605284'.
+
+[Wed Mar  1 14:48:39 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:45409478:C:A_CTL_0.8.ld, data/chr19:45409478:C:A_CTL_ld_rsids.csv
+    output: data/chr19:45409478:C:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr19:45409478:C:A.out, logs/join_LDbuddies_CTL_chr19:45409478:C:A.err
+    jobid: 584
+    wildcards: snp=chr19:45409478:C:A, condition=CTL
+
+Submitted job 584 with external jobid '1605285'.
+
+[Wed Mar  1 14:48:39 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:39342936:C:T_CTL_0.8.ld, data/chr21:39342936:C:T_CTL_ld_rsids.csv
+    output: data/chr21:39342936:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr21:39342936:C:T.out, logs/join_LDbuddies_CTL_chr21:39342936:C:T.err
+    jobid: 487
+    wildcards: snp=chr21:39342936:C:T, condition=CTL
+
+[Wed Mar  1 14:48:39 2023]
+Finished job 497.
+70 of 239 steps (29%) done
+Submitted job 487 with external jobid '1605286'.
+[Wed Mar  1 14:48:40 2023]
+Finished job 528.
+71 of 239 steps (30%) done
+[Wed Mar  1 14:48:40 2023]
+Finished job 649.
+72 of 239 steps (30%) done
+
+[Wed Mar  1 14:48:40 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:44769371:G:C_CTL_0.8.ld, data/chr21:44769371:G:C_CTL_ld_rsids.csv
+    output: data/chr21:44769371:G:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr21:44769371:G:C.out, logs/join_LDbuddies_CTL_chr21:44769371:G:C.err
+    jobid: 568
+    wildcards: snp=chr21:44769371:G:C, condition=CTL
+
+[Wed Mar  1 14:48:40 2023]
+Finished job 604.
+73 of 239 steps (31%) done
+Submitted job 568 with external jobid '1605288'.
+
+[Wed Mar  1 14:48:40 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:44769371:G:C_FNF_0.8.ld, data/chr21:44769371:G:C_FNF_ld_rsids.csv
+    output: data/chr21:44769371:G:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr21:44769371:G:C.out, logs/join_LDbuddies_FNF_chr21:44769371:G:C.err
+    jobid: 691
+    wildcards: snp=chr21:44769371:G:C, condition=FNF
+
+Submitted job 691 with external jobid '1605289'.
+[Wed Mar  1 14:48:40 2023]
+Finished job 637.
+74 of 239 steps (31%) done
+
+[Wed Mar  1 14:48:40 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:47916506:C:G_FNF_0.8.ld, data/chr3:47916506:C:G_FNF_ld_rsids.csv
+    output: data/chr3:47916506:C:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr3:47916506:C:G.out, logs/join_LDbuddies_FNF_chr3:47916506:C:G.err
+    jobid: 695
+    wildcards: snp=chr3:47916506:C:G, condition=FNF
+
+Submitted job 695 with external jobid '1605290'.
+
+[Wed Mar  1 14:48:40 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:47916506:C:G_CTL_0.8.ld, data/chr3:47916506:C:G_CTL_ld_rsids.csv
+    output: data/chr3:47916506:C:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr3:47916506:C:G.out, logs/join_LDbuddies_CTL_chr3:47916506:C:G.err
+    jobid: 578
+    wildcards: snp=chr3:47916506:C:G, condition=CTL
+
+Submitted job 578 with external jobid '1605291'.
+
+[Wed Mar  1 14:48:41 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:94398387:T:C_CTL_0.8.ld, data/chr7:94398387:T:C_CTL_ld_rsids.csv
+    output: data/chr7:94398387:T:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr7:94398387:T:C.out, logs/join_LDbuddies_CTL_chr7:94398387:T:C.err
+    jobid: 506
+    wildcards: snp=chr7:94398387:T:C, condition=CTL
+
+Submitted job 506 with external jobid '1605292'.
+[Wed Mar  1 14:48:41 2023]
+Finished job 656.
+75 of 239 steps (31%) done
+
+[Wed Mar  1 14:48:41 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:94398387:T:C_FNF_0.8.ld, data/chr7:94398387:T:C_FNF_ld_rsids.csv
+    output: data/chr7:94398387:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr7:94398387:T:C.out, logs/join_LDbuddies_FNF_chr7:94398387:T:C.err
+    jobid: 648
+    wildcards: snp=chr7:94398387:T:C, condition=FNF
+
+Submitted job 648 with external jobid '1605293'.
+[Wed Mar  1 14:49:12 2023]
+Finished job 650.
+76 of 239 steps (32%) done
+
+[Wed Mar  1 14:49:12 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:230280573:A:C_CTL_0.8.ld, data/chr1:230280573:A:C_CTL_ld_rsids.csv
+    output: data/chr1:230280573:A:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:230280573:A:C.out, logs/join_LDbuddies_CTL_chr1:230280573:A:C.err
+    jobid: 591
+    wildcards: snp=chr1:230280573:A:C, condition=CTL
+
+[Wed Mar  1 14:49:12 2023]
+Finished job 609.
+77 of 239 steps (32%) done
+[Wed Mar  1 14:49:12 2023]
+Finished job 508.
+78 of 239 steps (33%) done
+[Wed Mar  1 14:49:12 2023]
+Finished job 552.
+79 of 239 steps (33%) done
+[Wed Mar  1 14:49:12 2023]
+Finished job 546.
+80 of 239 steps (33%) done
+[Wed Mar  1 14:49:13 2023]
+Finished job 655.
+81 of 239 steps (34%) done
+[Wed Mar  1 14:49:13 2023]
+Finished job 674.
+82 of 239 steps (34%) done
+Submitted job 591 with external jobid '1605356'.
+
+[Wed Mar  1 14:49:13 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:230280573:A:C_FNF_0.8.ld, data/chr1:230280573:A:C_FNF_ld_rsids.csv
+    output: data/chr1:230280573:A:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:230280573:A:C.out, logs/join_LDbuddies_FNF_chr1:230280573:A:C.err
+    jobid: 703
+    wildcards: snp=chr1:230280573:A:C, condition=FNF
+
+Submitted job 703 with external jobid '1605357'.
+
+[Wed Mar  1 14:49:13 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:230279402:G:A_CTL_0.8.ld, data/chr1:230279402:G:A_CTL_ld_rsids.csv
+    output: data/chr1:230279402:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:230279402:G:A.out, logs/join_LDbuddies_CTL_chr1:230279402:G:A.err
+    jobid: 542
+    wildcards: snp=chr1:230279402:G:A, condition=CTL
+
+Submitted job 542 with external jobid '1605358'.
+
+[Wed Mar  1 14:49:15 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:103072159:A:T_CTL_0.8.ld, data/chr8:103072159:A:T_CTL_ld_rsids.csv
+    output: data/chr8:103072159:A:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr8:103072159:A:T.out, logs/join_LDbuddies_CTL_chr8:103072159:A:T.err
+    jobid: 533
+    wildcards: snp=chr8:103072159:A:T, condition=CTL
+
+[Wed Mar  1 14:49:16 2023]
+Finished job 713.
+83 of 239 steps (35%) done
+[Wed Mar  1 14:49:16 2023]
+Finished job 480.
+84 of 239 steps (35%) done
+[Wed Mar  1 14:49:17 2023]
+Finished job 694.
+85 of 239 steps (36%) done
+[Wed Mar  1 14:49:17 2023]
+Finished job 595.
+86 of 239 steps (36%) done
+[Wed Mar  1 14:49:17 2023]
+Finished job 505.
+87 of 239 steps (36%) done
+Submitted job 533 with external jobid '1605359'.
+
+[Wed Mar  1 14:49:17 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:41279568:G:A_FNF_0.8.ld, data/chr21:41279568:G:A_FNF_ld_rsids.csv
+    output: data/chr21:41279568:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr21:41279568:G:A.out, logs/join_LDbuddies_FNF_chr21:41279568:G:A.err
+    jobid: 613
+    wildcards: snp=chr21:41279568:G:A, condition=FNF
+
+[Wed Mar  1 14:49:17 2023]
+Finished job 623.
+88 of 239 steps (37%) done
+[Wed Mar  1 14:49:18 2023]
+Finished job 664.
+89 of 239 steps (37%) done
+[Wed Mar  1 14:49:18 2023]
+Finished job 597.
+90 of 239 steps (38%) done
+[Wed Mar  1 14:49:18 2023]
+Finished job 519.
+91 of 239 steps (38%) done
+[Wed Mar  1 14:49:18 2023]
+Finished job 625.
+92 of 239 steps (38%) done
+Submitted job 613 with external jobid '1605360'.
+
+[Wed Mar  1 14:49:18 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:88630424:G:A_CTL_0.8.ld, data/chr15:88630424:G:A_CTL_ld_rsids.csv
+    output: data/chr15:88630424:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr15:88630424:G:A.out, logs/join_LDbuddies_CTL_chr15:88630424:G:A.err
+    jobid: 493
+    wildcards: snp=chr15:88630424:G:A, condition=CTL
+
+[Wed Mar  1 14:49:18 2023]
+Finished job 690.
+93 of 239 steps (39%) done
+Submitted job 493 with external jobid '1605361'.
+
+[Wed Mar  1 14:49:19 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:88630424:G:A_FNF_0.8.ld, data/chr15:88630424:G:A_FNF_ld_rsids.csv
+    output: data/chr15:88630424:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr15:88630424:G:A.out, logs/join_LDbuddies_FNF_chr15:88630424:G:A.err
+    jobid: 624
+    wildcards: snp=chr15:88630424:G:A, condition=FNF
+
+Submitted job 624 with external jobid '1605362'.
+
+[Wed Mar  1 14:49:19 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:2917370:G:A_FNF_0.8.ld, data/chr18:2917370:G:A_FNF_ld_rsids.csv
+    output: data/chr18:2917370:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr18:2917370:G:A.out, logs/join_LDbuddies_FNF_chr18:2917370:G:A.err
+    jobid: 681
+    wildcards: snp=chr18:2917370:G:A, condition=FNF
+
+[Wed Mar  1 14:49:19 2023]
+Finished job 635.
+94 of 239 steps (39%) done
+[Wed Mar  1 14:49:19 2023]
+Finished job 496.
+95 of 239 steps (40%) done
+[Wed Mar  1 14:49:19 2023]
+Finished job 486.
+96 of 239 steps (40%) done
+[Wed Mar  1 14:49:19 2023]
+Finished job 532.
+97 of 239 steps (41%) done
+[Wed Mar  1 14:49:20 2023]
+Finished job 621.
+98 of 239 steps (41%) done
+Submitted job 681 with external jobid '1605363'.
+[Wed Mar  1 14:49:20 2023]
+Finished job 606.
+99 of 239 steps (41%) done
+
+[Wed Mar  1 14:49:20 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:2917370:G:A_CTL_0.8.ld, data/chr18:2917370:G:A_CTL_ld_rsids.csv
+    output: data/chr18:2917370:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr18:2917370:G:A.out, logs/join_LDbuddies_CTL_chr18:2917370:G:A.err
+    jobid: 535
+    wildcards: snp=chr18:2917370:G:A, condition=CTL
+
+[Wed Mar  1 14:49:20 2023]
+Finished job 477.
+100 of 239 steps (42%) done
+Submitted job 535 with external jobid '1605364'.
+
+[Wed Mar  1 14:49:20 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:116988999:A:G_FNF_0.8.ld, data/chr1:116988999:A:G_FNF_ld_rsids.csv
+    output: data/chr1:116988999:A:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:116988999:A:G.out, logs/join_LDbuddies_FNF_chr1:116988999:A:G.err
+    jobid: 687
+    wildcards: snp=chr1:116988999:A:G, condition=FNF
+
+[Wed Mar  1 14:49:20 2023]
+Finished job 531.
+101 of 239 steps (42%) done
+[Wed Mar  1 14:49:21 2023]
+Finished job 485.
+102 of 239 steps (43%) done
+[Wed Mar  1 14:49:21 2023]
+Finished job 598.
+103 of 239 steps (43%) done
+[Wed Mar  1 14:49:21 2023]
+Finished job 605.
+104 of 239 steps (44%) done
+Submitted job 687 with external jobid '1605365'.
+
+[Wed Mar  1 14:49:21 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:95658366:C:T_CTL_0.8.ld, data/chr12:95658366:C:T_CTL_ld_rsids.csv
+    output: data/chr12:95658366:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr12:95658366:C:T.out, logs/join_LDbuddies_CTL_chr12:95658366:C:T.err
+    jobid: 525
+    wildcards: snp=chr12:95658366:C:T, condition=CTL
+
+[Wed Mar  1 14:49:21 2023]
+Finished job 689.
+105 of 239 steps (44%) done
+[Wed Mar  1 14:49:22 2023]
+Finished job 688.
+106 of 239 steps (44%) done
+[Wed Mar  1 14:49:22 2023]
+Finished job 521.
+107 of 239 steps (45%) done
+Submitted job 525 with external jobid '1605366'.
+
+[Wed Mar  1 14:49:22 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:95658366:C:T_FNF_0.8.ld, data/chr12:95658366:C:T_FNF_ld_rsids.csv
+    output: data/chr12:95658366:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr12:95658366:C:T.out, logs/join_LDbuddies_FNF_chr12:95658366:C:T.err
+    jobid: 700
+    wildcards: snp=chr12:95658366:C:T, condition=FNF
+
+Submitted job 700 with external jobid '1605368'.
+
+[Wed Mar  1 14:49:23 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:40092101:C:T_CTL_0.8.ld, data/chr17:40092101:C:T_CTL_ld_rsids.csv
+    output: data/chr17:40092101:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr17:40092101:C:T.out, logs/join_LDbuddies_CTL_chr17:40092101:C:T.err
+    jobid: 565
+    wildcards: snp=chr17:40092101:C:T, condition=CTL
+
+Submitted job 565 with external jobid '1605369'.
+
+[Wed Mar  1 14:49:23 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:41279568:G:A_CTL_0.8.ld, data/chr21:41279568:G:A_CTL_ld_rsids.csv
+    output: data/chr21:41279568:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr21:41279568:G:A.out, logs/join_LDbuddies_CTL_chr21:41279568:G:A.err
+    jobid: 482
+    wildcards: snp=chr21:41279568:G:A, condition=CTL
+
+Submitted job 482 with external jobid '1605370'.
+
+[Wed Mar  1 14:49:23 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:81658396:C:T_CTL_0.8.ld, data/chr8:81658396:C:T_CTL_ld_rsids.csv
+    output: data/chr8:81658396:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr8:81658396:C:T.out, logs/join_LDbuddies_CTL_chr8:81658396:C:T.err
+    jobid: 499
+    wildcards: snp=chr8:81658396:C:T, condition=CTL
+
+Submitted job 499 with external jobid '1605371'.
+
+[Wed Mar  1 14:49:24 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:81658396:C:T_FNF_0.8.ld, data/chr8:81658396:C:T_FNF_ld_rsids.csv
+    output: data/chr8:81658396:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr8:81658396:C:T.out, logs/join_LDbuddies_FNF_chr8:81658396:C:T.err
+    jobid: 673
+    wildcards: snp=chr8:81658396:C:T, condition=FNF
+
+Submitted job 673 with external jobid '1605372'.
+
+[Wed Mar  1 14:49:24 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:94664990:C:T_CTL_0.8.ld, data/chr4:94664990:C:T_CTL_ld_rsids.csv
+    output: data/chr4:94664990:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr4:94664990:C:T.out, logs/join_LDbuddies_CTL_chr4:94664990:C:T.err
+    jobid: 560
+    wildcards: snp=chr4:94664990:C:T, condition=CTL
+
+Submitted job 560 with external jobid '1605376'.
+
+[Wed Mar  1 14:49:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:21218242:C:T_CTL_0.8.ld, data/chr1:21218242:C:T_CTL_ld_rsids.csv
+    output: data/chr1:21218242:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:21218242:C:T.out, logs/join_LDbuddies_CTL_chr1:21218242:C:T.err
+    jobid: 520
+    wildcards: snp=chr1:21218242:C:T, condition=CTL
+
+Submitted job 520 with external jobid '1605377'.
+
+[Wed Mar  1 14:49:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:38373945:G:A_FNF_0.8.ld, data/chr20:38373945:G:A_FNF_ld_rsids.csv
+    output: data/chr20:38373945:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr20:38373945:G:A.out, logs/join_LDbuddies_FNF_chr20:38373945:G:A.err
+    jobid: 602
+    wildcards: snp=chr20:38373945:G:A, condition=FNF
+
+Submitted job 602 with external jobid '1605378'.
+
+[Wed Mar  1 14:49:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:38373945:G:A_CTL_0.8.ld, data/chr20:38373945:G:A_CTL_ld_rsids.csv
+    output: data/chr20:38373945:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr20:38373945:G:A.out, logs/join_LDbuddies_CTL_chr20:38373945:G:A.err
+    jobid: 492
+    wildcards: snp=chr20:38373945:G:A, condition=CTL
+
+Submitted job 492 with external jobid '1605379'.
+
+[Wed Mar  1 14:49:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:39214620:G:A_FNF_0.8.ld, data/chr4:39214620:G:A_FNF_ld_rsids.csv
+    output: data/chr4:39214620:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr4:39214620:G:A.out, logs/join_LDbuddies_FNF_chr4:39214620:G:A.err
+    jobid: 600
+    wildcards: snp=chr4:39214620:G:A, condition=FNF
+
+Submitted job 600 with external jobid '1605380'.
+
+[Wed Mar  1 14:49:26 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:39214620:G:A_CTL_0.8.ld, data/chr4:39214620:G:A_CTL_ld_rsids.csv
+    output: data/chr4:39214620:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr4:39214620:G:A.out, logs/join_LDbuddies_CTL_chr4:39214620:G:A.err
+    jobid: 498
+    wildcards: snp=chr4:39214620:G:A, condition=CTL
+
+Submitted job 498 with external jobid '1605381'.
+
+[Wed Mar  1 14:49:26 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:4996980:C:G_FNF_0.8.ld, data/chr7:4996980:C:G_FNF_ld_rsids.csv
+    output: data/chr7:4996980:C:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr7:4996980:C:G.out, logs/join_LDbuddies_FNF_chr7:4996980:C:G.err
+    jobid: 629
+    wildcards: snp=chr7:4996980:C:G, condition=FNF
+
+Submitted job 629 with external jobid '1605382'.
+
+[Wed Mar  1 14:49:26 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:9365020:G:A_CTL_0.8.ld, data/chr3:9365020:G:A_CTL_ld_rsids.csv
+    output: data/chr3:9365020:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr3:9365020:G:A.out, logs/join_LDbuddies_CTL_chr3:9365020:G:A.err
+    jobid: 537
+    wildcards: snp=chr3:9365020:G:A, condition=CTL
+
+Submitted job 537 with external jobid '1605383'.
+
+[Wed Mar  1 14:49:26 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:4996980:C:G_CTL_0.8.ld, data/chr7:4996980:C:G_CTL_ld_rsids.csv
+    output: data/chr7:4996980:C:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr7:4996980:C:G.out, logs/join_LDbuddies_CTL_chr7:4996980:C:G.err
+    jobid: 495
+    wildcards: snp=chr7:4996980:C:G, condition=CTL
+
+Submitted job 495 with external jobid '1605384'.
+
+[Wed Mar  1 14:49:26 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:98588786:C:T_FNF_0.8.ld, data/chr3:98588786:C:T_FNF_ld_rsids.csv
+    output: data/chr3:98588786:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr3:98588786:C:T.out, logs/join_LDbuddies_FNF_chr3:98588786:C:T.err
+    jobid: 643
+    wildcards: snp=chr3:98588786:C:T, condition=FNF
+
+Submitted job 643 with external jobid '1605385'.
+
+[Wed Mar  1 14:49:27 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:62154610:T:C_FNF_0.8.ld, data/chr18:62154610:T:C_FNF_ld_rsids.csv
+    output: data/chr18:62154610:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr18:62154610:T:C.out, logs/join_LDbuddies_FNF_chr18:62154610:T:C.err
+    jobid: 610
+    wildcards: snp=chr18:62154610:T:C, condition=FNF
+
+Submitted job 610 with external jobid '1605386'.
+
+[Wed Mar  1 14:49:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:62154610:T:C_CTL_0.8.ld, data/chr18:62154610:T:C_CTL_ld_rsids.csv
+    output: data/chr18:62154610:T:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr18:62154610:T:C.out, logs/join_LDbuddies_CTL_chr18:62154610:T:C.err
+    jobid: 522
+    wildcards: snp=chr18:62154610:T:C, condition=CTL
+
+Submitted job 522 with external jobid '1605387'.
+
+[Wed Mar  1 14:49:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:126408308:T:C_FNF_0.8.ld, data/chr11:126408308:T:C_FNF_ld_rsids.csv
+    output: data/chr11:126408308:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr11:126408308:T:C.out, logs/join_LDbuddies_FNF_chr11:126408308:T:C.err
+    jobid: 611
+    wildcards: snp=chr11:126408308:T:C, condition=FNF
+
+Submitted job 611 with external jobid '1605388'.
+
+[Wed Mar  1 14:49:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:70114927:G:A_CTL_0.8.ld, data/chr10:70114927:G:A_CTL_ld_rsids.csv
+    output: data/chr10:70114927:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr10:70114927:G:A.out, logs/join_LDbuddies_CTL_chr10:70114927:G:A.err
+    jobid: 553
+    wildcards: snp=chr10:70114927:G:A, condition=CTL
+
+Submitted job 553 with external jobid '1605389'.
+
+[Wed Mar  1 14:49:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:4814629:G:A_FNF_0.8.ld, data/chr12:4814629:G:A_FNF_ld_rsids.csv
+    output: data/chr12:4814629:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr12:4814629:G:A.out, logs/join_LDbuddies_FNF_chr12:4814629:G:A.err
+    jobid: 702
+    wildcards: snp=chr12:4814629:G:A, condition=FNF
+
+Submitted job 702 with external jobid '1605390'.
+
+[Wed Mar  1 14:49:29 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:225844317:G:A_FNF_0.8.ld, data/chr1:225844317:G:A_FNF_ld_rsids.csv
+    output: data/chr1:225844317:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:225844317:G:A.out, logs/join_LDbuddies_FNF_chr1:225844317:G:A.err
+    jobid: 652
+    wildcards: snp=chr1:225844317:G:A, condition=FNF
+
+Submitted job 652 with external jobid '1605391'.
+[Wed Mar  1 14:50:07 2023]
+Finished job 616.
+108 of 239 steps (45%) done
+
+[Wed Mar  1 14:50:07 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:126408308:T:C_CTL_0.8.ld, data/chr11:126408308:T:C_CTL_ld_rsids.csv
+    output: data/chr11:126408308:T:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr11:126408308:T:C.out, logs/join_LDbuddies_CTL_chr11:126408308:T:C.err
+    jobid: 490
+    wildcards: snp=chr11:126408308:T:C, condition=CTL
+
+[Wed Mar  1 14:50:07 2023]
+Finished job 544.
+109 of 239 steps (46%) done
+Submitted job 490 with external jobid '1605472'.
+
+[Wed Mar  1 14:50:07 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:108937337:G:A_FNF_0.8.ld, data/chr1:108937337:G:A_FNF_ld_rsids.csv
+    output: data/chr1:108937337:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:108937337:G:A.out, logs/join_LDbuddies_FNF_chr1:108937337:G:A.err
+    jobid: 714
+    wildcards: snp=chr1:108937337:G:A, condition=FNF
+
+[Wed Mar  1 14:50:07 2023]
+Finished job 530.
+110 of 239 steps (46%) done
+Submitted job 714 with external jobid '1605473'.
+
+[Wed Mar  1 14:50:08 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:140057912:C:A_FNF_0.8.ld, data/chr7:140057912:C:A_FNF_ld_rsids.csv
+    output: data/chr7:140057912:C:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr7:140057912:C:A.out, logs/join_LDbuddies_FNF_chr7:140057912:C:A.err
+    jobid: 678
+    wildcards: snp=chr7:140057912:C:A, condition=FNF
+
+Submitted job 678 with external jobid '1605475'.
+[Wed Mar  1 14:50:15 2023]
+Finished job 570.
+111 of 239 steps (46%) done
+
+[Wed Mar  1 14:50:15 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:49907901:T:C_FNF_0.8.ld, data/chr19:49907901:T:C_FNF_ld_rsids.csv
+    output: data/chr19:49907901:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr19:49907901:T:C.out, logs/join_LDbuddies_FNF_chr19:49907901:T:C.err
+    jobid: 696
+    wildcards: snp=chr19:49907901:T:C, condition=FNF
+
+[Wed Mar  1 14:50:15 2023]
+Finished job 491.
+112 of 239 steps (47%) done
+Submitted job 696 with external jobid '1605477'.
+
+[Wed Mar  1 14:50:15 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:4798107:C:T_CTL_0.8.ld, data/chr17:4798107:C:T_CTL_ld_rsids.csv
+    output: data/chr17:4798107:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr17:4798107:C:T.out, logs/join_LDbuddies_CTL_chr17:4798107:C:T.err
+    jobid: 549
+    wildcards: snp=chr17:4798107:C:T, condition=CTL
+
+[Wed Mar  1 14:50:15 2023]
+Finished job 612.
+113 of 239 steps (47%) done
+Submitted job 549 with external jobid '1605478'.
+
+[Wed Mar  1 14:50:15 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:4798107:C:T_FNF_0.8.ld, data/chr17:4798107:C:T_FNF_ld_rsids.csv
+    output: data/chr17:4798107:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr17:4798107:C:T.out, logs/join_LDbuddies_FNF_chr17:4798107:C:T.err
+    jobid: 672
+    wildcards: snp=chr17:4798107:C:T, condition=FNF
+
+[Wed Mar  1 14:50:15 2023]
+Finished job 551.
+114 of 239 steps (48%) done
+[Wed Mar  1 14:50:16 2023]
+Finished job 614.
+115 of 239 steps (48%) done
+[Wed Mar  1 14:50:16 2023]
+Finished job 511.
+116 of 239 steps (49%) done
+[Wed Mar  1 14:50:16 2023]
+Finished job 705.
+117 of 239 steps (49%) done
+Submitted job 672 with external jobid '1605479'.
+[Wed Mar  1 14:50:16 2023]
+Finished job 662.
+118 of 239 steps (49%) done
+
+[Wed Mar  1 14:50:16 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:131894217:G:A_FNF_0.8.ld, data/chr6:131894217:G:A_FNF_ld_rsids.csv
+    output: data/chr6:131894217:G:A_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr6:131894217:G:A.out, logs/join_LDbuddies_FNF_chr6:131894217:G:A.err
+    jobid: 708
+    wildcards: snp=chr6:131894217:G:A, condition=FNF
+
+[Wed Mar  1 14:50:17 2023]
+Finished job 545.
+119 of 239 steps (50%) done
+[Wed Mar  1 14:50:17 2023]
+Finished job 661.
+120 of 239 steps (50%) done
+[Wed Mar  1 14:50:17 2023]
+Finished job 601.
+121 of 239 steps (51%) done
+[Wed Mar  1 14:50:17 2023]
+Finished job 483.
+122 of 239 steps (51%) done
+[Wed Mar  1 14:50:18 2023]
+Finished job 640.
+123 of 239 steps (51%) done
+[Wed Mar  1 14:50:18 2023]
+Finished job 679.
+124 of 239 steps (52%) done
+[Wed Mar  1 14:50:18 2023]
+Finished job 682.
+125 of 239 steps (52%) done
+Submitted job 708 with external jobid '1605480'.
+
+[Wed Mar  1 14:50:18 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:131894217:G:A_CTL_0.8.ld, data/chr6:131894217:G:A_CTL_ld_rsids.csv
+    output: data/chr6:131894217:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr6:131894217:G:A.out, logs/join_LDbuddies_CTL_chr6:131894217:G:A.err
+    jobid: 589
+    wildcards: snp=chr6:131894217:G:A, condition=CTL
+
+[Wed Mar  1 14:50:18 2023]
+Finished job 502.
+126 of 239 steps (53%) done
+Submitted job 589 with external jobid '1605483'.
+
+[Wed Mar  1 14:50:19 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:150658652:G:C_FNF_0.8.ld, data/chr5:150658652:G:C_FNF_ld_rsids.csv
+    output: data/chr5:150658652:G:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr5:150658652:G:C.out, logs/join_LDbuddies_FNF_chr5:150658652:G:C.err
+    jobid: 712
+    wildcards: snp=chr5:150658652:G:C, condition=FNF
+
+[Wed Mar  1 14:50:19 2023]
+Finished job 618.
+127 of 239 steps (53%) done
+[Wed Mar  1 14:50:19 2023]
+Finished job 684.
+128 of 239 steps (54%) done
+[Wed Mar  1 14:50:19 2023]
+Finished job 562.
+129 of 239 steps (54%) done
+[Wed Mar  1 14:50:19 2023]
+Finished job 617.
+130 of 239 steps (54%) done
+[Wed Mar  1 14:50:20 2023]
+Finished job 667.
+131 of 239 steps (55%) done
+[Wed Mar  1 14:50:20 2023]
+Finished job 641.
+132 of 239 steps (55%) done
+Submitted job 712 with external jobid '1605484'.
+
+[Wed Mar  1 14:50:20 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:134701253:G:A_CTL_0.8.ld, data/chr9:134701253:G:A_CTL_ld_rsids.csv
+    output: data/chr9:134701253:G:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr9:134701253:G:A.out, logs/join_LDbuddies_CTL_chr9:134701253:G:A.err
+    jobid: 587
+    wildcards: snp=chr9:134701253:G:A, condition=CTL
+
+[Wed Mar  1 14:50:20 2023]
+Finished job 500.
+133 of 239 steps (56%) done
+Submitted job 587 with external jobid '1605485'.
+
+[Wed Mar  1 14:50:20 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:56087463:G:C_CTL_0.8.ld, data/chr19:56087463:G:C_CTL_ld_rsids.csv
+    output: data/chr19:56087463:G:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr19:56087463:G:C.out, logs/join_LDbuddies_CTL_chr19:56087463:G:C.err
+    jobid: 555
+    wildcards: snp=chr19:56087463:G:C, condition=CTL
+
+[Wed Mar  1 14:50:20 2023]
+Finished job 626.
+134 of 239 steps (56%) done
+Submitted job 555 with external jobid '1605486'.
+
+[Wed Mar  1 14:50:21 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:56615254:C:T_CTL_0.8.ld, data/chr3:56615254:C:T_CTL_ld_rsids.csv
+    output: data/chr3:56615254:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr3:56615254:C:T.out, logs/join_LDbuddies_CTL_chr3:56615254:C:T.err
+    jobid: 559
+    wildcards: snp=chr3:56615254:C:T, condition=CTL
+
+[Wed Mar  1 14:50:21 2023]
+Finished job 507.
+135 of 239 steps (56%) done
+[Wed Mar  1 14:50:21 2023]
+Finished job 633.
+136 of 239 steps (57%) done
+[Wed Mar  1 14:50:21 2023]
+Finished job 693.
+137 of 239 steps (57%) done
+[Wed Mar  1 14:50:21 2023]
+Finished job 659.
+138 of 239 steps (58%) done
+[Wed Mar  1 14:50:22 2023]
+Finished job 699.
+139 of 239 steps (58%) done
+[Wed Mar  1 14:50:22 2023]
+Finished job 529.
+140 of 239 steps (59%) done
+[Wed Mar  1 14:50:22 2023]
+Finished job 658.
+141 of 239 steps (59%) done
+Submitted job 559 with external jobid '1605487'.
+
+[Wed Mar  1 14:50:22 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:56615254:C:T_FNF_0.8.ld, data/chr3:56615254:C:T_FNF_ld_rsids.csv
+    output: data/chr3:56615254:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr3:56615254:C:T.out, logs/join_LDbuddies_FNF_chr3:56615254:C:T.err
+    jobid: 632
+    wildcards: snp=chr3:56615254:C:T, condition=FNF
+
+[Wed Mar  1 14:50:22 2023]
+Finished job 567.
+142 of 239 steps (59%) done
+[Wed Mar  1 14:50:23 2023]
+Finished job 677.
+143 of 239 steps (60%) done
+[Wed Mar  1 14:50:23 2023]
+Finished job 622.
+144 of 239 steps (60%) done
+[Wed Mar  1 14:50:23 2023]
+Finished job 647.
+145 of 239 steps (61%) done
+[Wed Mar  1 14:50:23 2023]
+Finished job 573.
+146 of 239 steps (61%) done
+Submitted job 632 with external jobid '1605488'.
+
+[Wed Mar  1 14:50:24 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:78885754:T:C_FNF_0.8.ld, data/chr5:78885754:T:C_FNF_ld_rsids.csv
+    output: data/chr5:78885754:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr5:78885754:T:C.out, logs/join_LDbuddies_FNF_chr5:78885754:T:C.err
+    jobid: 596
+    wildcards: snp=chr5:78885754:T:C, condition=FNF
+
+Submitted job 596 with external jobid '1605491'.
+
+[Wed Mar  1 14:50:24 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:78885754:T:C_CTL_0.8.ld, data/chr5:78885754:T:C_CTL_ld_rsids.csv
+    output: data/chr5:78885754:T:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr5:78885754:T:C.out, logs/join_LDbuddies_CTL_chr5:78885754:T:C.err
+    jobid: 489
+    wildcards: snp=chr5:78885754:T:C, condition=CTL
+
+Submitted job 489 with external jobid '1605493'.
+
+[Wed Mar  1 14:50:24 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:59359204:C:T_CTL_0.8.ld, data/chr18:59359204:C:T_CTL_ld_rsids.csv
+    output: data/chr18:59359204:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr18:59359204:C:T.out, logs/join_LDbuddies_CTL_chr18:59359204:C:T.err
+    jobid: 541
+    wildcards: snp=chr18:59359204:C:T, condition=CTL
+
+Submitted job 541 with external jobid '1605495'.
+
+[Wed Mar  1 14:50:24 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:89900547:G:C_CTL_0.8.ld, data/chr15:89900547:G:C_CTL_ld_rsids.csv
+    output: data/chr15:89900547:G:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr15:89900547:G:C.out, logs/join_LDbuddies_CTL_chr15:89900547:G:C.err
+    jobid: 575
+    wildcards: snp=chr15:89900547:G:C, condition=CTL
+
+Submitted job 575 with external jobid '1605496'.
+
+[Wed Mar  1 14:50:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:59359204:C:T_FNF_0.8.ld, data/chr18:59359204:C:T_FNF_ld_rsids.csv
+    output: data/chr18:59359204:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr18:59359204:C:T.out, logs/join_LDbuddies_FNF_chr18:59359204:C:T.err
+    jobid: 627
+    wildcards: snp=chr18:59359204:C:T, condition=FNF
+
+Submitted job 627 with external jobid '1605498'.
+
+[Wed Mar  1 14:50:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:138418442:T:G_CTL_0.8.ld, data/chr6:138418442:T:G_CTL_ld_rsids.csv
+    output: data/chr6:138418442:T:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr6:138418442:T:G.out, logs/join_LDbuddies_CTL_chr6:138418442:T:G.err
+    jobid: 484
+    wildcards: snp=chr6:138418442:T:G, condition=CTL
+
+Submitted job 484 with external jobid '1605499'.
+
+[Wed Mar  1 14:50:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr22:36288285:C:T_FNF_0.8.ld, data/chr22:36288285:C:T_FNF_ld_rsids.csv
+    output: data/chr22:36288285:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr22:36288285:C:T.out, logs/join_LDbuddies_FNF_chr22:36288285:C:T.err
+    jobid: 660
+    wildcards: snp=chr22:36288285:C:T, condition=FNF
+
+Submitted job 660 with external jobid '1605500'.
+
+[Wed Mar  1 14:50:25 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr14:67650289:C:A_CTL_0.8.ld, data/chr14:67650289:C:A_CTL_ld_rsids.csv
+    output: data/chr14:67650289:C:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr14:67650289:C:A.out, logs/join_LDbuddies_CTL_chr14:67650289:C:A.err
+    jobid: 563
+    wildcards: snp=chr14:67650289:C:A, condition=CTL
+
+Submitted job 563 with external jobid '1605501'.
+
+[Wed Mar  1 14:50:26 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:21469993:T:C_FNF_0.8.ld, data/chr12:21469993:T:C_FNF_ld_rsids.csv
+    output: data/chr12:21469993:T:C_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr12:21469993:T:C.out, logs/join_LDbuddies_FNF_chr12:21469993:T:C.err
+    jobid: 663
+    wildcards: snp=chr12:21469993:T:C, condition=FNF
+
+Submitted job 663 with external jobid '1605503'.
+
+[Wed Mar  1 14:50:26 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:151844149:C:T_CTL_0.8.ld, data/chr1:151844149:C:T_CTL_ld_rsids.csv
+    output: data/chr1:151844149:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:151844149:C:T.out, logs/join_LDbuddies_CTL_chr1:151844149:C:T.err
+    jobid: 503
+    wildcards: snp=chr1:151844149:C:T, condition=CTL
+
+Submitted job 503 with external jobid '1605504'.
+
+[Wed Mar  1 14:50:26 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:175157820:C:G_FNF_0.8.ld, data/chr1:175157820:C:G_FNF_ld_rsids.csv
+    output: data/chr1:175157820:C:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:175157820:C:G.out, logs/join_LDbuddies_FNF_chr1:175157820:C:G.err
+    jobid: 639
+    wildcards: snp=chr1:175157820:C:G, condition=FNF
+
+Submitted job 639 with external jobid '1605505'.
+
+[Wed Mar  1 14:50:26 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:73236851:C:A_CTL_0.8.ld, data/chr17:73236851:C:A_CTL_ld_rsids.csv
+    output: data/chr17:73236851:C:A_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr17:73236851:C:A.out, logs/join_LDbuddies_CTL_chr17:73236851:C:A.err
+    jobid: 516
+    wildcards: snp=chr17:73236851:C:A, condition=CTL
+
+Submitted job 516 with external jobid '1605506'.
+
+[Wed Mar  1 14:50:27 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:230678922:A:G_FNF_0.8.ld, data/chr1:230678922:A:G_FNF_ld_rsids.csv
+    output: data/chr1:230678922:A:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr1:230678922:A:G.out, logs/join_LDbuddies_FNF_chr1:230678922:A:G.err
+    jobid: 668
+    wildcards: snp=chr1:230678922:A:G, condition=FNF
+
+Submitted job 668 with external jobid '1605507'.
+
+[Wed Mar  1 14:50:27 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:205777385:A:C_CTL_0.8.ld, data/chr2:205777385:A:C_CTL_ld_rsids.csv
+    output: data/chr2:205777385:A:C_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr2:205777385:A:C.out, logs/join_LDbuddies_CTL_chr2:205777385:A:C.err
+    jobid: 583
+    wildcards: snp=chr2:205777385:A:C, condition=CTL
+
+Submitted job 583 with external jobid '1605508'.
+
+[Wed Mar  1 14:50:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:21219821:C:T_CTL_0.8.ld, data/chr1:21219821:C:T_CTL_ld_rsids.csv
+    output: data/chr1:21219821:C:T_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr1:21219821:C:T.out, logs/join_LDbuddies_CTL_chr1:21219821:C:T.err
+    jobid: 550
+    wildcards: snp=chr1:21219821:C:T, condition=CTL
+
+Submitted job 550 with external jobid '1605509'.
+
+[Wed Mar  1 14:50:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:28416687:A:G_FNF_0.8.ld, data/chr2:28416687:A:G_FNF_ld_rsids.csv
+    output: data/chr2:28416687:A:G_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr2:28416687:A:G.out, logs/join_LDbuddies_FNF_chr2:28416687:A:G.err
+    jobid: 638
+    wildcards: snp=chr2:28416687:A:G, condition=FNF
+
+Submitted job 638 with external jobid '1605510'.
+
+[Wed Mar  1 14:50:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:6302742:A:G_CTL_0.8.ld, data/chr4:6302742:A:G_CTL_ld_rsids.csv
+    output: data/chr4:6302742:A:G_CTL_ldbuddies_final.csv
+    log: logs/join_LDbuddies_CTL_chr4:6302742:A:G.out, logs/join_LDbuddies_CTL_chr4:6302742:A:G.err
+    jobid: 556
+    wildcards: snp=chr4:6302742:A:G, condition=CTL
+
+Submitted job 556 with external jobid '1605511'.
+
+[Wed Mar  1 14:50:28 2023]
+rule join_LDbuddies:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:70871869:C:T_FNF_0.8.ld, data/chr10:70871869:C:T_FNF_ld_rsids.csv
+    output: data/chr10:70871869:C:T_FNF_ldbuddies_final.csv
+    log: logs/join_LDbuddies_FNF_chr10:70871869:C:T.out, logs/join_LDbuddies_FNF_chr10:70871869:C:T.err
+    jobid: 697
+    wildcards: snp=chr10:70871869:C:T, condition=FNF
+
+Submitted job 697 with external jobid '1605512'.
+[Wed Mar  1 14:51:19 2023]
+Finished job 591.
+147 of 239 steps (62%) done
+[Wed Mar  1 14:51:19 2023]
+Finished job 703.
+148 of 239 steps (62%) done
+[Wed Mar  1 14:51:19 2023]
+Finished job 542.
+149 of 239 steps (62%) done
+[Wed Mar  1 14:51:19 2023]
+Finished job 533.
+150 of 239 steps (63%) done
+[Wed Mar  1 14:51:19 2023]
+Finished job 613.
+151 of 239 steps (63%) done
+[Wed Mar  1 14:51:19 2023]
+Finished job 493.
+152 of 239 steps (64%) done
+[Wed Mar  1 14:51:20 2023]
+Finished job 624.
+153 of 239 steps (64%) done
+[Wed Mar  1 14:51:20 2023]
+Finished job 681.
+154 of 239 steps (64%) done
+[Wed Mar  1 14:51:21 2023]
+Finished job 536.
+155 of 239 steps (65%) done
+[Wed Mar  1 14:51:21 2023]
+Finished job 566.
+156 of 239 steps (65%) done
+[Wed Mar  1 14:51:21 2023]
+Finished job 631.
+157 of 239 steps (66%) done
+[Wed Mar  1 14:51:22 2023]
+Finished job 538.
+158 of 239 steps (66%) done
+[Wed Mar  1 14:51:22 2023]
+Finished job 599.
+159 of 239 steps (67%) done
+[Wed Mar  1 14:51:22 2023]
+Finished job 481.
+160 of 239 steps (67%) done
+[Wed Mar  1 14:51:22 2023]
+Finished job 592.
+161 of 239 steps (67%) done
+[Wed Mar  1 14:51:22 2023]
+Finished job 665.
+162 of 239 steps (68%) done
+[Wed Mar  1 14:51:23 2023]
+Finished job 543.
+163 of 239 steps (68%) done
+[Wed Mar  1 14:51:23 2023]
+Finished job 574.
+164 of 239 steps (69%) done
+[Wed Mar  1 14:51:23 2023]
+Finished job 634.
+165 of 239 steps (69%) done
+[Wed Mar  1 14:51:23 2023]
+Finished job 576.
+166 of 239 steps (69%) done
+[Wed Mar  1 14:51:23 2023]
+Finished job 669.
+167 of 239 steps (70%) done
+[Wed Mar  1 14:51:24 2023]
+Finished job 701.
+168 of 239 steps (70%) done
+[Wed Mar  1 14:51:24 2023]
+Finished job 534.
+169 of 239 steps (71%) done
+[Wed Mar  1 14:51:24 2023]
+Finished job 554.
+170 of 239 steps (71%) done
+[Wed Mar  1 14:51:24 2023]
+Finished job 579.
+171 of 239 steps (72%) done
+[Wed Mar  1 14:51:25 2023]
+Finished job 711.
+172 of 239 steps (72%) done
+[Wed Mar  1 14:51:25 2023]
+Finished job 548.
+173 of 239 steps (72%) done
+[Wed Mar  1 14:51:25 2023]
+Finished job 607.
+174 of 239 steps (73%) done
+[Wed Mar  1 14:51:25 2023]
+Finished job 584.
+175 of 239 steps (73%) done
+[Wed Mar  1 14:51:25 2023]
+Finished job 487.
+176 of 239 steps (74%) done
+[Wed Mar  1 14:51:26 2023]
+Finished job 568.
+177 of 239 steps (74%) done
+[Wed Mar  1 14:51:26 2023]
+Finished job 691.
+178 of 239 steps (74%) done
+[Wed Mar  1 14:51:26 2023]
+Finished job 695.
+179 of 239 steps (75%) done
+[Wed Mar  1 14:51:26 2023]
+Finished job 578.
+180 of 239 steps (75%) done
+[Wed Mar  1 14:51:26 2023]
+Finished job 506.
+181 of 239 steps (76%) done
+[Wed Mar  1 14:51:27 2023]
+Finished job 648.
+182 of 239 steps (76%) done
+[Wed Mar  1 14:52:05 2023]
+Finished job 678.
+183 of 239 steps (77%) done
+[Wed Mar  1 14:52:06 2023]
+Finished job 589.
+184 of 239 steps (77%) done
+[Wed Mar  1 14:52:06 2023]
+Finished job 712.
+185 of 239 steps (77%) done
+[Wed Mar  1 14:52:11 2023]
+Finished job 535.
+186 of 239 steps (78%) done
+[Wed Mar  1 14:52:11 2023]
+Finished job 687.
+187 of 239 steps (78%) done
+[Wed Mar  1 14:52:11 2023]
+Finished job 653.
+188 of 239 steps (79%) done
+[Wed Mar  1 14:52:12 2023]
+Finished job 525.
+189 of 239 steps (79%) done
+[Wed Mar  1 14:52:12 2023]
+Finished job 700.
+190 of 239 steps (79%) done
+[Wed Mar  1 14:52:12 2023]
+Finished job 565.
+191 of 239 steps (80%) done
+[Wed Mar  1 14:52:12 2023]
+Finished job 482.
+192 of 239 steps (80%) done
+[Wed Mar  1 14:52:12 2023]
+Finished job 499.
+193 of 239 steps (81%) done
+[Wed Mar  1 14:52:13 2023]
+Finished job 673.
+194 of 239 steps (81%) done
+[Wed Mar  1 14:52:13 2023]
+Finished job 560.
+195 of 239 steps (82%) done
+[Wed Mar  1 14:52:13 2023]
+Finished job 520.
+196 of 239 steps (82%) done
+[Wed Mar  1 14:52:13 2023]
+Finished job 602.
+197 of 239 steps (82%) done
+[Wed Mar  1 14:52:14 2023]
+Finished job 492.
+198 of 239 steps (83%) done
+[Wed Mar  1 14:52:14 2023]
+Finished job 600.
+199 of 239 steps (83%) done
+[Wed Mar  1 14:52:14 2023]
+Finished job 498.
+200 of 239 steps (84%) done
+[Wed Mar  1 14:52:14 2023]
+Finished job 629.
+201 of 239 steps (84%) done
+[Wed Mar  1 14:52:15 2023]
+Finished job 537.
+202 of 239 steps (85%) done
+[Wed Mar  1 14:52:15 2023]
+Finished job 495.
+203 of 239 steps (85%) done
+[Wed Mar  1 14:52:15 2023]
+Finished job 643.
+204 of 239 steps (85%) done
+[Wed Mar  1 14:52:15 2023]
+Finished job 610.
+205 of 239 steps (86%) done
+[Wed Mar  1 14:52:15 2023]
+Finished job 522.
+206 of 239 steps (86%) done
+[Wed Mar  1 14:52:16 2023]
+Finished job 611.
+207 of 239 steps (87%) done
+[Wed Mar  1 14:52:16 2023]
+Finished job 553.
+208 of 239 steps (87%) done
+[Wed Mar  1 14:52:16 2023]
+Finished job 702.
+209 of 239 steps (87%) done
+[Wed Mar  1 14:52:16 2023]
+Finished job 652.
+210 of 239 steps (88%) done
+[Wed Mar  1 14:52:27 2023]
+Finished job 490.
+211 of 239 steps (88%) done
+[Wed Mar  1 14:52:27 2023]
+Finished job 714.
+212 of 239 steps (89%) done
+[Wed Mar  1 14:52:27 2023]
+Finished job 696.
+213 of 239 steps (89%) done
+[Wed Mar  1 14:52:27 2023]
+Finished job 549.
+214 of 239 steps (90%) done
+[Wed Mar  1 14:52:27 2023]
+Finished job 672.
+215 of 239 steps (90%) done
+[Wed Mar  1 14:52:28 2023]
+Finished job 708.
+216 of 239 steps (90%) done
+[Wed Mar  1 14:52:58 2023]
+Finished job 559.
+217 of 239 steps (91%) done
+[Wed Mar  1 14:52:58 2023]
+Finished job 596.
+218 of 239 steps (91%) done
+[Wed Mar  1 14:52:59 2023]
+Finished job 489.
+219 of 239 steps (92%) done
+[Wed Mar  1 14:52:59 2023]
+Finished job 541.
+220 of 239 steps (92%) done
+[Wed Mar  1 14:52:59 2023]
+Finished job 575.
+221 of 239 steps (92%) done
+[Wed Mar  1 14:52:59 2023]
+Finished job 627.
+222 of 239 steps (93%) done
+[Wed Mar  1 14:53:00 2023]
+Finished job 484.
+223 of 239 steps (93%) done
+[Wed Mar  1 14:53:00 2023]
+Finished job 660.
+224 of 239 steps (94%) done
+[Wed Mar  1 14:53:00 2023]
+Finished job 563.
+225 of 239 steps (94%) done
+[Wed Mar  1 14:53:00 2023]
+Finished job 663.
+226 of 239 steps (95%) done
+[Wed Mar  1 14:53:01 2023]
+Finished job 503.
+227 of 239 steps (95%) done
+[Wed Mar  1 14:53:01 2023]
+Finished job 639.
+228 of 239 steps (95%) done
+[Wed Mar  1 14:53:01 2023]
+Finished job 516.
+229 of 239 steps (96%) done
+[Wed Mar  1 14:53:01 2023]
+Finished job 668.
+230 of 239 steps (96%) done
+[Wed Mar  1 14:53:01 2023]
+Finished job 583.
+231 of 239 steps (97%) done
+[Wed Mar  1 14:53:02 2023]
+Finished job 550.
+232 of 239 steps (97%) done
+[Wed Mar  1 14:53:02 2023]
+Finished job 638.
+233 of 239 steps (97%) done
+[Wed Mar  1 14:53:02 2023]
+Finished job 556.
+234 of 239 steps (98%) done
+[Wed Mar  1 14:53:02 2023]
+Finished job 697.
+235 of 239 steps (98%) done
+[Wed Mar  1 14:53:12 2023]
+Finished job 587.
+236 of 239 steps (99%) done
+[Wed Mar  1 14:53:13 2023]
+Finished job 555.
+237 of 239 steps (99%) done
+[Wed Mar  1 14:53:13 2023]
+Finished job 632.
+238 of 239 steps (100%) done
+
+[Wed Mar  1 14:53:13 2023]
+localrule all:
+    input: /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:24698499:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:3018500:A:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:52384174:A:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:52384184:A:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:48599465:C:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:41279568:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:52893812:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:138418442:T:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:47850893:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:62945340:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:39342936:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:238447385:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:78885754:T:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:126408308:T:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:4997014:T:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:38373945:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:88630424:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:119032547:C:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:4996980:C:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:5533965:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:186306628:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:39214620:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:81658396:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:70115028:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:113471049:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:6681188:T:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:151844149:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:62945295:T:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:119182778:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:94398387:T:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr16:82000007:T:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:81701782:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:48048796:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr22:45341429:A:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:30522671:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:141125259:A:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr14:51256420:T:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:13095592:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:33006506:G:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:73236851:C:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:113594496:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:82423755:A:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:179399804:T:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:21218242:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:11787715:G:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:62154610:T:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:10307512:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:82151483:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:95658366:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr13:48076356:A:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:24100236:A:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:24100237:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:204680:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:6681654:C:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr14:51256361:A:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:46361813:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:103072159:A:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:38126634:A:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:2917370:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:161961083:A:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:9365020:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:26411516:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:133191967:A:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:132841483:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:59359204:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:230279402:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:236897797:A:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:71745318:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:31515550:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:62852790:A:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:37863152:G:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:141388424:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:4798107:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:21219821:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:40779010:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:5515479:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:70114927:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr22:38735830:T:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:56087463:G:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:6302742:A:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:66152686:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:123613219:A:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:56615254:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:94664990:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:86382272:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:67340357:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr14:67650289:C:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:123437226:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:40092101:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:101826262:G:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:100962892:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:44769371:G:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:30783634:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:79936498:A:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:58417855:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:37500898:T:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:85606203:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr16:57994956:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:89900547:G:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:38765615:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:59359129:A:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:47916506:C:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:64041782:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:133156038:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:58655671:T:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:59321678:T:G_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:205777385:A:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:45409478:C:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:49447735:C:T_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:31317834:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:134701253:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:136001831:T:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:131894217:G:A_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:65443863:T:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:230280573:A:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:160332508:T:C_CTL_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:3018500:A:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:52384174:A:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:52384184:A:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:78885754:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:179399804:T:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:24698499:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:48599465:C:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr4:39214620:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:52893812:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:38373945:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:10307512:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:238447385:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr14:51256361:A:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:46361813:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:39342936:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:87108231:A:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:81701782:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:62154610:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:126408308:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:4997014:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:41279568:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:40779010:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:13068110:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:6681654:C:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:57313672:G:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:6681188:T:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:119032547:C:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:96267572:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr20:62945340:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:121778986:A:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:119182778:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:88630424:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:163147088:T:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:70115028:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:59359204:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr14:51256420:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:4996980:C:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:37500898:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:19892767:C:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:56615254:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr16:82000007:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr16:57994956:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:5533965:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:25108163:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:186306628:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:28416687:A:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:175157820:C:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:57620255:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:27495171:T:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:48048796:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:98588786:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:28874919:A:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:59359129:A:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:24100236:A:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:20651728:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:94398387:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:13095592:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:68841383:T:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:24099899:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:225844317:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr9:71745318:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr22:45341429:A:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:196741787:A:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:24100237:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:172422467:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:204680:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:130821733:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr22:36288285:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:31515550:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr16:23570957:A:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:21469993:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:74529049:G:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:157138361:G:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:82151483:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:22613634:G:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:230678922:A:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:32917329:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:133191967:A:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:5536901:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:4798107:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:81658396:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr8:23574292:C:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:59321678:T:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:23961694:A:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:100962892:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:140057912:C:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:6681927:T:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:33006506:G:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr18:2917370:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:6681928:T:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:86382272:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:67340357:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:58655671:T:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:132841483:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:116988999:A:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:26414145:G:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr2:32441343:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:34022573:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr21:44769371:G:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:30783634:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:126049361:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:43313429:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:47916506:C:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:49907901:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:70871869:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:31317834:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr19:56554644:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:95658366:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:21247362:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr12:4814629:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:230280573:A:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr3:136001831:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:79936498:A:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr15:65443863:T:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr11:48144715:G:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr6:131894217:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr7:66152686:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:78487278:G:A_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr17:64041782:C:T_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr5:150658652:G:C_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr10:89339900:A:G_FNF_0.8.ld, /work/users/n/e/nekramer/Data/CQTL/AI/freeze/LD_buddies/chr1:108937337:G:A_FNF_0.8.ld, data/chr7:24698499:G:A_CTL_ld_rsids.csv, data/chr6:3018500:A:C_CTL_ld_rsids.csv, data/chr19:52384174:A:C_CTL_ld_rsids.csv, data/chr19:52384184:A:C_CTL_ld_rsids.csv, data/chr2:48599465:C:A_CTL_ld_rsids.csv, data/chr21:41279568:G:A_CTL_ld_rsids.csv, data/chr19:52893812:G:A_CTL_ld_rsids.csv, data/chr6:138418442:T:G_CTL_ld_rsids.csv, data/chr3:47850893:G:A_CTL_ld_rsids.csv, data/chr20:62945340:C:T_CTL_ld_rsids.csv, data/chr21:39342936:C:T_CTL_ld_rsids.csv, data/chr2:238447385:C:T_CTL_ld_rsids.csv, data/chr5:78885754:T:C_CTL_ld_rsids.csv, data/chr11:126408308:T:C_CTL_ld_rsids.csv, data/chr7:4997014:T:C_CTL_ld_rsids.csv, data/chr20:38373945:G:A_CTL_ld_rsids.csv, data/chr15:88630424:G:A_CTL_ld_rsids.csv, data/chr1:119032547:C:A_CTL_ld_rsids.csv, data/chr7:4996980:C:G_CTL_ld_rsids.csv, data/chr17:5533965:G:A_CTL_ld_rsids.csv, data/chr1:186306628:G:A_CTL_ld_rsids.csv, data/chr4:39214620:G:A_CTL_ld_rsids.csv, data/chr8:81658396:C:T_CTL_ld_rsids.csv, data/chr10:70115028:C:T_CTL_ld_rsids.csv, data/chr2:113471049:G:A_CTL_ld_rsids.csv, data/chr11:6681188:T:G_CTL_ld_rsids.csv, data/chr1:151844149:C:T_CTL_ld_rsids.csv, data/chr20:62945295:T:G_CTL_ld_rsids.csv, data/chr1:119182778:G:A_CTL_ld_rsids.csv, data/chr7:94398387:T:C_CTL_ld_rsids.csv, data/chr16:82000007:T:C_CTL_ld_rsids.csv, data/chr17:81701782:C:T_CTL_ld_rsids.csv, data/chr17:48048796:G:A_CTL_ld_rsids.csv, data/chr22:45341429:A:G_CTL_ld_rsids.csv, data/chr17:30522671:G:A_CTL_ld_rsids.csv, data/chr5:141125259:A:C_CTL_ld_rsids.csv, data/chr14:51256420:T:C_CTL_ld_rsids.csv, data/chr18:13095592:G:A_CTL_ld_rsids.csv, data/chr7:33006506:G:T_CTL_ld_rsids.csv, data/chr17:73236851:C:A_CTL_ld_rsids.csv, data/chr9:113594496:C:T_CTL_ld_rsids.csv, data/chr4:82423755:A:G_CTL_ld_rsids.csv, data/chr3:179399804:T:A_CTL_ld_rsids.csv, data/chr1:21218242:C:T_CTL_ld_rsids.csv, data/chr1:11787715:G:T_CTL_ld_rsids.csv, data/chr18:62154610:T:C_CTL_ld_rsids.csv, data/chr1:10307512:G:A_CTL_ld_rsids.csv, data/chr15:82151483:C:T_CTL_ld_rsids.csv, data/chr12:95658366:C:T_CTL_ld_rsids.csv, data/chr13:48076356:A:G_CTL_ld_rsids.csv, data/chr2:24100236:A:G_CTL_ld_rsids.csv, data/chr2:24100237:G:A_CTL_ld_rsids.csv, data/chr11:204680:G:A_CTL_ld_rsids.csv, data/chr11:6681654:C:G_CTL_ld_rsids.csv, data/chr14:51256361:A:C_CTL_ld_rsids.csv, data/chr1:46361813:C:T_CTL_ld_rsids.csv, data/chr8:103072159:A:T_CTL_ld_rsids.csv, data/chr3:38126634:A:C_CTL_ld_rsids.csv, data/chr18:2917370:G:A_CTL_ld_rsids.csv, data/chr1:161961083:A:G_CTL_ld_rsids.csv, data/chr3:9365020:G:A_CTL_ld_rsids.csv, data/chr8:26411516:C:T_CTL_ld_rsids.csv, data/chr12:133191967:A:T_CTL_ld_rsids.csv, data/chr12:132841483:C:T_CTL_ld_rsids.csv, data/chr18:59359204:C:T_CTL_ld_rsids.csv, data/chr1:230279402:G:A_CTL_ld_rsids.csv, data/chr1:236897797:A:G_CTL_ld_rsids.csv, data/chr9:71745318:C:T_CTL_ld_rsids.csv, data/chr5:31515550:G:A_CTL_ld_rsids.csv, data/chr20:62852790:A:G_CTL_ld_rsids.csv, data/chr9:37863152:G:C_CTL_ld_rsids.csv, data/chr5:141388424:G:A_CTL_ld_rsids.csv, data/chr17:4798107:C:T_CTL_ld_rsids.csv, data/chr1:21219821:C:T_CTL_ld_rsids.csv, data/chr19:40779010:C:T_CTL_ld_rsids.csv, data/chr17:5515479:G:A_CTL_ld_rsids.csv, data/chr10:70114927:G:A_CTL_ld_rsids.csv, data/chr22:38735830:T:C_CTL_ld_rsids.csv, data/chr19:56087463:G:C_CTL_ld_rsids.csv, data/chr4:6302742:A:G_CTL_ld_rsids.csv, data/chr7:66152686:G:A_CTL_ld_rsids.csv, data/chr12:123613219:A:G_CTL_ld_rsids.csv, data/chr3:56615254:C:T_CTL_ld_rsids.csv, data/chr4:94664990:C:T_CTL_ld_rsids.csv, data/chr1:86382272:G:A_CTL_ld_rsids.csv, data/chr17:67340357:C:T_CTL_ld_rsids.csv, data/chr14:67650289:C:A_CTL_ld_rsids.csv, data/chr8:123437226:C:T_CTL_ld_rsids.csv, data/chr17:40092101:C:T_CTL_ld_rsids.csv, data/chr3:101826262:G:C_CTL_ld_rsids.csv, data/chr10:100962892:C:T_CTL_ld_rsids.csv, data/chr21:44769371:G:C_CTL_ld_rsids.csv, data/chr17:30783634:G:A_CTL_ld_rsids.csv, data/chr17:79936498:A:G_CTL_ld_rsids.csv, data/chr19:58417855:G:A_CTL_ld_rsids.csv, data/chr9:37500898:T:C_CTL_ld_rsids.csv, data/chr2:85606203:C:T_CTL_ld_rsids.csv, data/chr16:57994956:G:A_CTL_ld_rsids.csv, data/chr15:89900547:G:C_CTL_ld_rsids.csv, data/chr7:38765615:C:T_CTL_ld_rsids.csv, data/chr18:59359129:A:G_CTL_ld_rsids.csv, data/chr3:47916506:C:G_CTL_ld_rsids.csv, data/chr17:64041782:C:T_CTL_ld_rsids.csv, data/chr12:133156038:C:T_CTL_ld_rsids.csv, data/chr1:58655671:T:A_CTL_ld_rsids.csv, data/chr1:59321678:T:G_CTL_ld_rsids.csv, data/chr2:205777385:A:C_CTL_ld_rsids.csv, data/chr19:45409478:C:A_CTL_ld_rsids.csv, data/chr6:49447735:C:T_CTL_ld_rsids.csv, data/chr17:31317834:G:A_CTL_ld_rsids.csv, data/chr9:134701253:G:A_CTL_ld_rsids.csv, data/chr3:136001831:T:C_CTL_ld_rsids.csv, data/chr6:131894217:G:A_CTL_ld_rsids.csv, data/chr15:65443863:T:C_CTL_ld_rsids.csv, data/chr1:230280573:A:C_CTL_ld_rsids.csv, data/chr1:160332508:T:C_CTL_ld_rsids.csv, data/chr6:3018500:A:C_FNF_ld_rsids.csv, data/chr19:52384174:A:C_FNF_ld_rsids.csv, data/chr19:52384184:A:C_FNF_ld_rsids.csv, data/chr5:78885754:T:C_FNF_ld_rsids.csv, data/chr3:179399804:T:A_FNF_ld_rsids.csv, data/chr7:24698499:G:A_FNF_ld_rsids.csv, data/chr2:48599465:C:A_FNF_ld_rsids.csv, data/chr4:39214620:G:A_FNF_ld_rsids.csv, data/chr19:52893812:G:A_FNF_ld_rsids.csv, data/chr20:38373945:G:A_FNF_ld_rsids.csv, data/chr1:10307512:G:A_FNF_ld_rsids.csv, data/chr2:238447385:C:T_FNF_ld_rsids.csv, data/chr14:51256361:A:C_FNF_ld_rsids.csv, data/chr1:46361813:C:T_FNF_ld_rsids.csv, data/chr21:39342936:C:T_FNF_ld_rsids.csv, data/chr1:87108231:A:T_FNF_ld_rsids.csv, data/chr17:81701782:C:T_FNF_ld_rsids.csv, data/chr18:62154610:T:C_FNF_ld_rsids.csv, data/chr11:126408308:T:C_FNF_ld_rsids.csv, data/chr7:4997014:T:C_FNF_ld_rsids.csv, data/chr21:41279568:G:A_FNF_ld_rsids.csv, data/chr19:40779010:C:T_FNF_ld_rsids.csv, data/chr18:13068110:G:A_FNF_ld_rsids.csv, data/chr11:6681654:C:G_FNF_ld_rsids.csv, data/chr11:57313672:G:C_FNF_ld_rsids.csv, data/chr11:6681188:T:G_FNF_ld_rsids.csv, data/chr1:119032547:C:A_FNF_ld_rsids.csv, data/chr12:96267572:C:T_FNF_ld_rsids.csv, data/chr20:62945340:C:T_FNF_ld_rsids.csv, data/chr12:121778986:A:G_FNF_ld_rsids.csv, data/chr1:119182778:G:A_FNF_ld_rsids.csv, data/chr15:88630424:G:A_FNF_ld_rsids.csv, data/chr1:163147088:T:G_FNF_ld_rsids.csv, data/chr10:70115028:C:T_FNF_ld_rsids.csv, data/chr18:59359204:C:T_FNF_ld_rsids.csv, data/chr14:51256420:T:C_FNF_ld_rsids.csv, data/chr7:4996980:C:G_FNF_ld_rsids.csv, data/chr9:37500898:T:C_FNF_ld_rsids.csv, data/chr19:19892767:C:G_FNF_ld_rsids.csv, data/chr3:56615254:C:T_FNF_ld_rsids.csv, data/chr16:82000007:T:C_FNF_ld_rsids.csv, data/chr16:57994956:G:A_FNF_ld_rsids.csv, data/chr17:5533965:G:A_FNF_ld_rsids.csv, data/chr6:25108163:T:C_FNF_ld_rsids.csv, data/chr1:186306628:G:A_FNF_ld_rsids.csv, data/chr2:28416687:A:G_FNF_ld_rsids.csv, data/chr1:175157820:C:G_FNF_ld_rsids.csv, data/chr19:57620255:G:A_FNF_ld_rsids.csv, data/chr11:27495171:T:A_FNF_ld_rsids.csv, data/chr17:48048796:G:A_FNF_ld_rsids.csv, data/chr3:98588786:C:T_FNF_ld_rsids.csv, data/chr21:28874919:A:G_FNF_ld_rsids.csv, data/chr18:59359129:A:G_FNF_ld_rsids.csv, data/chr2:24100236:A:G_FNF_ld_rsids.csv, data/chr1:20651728:C:T_FNF_ld_rsids.csv, data/chr7:94398387:T:C_FNF_ld_rsids.csv, data/chr18:13095592:G:A_FNF_ld_rsids.csv, data/chr12:68841383:T:G_FNF_ld_rsids.csv, data/chr2:24099899:C:T_FNF_ld_rsids.csv, data/chr1:225844317:G:A_FNF_ld_rsids.csv, data/chr9:71745318:C:T_FNF_ld_rsids.csv, data/chr22:45341429:A:G_FNF_ld_rsids.csv, data/chr1:196741787:A:G_FNF_ld_rsids.csv, data/chr2:24100237:G:A_FNF_ld_rsids.csv, data/chr5:172422467:G:A_FNF_ld_rsids.csv, data/chr11:204680:G:A_FNF_ld_rsids.csv, data/chr12:130821733:T:C_FNF_ld_rsids.csv, data/chr22:36288285:C:T_FNF_ld_rsids.csv, data/chr5:31515550:G:A_FNF_ld_rsids.csv, data/chr16:23570957:A:G_FNF_ld_rsids.csv, data/chr12:21469993:T:C_FNF_ld_rsids.csv, data/chr2:74529049:G:C_FNF_ld_rsids.csv, data/chr5:157138361:G:T_FNF_ld_rsids.csv, data/chr15:82151483:C:T_FNF_ld_rsids.csv, data/chr8:22613634:G:T_FNF_ld_rsids.csv, data/chr1:230678922:A:G_FNF_ld_rsids.csv, data/chr7:32917329:C:T_FNF_ld_rsids.csv, data/chr12:133191967:A:T_FNF_ld_rsids.csv, data/chr17:5536901:T:C_FNF_ld_rsids.csv, data/chr17:4798107:C:T_FNF_ld_rsids.csv, data/chr8:81658396:C:T_FNF_ld_rsids.csv, data/chr8:23574292:C:G_FNF_ld_rsids.csv, data/chr1:59321678:T:G_FNF_ld_rsids.csv, data/chr1:23961694:A:C_FNF_ld_rsids.csv, data/chr10:100962892:C:T_FNF_ld_rsids.csv, data/chr7:140057912:C:A_FNF_ld_rsids.csv, data/chr11:6681927:T:A_FNF_ld_rsids.csv, data/chr7:33006506:G:T_FNF_ld_rsids.csv, data/chr18:2917370:G:A_FNF_ld_rsids.csv, data/chr11:6681928:T:A_FNF_ld_rsids.csv, data/chr1:86382272:G:A_FNF_ld_rsids.csv, data/chr17:67340357:C:T_FNF_ld_rsids.csv, data/chr1:58655671:T:A_FNF_ld_rsids.csv, data/chr12:132841483:C:T_FNF_ld_rsids.csv, data/chr1:116988999:A:G_FNF_ld_rsids.csv, data/chr6:26414145:G:C_FNF_ld_rsids.csv, data/chr2:32441343:T:C_FNF_ld_rsids.csv, data/chr12:34022573:T:C_FNF_ld_rsids.csv, data/chr21:44769371:G:C_FNF_ld_rsids.csv, data/chr17:30783634:G:A_FNF_ld_rsids.csv, data/chr10:126049361:G:A_FNF_ld_rsids.csv, data/chr5:43313429:C:T_FNF_ld_rsids.csv, data/chr3:47916506:C:G_FNF_ld_rsids.csv, data/chr19:49907901:T:C_FNF_ld_rsids.csv, data/chr10:70871869:C:T_FNF_ld_rsids.csv, data/chr17:31317834:G:A_FNF_ld_rsids.csv, data/chr19:56554644:C:T_FNF_ld_rsids.csv, data/chr12:95658366:C:T_FNF_ld_rsids.csv, data/chr1:21247362:G:A_FNF_ld_rsids.csv, data/chr12:4814629:G:A_FNF_ld_rsids.csv, data/chr1:230280573:A:C_FNF_ld_rsids.csv, data/chr3:136001831:T:C_FNF_ld_rsids.csv, data/chr17:79936498:A:G_FNF_ld_rsids.csv, data/chr15:65443863:T:C_FNF_ld_rsids.csv, data/chr11:48144715:G:C_FNF_ld_rsids.csv, data/chr6:131894217:G:A_FNF_ld_rsids.csv, data/chr7:66152686:G:A_FNF_ld_rsids.csv, data/chr5:78487278:G:A_FNF_ld_rsids.csv, data/chr17:64041782:C:T_FNF_ld_rsids.csv, data/chr5:150658652:G:C_FNF_ld_rsids.csv, data/chr10:89339900:A:G_FNF_ld_rsids.csv, data/chr1:108937337:G:A_FNF_ld_rsids.csv, data/chr7:24698499:G:A_CTL_ldbuddies_final.csv, data/chr6:3018500:A:C_CTL_ldbuddies_final.csv, data/chr19:52384174:A:C_CTL_ldbuddies_final.csv, data/chr19:52384184:A:C_CTL_ldbuddies_final.csv, data/chr2:48599465:C:A_CTL_ldbuddies_final.csv, data/chr21:41279568:G:A_CTL_ldbuddies_final.csv, data/chr19:52893812:G:A_CTL_ldbuddies_final.csv, data/chr6:138418442:T:G_CTL_ldbuddies_final.csv, data/chr3:47850893:G:A_CTL_ldbuddies_final.csv, data/chr20:62945340:C:T_CTL_ldbuddies_final.csv, data/chr21:39342936:C:T_CTL_ldbuddies_final.csv, data/chr2:238447385:C:T_CTL_ldbuddies_final.csv, data/chr5:78885754:T:C_CTL_ldbuddies_final.csv, data/chr11:126408308:T:C_CTL_ldbuddies_final.csv, data/chr7:4997014:T:C_CTL_ldbuddies_final.csv, data/chr20:38373945:G:A_CTL_ldbuddies_final.csv, data/chr15:88630424:G:A_CTL_ldbuddies_final.csv, data/chr1:119032547:C:A_CTL_ldbuddies_final.csv, data/chr7:4996980:C:G_CTL_ldbuddies_final.csv, data/chr17:5533965:G:A_CTL_ldbuddies_final.csv, data/chr1:186306628:G:A_CTL_ldbuddies_final.csv, data/chr4:39214620:G:A_CTL_ldbuddies_final.csv, data/chr8:81658396:C:T_CTL_ldbuddies_final.csv, data/chr10:70115028:C:T_CTL_ldbuddies_final.csv, data/chr2:113471049:G:A_CTL_ldbuddies_final.csv, data/chr11:6681188:T:G_CTL_ldbuddies_final.csv, data/chr1:151844149:C:T_CTL_ldbuddies_final.csv, data/chr20:62945295:T:G_CTL_ldbuddies_final.csv, data/chr1:119182778:G:A_CTL_ldbuddies_final.csv, data/chr7:94398387:T:C_CTL_ldbuddies_final.csv, data/chr16:82000007:T:C_CTL_ldbuddies_final.csv, data/chr17:81701782:C:T_CTL_ldbuddies_final.csv, data/chr17:48048796:G:A_CTL_ldbuddies_final.csv, data/chr22:45341429:A:G_CTL_ldbuddies_final.csv, data/chr17:30522671:G:A_CTL_ldbuddies_final.csv, data/chr5:141125259:A:C_CTL_ldbuddies_final.csv, data/chr14:51256420:T:C_CTL_ldbuddies_final.csv, data/chr18:13095592:G:A_CTL_ldbuddies_final.csv, data/chr7:33006506:G:T_CTL_ldbuddies_final.csv, data/chr17:73236851:C:A_CTL_ldbuddies_final.csv, data/chr9:113594496:C:T_CTL_ldbuddies_final.csv, data/chr4:82423755:A:G_CTL_ldbuddies_final.csv, data/chr3:179399804:T:A_CTL_ldbuddies_final.csv, data/chr1:21218242:C:T_CTL_ldbuddies_final.csv, data/chr1:11787715:G:T_CTL_ldbuddies_final.csv, data/chr18:62154610:T:C_CTL_ldbuddies_final.csv, data/chr1:10307512:G:A_CTL_ldbuddies_final.csv, data/chr15:82151483:C:T_CTL_ldbuddies_final.csv, data/chr12:95658366:C:T_CTL_ldbuddies_final.csv, data/chr13:48076356:A:G_CTL_ldbuddies_final.csv, data/chr2:24100236:A:G_CTL_ldbuddies_final.csv, data/chr2:24100237:G:A_CTL_ldbuddies_final.csv, data/chr11:204680:G:A_CTL_ldbuddies_final.csv, data/chr11:6681654:C:G_CTL_ldbuddies_final.csv, data/chr14:51256361:A:C_CTL_ldbuddies_final.csv, data/chr1:46361813:C:T_CTL_ldbuddies_final.csv, data/chr8:103072159:A:T_CTL_ldbuddies_final.csv, data/chr3:38126634:A:C_CTL_ldbuddies_final.csv, data/chr18:2917370:G:A_CTL_ldbuddies_final.csv, data/chr1:161961083:A:G_CTL_ldbuddies_final.csv, data/chr3:9365020:G:A_CTL_ldbuddies_final.csv, data/chr8:26411516:C:T_CTL_ldbuddies_final.csv, data/chr12:133191967:A:T_CTL_ldbuddies_final.csv, data/chr12:132841483:C:T_CTL_ldbuddies_final.csv, data/chr18:59359204:C:T_CTL_ldbuddies_final.csv, data/chr1:230279402:G:A_CTL_ldbuddies_final.csv, data/chr1:236897797:A:G_CTL_ldbuddies_final.csv, data/chr9:71745318:C:T_CTL_ldbuddies_final.csv, data/chr5:31515550:G:A_CTL_ldbuddies_final.csv, data/chr20:62852790:A:G_CTL_ldbuddies_final.csv, data/chr9:37863152:G:C_CTL_ldbuddies_final.csv, data/chr5:141388424:G:A_CTL_ldbuddies_final.csv, data/chr17:4798107:C:T_CTL_ldbuddies_final.csv, data/chr1:21219821:C:T_CTL_ldbuddies_final.csv, data/chr19:40779010:C:T_CTL_ldbuddies_final.csv, data/chr17:5515479:G:A_CTL_ldbuddies_final.csv, data/chr10:70114927:G:A_CTL_ldbuddies_final.csv, data/chr22:38735830:T:C_CTL_ldbuddies_final.csv, data/chr19:56087463:G:C_CTL_ldbuddies_final.csv, data/chr4:6302742:A:G_CTL_ldbuddies_final.csv, data/chr7:66152686:G:A_CTL_ldbuddies_final.csv, data/chr12:123613219:A:G_CTL_ldbuddies_final.csv, data/chr3:56615254:C:T_CTL_ldbuddies_final.csv, data/chr4:94664990:C:T_CTL_ldbuddies_final.csv, data/chr1:86382272:G:A_CTL_ldbuddies_final.csv, data/chr17:67340357:C:T_CTL_ldbuddies_final.csv, data/chr14:67650289:C:A_CTL_ldbuddies_final.csv, data/chr8:123437226:C:T_CTL_ldbuddies_final.csv, data/chr17:40092101:C:T_CTL_ldbuddies_final.csv, data/chr3:101826262:G:C_CTL_ldbuddies_final.csv, data/chr10:100962892:C:T_CTL_ldbuddies_final.csv, data/chr21:44769371:G:C_CTL_ldbuddies_final.csv, data/chr17:30783634:G:A_CTL_ldbuddies_final.csv, data/chr17:79936498:A:G_CTL_ldbuddies_final.csv, data/chr19:58417855:G:A_CTL_ldbuddies_final.csv, data/chr9:37500898:T:C_CTL_ldbuddies_final.csv, data/chr2:85606203:C:T_CTL_ldbuddies_final.csv, data/chr16:57994956:G:A_CTL_ldbuddies_final.csv, data/chr15:89900547:G:C_CTL_ldbuddies_final.csv, data/chr7:38765615:C:T_CTL_ldbuddies_final.csv, data/chr18:59359129:A:G_CTL_ldbuddies_final.csv, data/chr3:47916506:C:G_CTL_ldbuddies_final.csv, data/chr17:64041782:C:T_CTL_ldbuddies_final.csv, data/chr12:133156038:C:T_CTL_ldbuddies_final.csv, data/chr1:58655671:T:A_CTL_ldbuddies_final.csv, data/chr1:59321678:T:G_CTL_ldbuddies_final.csv, data/chr2:205777385:A:C_CTL_ldbuddies_final.csv, data/chr19:45409478:C:A_CTL_ldbuddies_final.csv, data/chr6:49447735:C:T_CTL_ldbuddies_final.csv, data/chr17:31317834:G:A_CTL_ldbuddies_final.csv, data/chr9:134701253:G:A_CTL_ldbuddies_final.csv, data/chr3:136001831:T:C_CTL_ldbuddies_final.csv, data/chr6:131894217:G:A_CTL_ldbuddies_final.csv, data/chr15:65443863:T:C_CTL_ldbuddies_final.csv, data/chr1:230280573:A:C_CTL_ldbuddies_final.csv, data/chr1:160332508:T:C_CTL_ldbuddies_final.csv, data/chr6:3018500:A:C_FNF_ldbuddies_final.csv, data/chr19:52384174:A:C_FNF_ldbuddies_final.csv, data/chr19:52384184:A:C_FNF_ldbuddies_final.csv, data/chr5:78885754:T:C_FNF_ldbuddies_final.csv, data/chr3:179399804:T:A_FNF_ldbuddies_final.csv, data/chr7:24698499:G:A_FNF_ldbuddies_final.csv, data/chr2:48599465:C:A_FNF_ldbuddies_final.csv, data/chr4:39214620:G:A_FNF_ldbuddies_final.csv, data/chr19:52893812:G:A_FNF_ldbuddies_final.csv, data/chr20:38373945:G:A_FNF_ldbuddies_final.csv, data/chr1:10307512:G:A_FNF_ldbuddies_final.csv, data/chr2:238447385:C:T_FNF_ldbuddies_final.csv, data/chr14:51256361:A:C_FNF_ldbuddies_final.csv, data/chr1:46361813:C:T_FNF_ldbuddies_final.csv, data/chr21:39342936:C:T_FNF_ldbuddies_final.csv, data/chr1:87108231:A:T_FNF_ldbuddies_final.csv, data/chr17:81701782:C:T_FNF_ldbuddies_final.csv, data/chr18:62154610:T:C_FNF_ldbuddies_final.csv, data/chr11:126408308:T:C_FNF_ldbuddies_final.csv, data/chr7:4997014:T:C_FNF_ldbuddies_final.csv, data/chr21:41279568:G:A_FNF_ldbuddies_final.csv, data/chr19:40779010:C:T_FNF_ldbuddies_final.csv, data/chr18:13068110:G:A_FNF_ldbuddies_final.csv, data/chr11:6681654:C:G_FNF_ldbuddies_final.csv, data/chr11:57313672:G:C_FNF_ldbuddies_final.csv, data/chr11:6681188:T:G_FNF_ldbuddies_final.csv, data/chr1:119032547:C:A_FNF_ldbuddies_final.csv, data/chr12:96267572:C:T_FNF_ldbuddies_final.csv, data/chr20:62945340:C:T_FNF_ldbuddies_final.csv, data/chr12:121778986:A:G_FNF_ldbuddies_final.csv, data/chr1:119182778:G:A_FNF_ldbuddies_final.csv, data/chr15:88630424:G:A_FNF_ldbuddies_final.csv, data/chr1:163147088:T:G_FNF_ldbuddies_final.csv, data/chr10:70115028:C:T_FNF_ldbuddies_final.csv, data/chr18:59359204:C:T_FNF_ldbuddies_final.csv, data/chr14:51256420:T:C_FNF_ldbuddies_final.csv, data/chr7:4996980:C:G_FNF_ldbuddies_final.csv, data/chr9:37500898:T:C_FNF_ldbuddies_final.csv, data/chr19:19892767:C:G_FNF_ldbuddies_final.csv, data/chr3:56615254:C:T_FNF_ldbuddies_final.csv, data/chr16:82000007:T:C_FNF_ldbuddies_final.csv, data/chr16:57994956:G:A_FNF_ldbuddies_final.csv, data/chr17:5533965:G:A_FNF_ldbuddies_final.csv, data/chr6:25108163:T:C_FNF_ldbuddies_final.csv, data/chr1:186306628:G:A_FNF_ldbuddies_final.csv, data/chr2:28416687:A:G_FNF_ldbuddies_final.csv, data/chr1:175157820:C:G_FNF_ldbuddies_final.csv, data/chr19:57620255:G:A_FNF_ldbuddies_final.csv, data/chr11:27495171:T:A_FNF_ldbuddies_final.csv, data/chr17:48048796:G:A_FNF_ldbuddies_final.csv, data/chr3:98588786:C:T_FNF_ldbuddies_final.csv, data/chr21:28874919:A:G_FNF_ldbuddies_final.csv, data/chr18:59359129:A:G_FNF_ldbuddies_final.csv, data/chr2:24100236:A:G_FNF_ldbuddies_final.csv, data/chr1:20651728:C:T_FNF_ldbuddies_final.csv, data/chr7:94398387:T:C_FNF_ldbuddies_final.csv, data/chr18:13095592:G:A_FNF_ldbuddies_final.csv, data/chr12:68841383:T:G_FNF_ldbuddies_final.csv, data/chr2:24099899:C:T_FNF_ldbuddies_final.csv, data/chr1:225844317:G:A_FNF_ldbuddies_final.csv, data/chr9:71745318:C:T_FNF_ldbuddies_final.csv, data/chr22:45341429:A:G_FNF_ldbuddies_final.csv, data/chr1:196741787:A:G_FNF_ldbuddies_final.csv, data/chr2:24100237:G:A_FNF_ldbuddies_final.csv, data/chr5:172422467:G:A_FNF_ldbuddies_final.csv, data/chr11:204680:G:A_FNF_ldbuddies_final.csv, data/chr12:130821733:T:C_FNF_ldbuddies_final.csv, data/chr22:36288285:C:T_FNF_ldbuddies_final.csv, data/chr5:31515550:G:A_FNF_ldbuddies_final.csv, data/chr16:23570957:A:G_FNF_ldbuddies_final.csv, data/chr12:21469993:T:C_FNF_ldbuddies_final.csv, data/chr2:74529049:G:C_FNF_ldbuddies_final.csv, data/chr5:157138361:G:T_FNF_ldbuddies_final.csv, data/chr15:82151483:C:T_FNF_ldbuddies_final.csv, data/chr8:22613634:G:T_FNF_ldbuddies_final.csv, data/chr1:230678922:A:G_FNF_ldbuddies_final.csv, data/chr7:32917329:C:T_FNF_ldbuddies_final.csv, data/chr12:133191967:A:T_FNF_ldbuddies_final.csv, data/chr17:5536901:T:C_FNF_ldbuddies_final.csv, data/chr17:4798107:C:T_FNF_ldbuddies_final.csv, data/chr8:81658396:C:T_FNF_ldbuddies_final.csv, data/chr8:23574292:C:G_FNF_ldbuddies_final.csv, data/chr1:59321678:T:G_FNF_ldbuddies_final.csv, data/chr1:23961694:A:C_FNF_ldbuddies_final.csv, data/chr10:100962892:C:T_FNF_ldbuddies_final.csv, data/chr7:140057912:C:A_FNF_ldbuddies_final.csv, data/chr11:6681927:T:A_FNF_ldbuddies_final.csv, data/chr7:33006506:G:T_FNF_ldbuddies_final.csv, data/chr18:2917370:G:A_FNF_ldbuddies_final.csv, data/chr11:6681928:T:A_FNF_ldbuddies_final.csv, data/chr1:86382272:G:A_FNF_ldbuddies_final.csv, data/chr17:67340357:C:T_FNF_ldbuddies_final.csv, data/chr1:58655671:T:A_FNF_ldbuddies_final.csv, data/chr12:132841483:C:T_FNF_ldbuddies_final.csv, data/chr1:116988999:A:G_FNF_ldbuddies_final.csv, data/chr6:26414145:G:C_FNF_ldbuddies_final.csv, data/chr2:32441343:T:C_FNF_ldbuddies_final.csv, data/chr12:34022573:T:C_FNF_ldbuddies_final.csv, data/chr21:44769371:G:C_FNF_ldbuddies_final.csv, data/chr17:30783634:G:A_FNF_ldbuddies_final.csv, data/chr10:126049361:G:A_FNF_ldbuddies_final.csv, data/chr5:43313429:C:T_FNF_ldbuddies_final.csv, data/chr3:47916506:C:G_FNF_ldbuddies_final.csv, data/chr19:49907901:T:C_FNF_ldbuddies_final.csv, data/chr10:70871869:C:T_FNF_ldbuddies_final.csv, data/chr17:31317834:G:A_FNF_ldbuddies_final.csv, data/chr19:56554644:C:T_FNF_ldbuddies_final.csv, data/chr12:95658366:C:T_FNF_ldbuddies_final.csv, data/chr1:21247362:G:A_FNF_ldbuddies_final.csv, data/chr12:4814629:G:A_FNF_ldbuddies_final.csv, data/chr1:230280573:A:C_FNF_ldbuddies_final.csv, data/chr3:136001831:T:C_FNF_ldbuddies_final.csv, data/chr17:79936498:A:G_FNF_ldbuddies_final.csv, data/chr15:65443863:T:C_FNF_ldbuddies_final.csv, data/chr11:48144715:G:C_FNF_ldbuddies_final.csv, data/chr6:131894217:G:A_FNF_ldbuddies_final.csv, data/chr7:66152686:G:A_FNF_ldbuddies_final.csv, data/chr5:78487278:G:A_FNF_ldbuddies_final.csv, data/chr17:64041782:C:T_FNF_ldbuddies_final.csv, data/chr5:150658652:G:C_FNF_ldbuddies_final.csv, data/chr10:89339900:A:G_FNF_ldbuddies_final.csv, data/chr1:108937337:G:A_FNF_ldbuddies_final.csv
+    jobid: 0
+
+[Wed Mar  1 14:53:13 2023]
+Finished job 0.
+239 of 239 steps (100%) done
+Complete log: /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/log/2023-03-01T144519.346977.snakemake.log

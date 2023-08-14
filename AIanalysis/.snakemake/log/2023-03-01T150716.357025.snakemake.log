@@ -1,0 +1,5 @@
+Building DAG of jobs...
+InputFunctionException in line 70 of /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/snakefiles/AI_LD_buddies.smk:
+KeyError: 'snp'
+Wildcards:
+condition=CTL

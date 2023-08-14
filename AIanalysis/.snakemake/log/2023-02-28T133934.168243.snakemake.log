@@ -1,0 +1,3 @@
+WildcardError in line 21 of /work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/snakefiles/AI_LD_buddies.smk:
+No values given for wildcard 'condition'.
+  File "/work/users/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/snakefiles/AI_LD_buddies.smk", line 21, in <module>

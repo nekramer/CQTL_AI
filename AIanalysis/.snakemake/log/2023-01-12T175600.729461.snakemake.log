@@ -1,0 +1,361 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	1	all
+	1	combineASEP
+	22	runASEP
+	24
+
+[Thu Jan 12 17:56:00 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr14_ASEPfinal.txt
+    output: data/chr14_ASEP.rda
+    log: logs/runASEP_chr14.out, logs/runASEP_chr14.err
+    jobid: 15
+    wildcards: chrom=14
+    threads: 8
+
+Submitted job 15 with external jobid '64070471'.
+
+[Thu Jan 12 17:56:00 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr16_ASEPfinal.txt
+    output: data/chr16_ASEP.rda
+    log: logs/runASEP_chr16.out, logs/runASEP_chr16.err
+    jobid: 17
+    wildcards: chrom=16
+    threads: 8
+
+Submitted job 17 with external jobid '64070472'.
+
+[Thu Jan 12 17:56:01 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr6_ASEPfinal.txt
+    output: data/chr6_ASEP.rda
+    log: logs/runASEP_chr6.out, logs/runASEP_chr6.err
+    jobid: 7
+    wildcards: chrom=6
+    threads: 8
+
+Submitted job 7 with external jobid '64070473'.
+
+[Thu Jan 12 17:56:01 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr17_ASEPfinal.txt
+    output: data/chr17_ASEP.rda
+    log: logs/runASEP_chr17.out, logs/runASEP_chr17.err
+    jobid: 18
+    wildcards: chrom=17
+    threads: 8
+
+Submitted job 18 with external jobid '64070474'.
+
+[Thu Jan 12 17:56:01 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr10_ASEPfinal.txt
+    output: data/chr10_ASEP.rda
+    log: logs/runASEP_chr10.out, logs/runASEP_chr10.err
+    jobid: 11
+    wildcards: chrom=10
+    threads: 8
+
+Submitted job 11 with external jobid '64070475'.
+
+[Thu Jan 12 17:56:01 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr12_ASEPfinal.txt
+    output: data/chr12_ASEP.rda
+    log: logs/runASEP_chr12.out, logs/runASEP_chr12.err
+    jobid: 13
+    wildcards: chrom=12
+    threads: 8
+
+Submitted job 13 with external jobid '64070476'.
+
+[Thu Jan 12 17:56:02 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr7_ASEPfinal.txt
+    output: data/chr7_ASEP.rda
+    log: logs/runASEP_chr7.out, logs/runASEP_chr7.err
+    jobid: 8
+    wildcards: chrom=7
+    threads: 8
+
+Submitted job 8 with external jobid '64070477'.
+
+[Thu Jan 12 17:56:02 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr13_ASEPfinal.txt
+    output: data/chr13_ASEP.rda
+    log: logs/runASEP_chr13.out, logs/runASEP_chr13.err
+    jobid: 14
+    wildcards: chrom=13
+    threads: 8
+
+Submitted job 14 with external jobid '64070478'.
+
+[Thu Jan 12 17:56:02 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr2_ASEPfinal.txt
+    output: data/chr2_ASEP.rda
+    log: logs/runASEP_chr2.out, logs/runASEP_chr2.err
+    jobid: 3
+    wildcards: chrom=2
+    threads: 8
+
+Submitted job 3 with external jobid '64070479'.
+
+[Thu Jan 12 17:56:02 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr21_ASEPfinal.txt
+    output: data/chr21_ASEP.rda
+    log: logs/runASEP_chr21.out, logs/runASEP_chr21.err
+    jobid: 22
+    wildcards: chrom=21
+    threads: 8
+
+Submitted job 22 with external jobid '64070480'.
+
+[Thu Jan 12 17:56:03 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr20_ASEPfinal.txt
+    output: data/chr20_ASEP.rda
+    log: logs/runASEP_chr20.out, logs/runASEP_chr20.err
+    jobid: 21
+    wildcards: chrom=20
+    threads: 8
+
+Submitted job 21 with external jobid '64070481'.
+
+[Thu Jan 12 17:56:04 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr4_ASEPfinal.txt
+    output: data/chr4_ASEP.rda
+    log: logs/runASEP_chr4.out, logs/runASEP_chr4.err
+    jobid: 5
+    wildcards: chrom=4
+    threads: 8
+
+Submitted job 5 with external jobid '64070482'.
+
+[Thu Jan 12 17:56:04 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr3_ASEPfinal.txt
+    output: data/chr3_ASEP.rda
+    log: logs/runASEP_chr3.out, logs/runASEP_chr3.err
+    jobid: 4
+    wildcards: chrom=3
+    threads: 8
+
+Submitted job 4 with external jobid '64070483'.
+
+[Thu Jan 12 17:56:04 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr5_ASEPfinal.txt
+    output: data/chr5_ASEP.rda
+    log: logs/runASEP_chr5.out, logs/runASEP_chr5.err
+    jobid: 6
+    wildcards: chrom=5
+    threads: 8
+
+Submitted job 6 with external jobid '64070484'.
+
+[Thu Jan 12 17:56:04 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr11_ASEPfinal.txt
+    output: data/chr11_ASEP.rda
+    log: logs/runASEP_chr11.out, logs/runASEP_chr11.err
+    jobid: 12
+    wildcards: chrom=11
+    threads: 8
+
+Submitted job 12 with external jobid '64070485'.
+
+[Thu Jan 12 17:56:05 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr9_ASEPfinal.txt
+    output: data/chr9_ASEP.rda
+    log: logs/runASEP_chr9.out, logs/runASEP_chr9.err
+    jobid: 10
+    wildcards: chrom=9
+    threads: 8
+
+Submitted job 10 with external jobid '64070486'.
+
+[Thu Jan 12 17:56:05 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr18_ASEPfinal.txt
+    output: data/chr18_ASEP.rda
+    log: logs/runASEP_chr18.out, logs/runASEP_chr18.err
+    jobid: 19
+    wildcards: chrom=18
+    threads: 8
+
+Submitted job 19 with external jobid '64070487'.
+
+[Thu Jan 12 17:56:05 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr8_ASEPfinal.txt
+    output: data/chr8_ASEP.rda
+    log: logs/runASEP_chr8.out, logs/runASEP_chr8.err
+    jobid: 9
+    wildcards: chrom=8
+    threads: 8
+
+Submitted job 9 with external jobid '64070488'.
+
+[Thu Jan 12 17:56:05 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr1_ASEPfinal.txt
+    output: data/chr1_ASEP.rda
+    log: logs/runASEP_chr1.out, logs/runASEP_chr1.err
+    jobid: 2
+    wildcards: chrom=1
+    threads: 8
+
+Submitted job 2 with external jobid '64070489'.
+
+[Thu Jan 12 17:56:05 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr22_ASEPfinal.txt
+    output: data/chr22_ASEP.rda
+    log: logs/runASEP_chr22.out, logs/runASEP_chr22.err
+    jobid: 23
+    wildcards: chrom=22
+    threads: 8
+
+Submitted job 23 with external jobid '64070490'.
+
+[Thu Jan 12 17:56:06 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr19_ASEPfinal.txt
+    output: data/chr19_ASEP.rda
+    log: logs/runASEP_chr19.out, logs/runASEP_chr19.err
+    jobid: 20
+    wildcards: chrom=19
+    threads: 8
+
+Submitted job 20 with external jobid '64070492'.
+
+[Thu Jan 12 17:56:07 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr15_ASEPfinal.txt
+    output: data/chr15_ASEP.rda
+    log: logs/runASEP_chr15.out, logs/runASEP_chr15.err
+    jobid: 16
+    wildcards: chrom=15
+    threads: 8
+
+Submitted job 16 with external jobid '64070493'.
+[Thu Jan 12 21:29:39 2023]
+Finished job 22.
+1 of 24 steps (4%) done
+[Thu Jan 12 23:43:18 2023]
+Finished job 14.
+2 of 24 steps (8%) done
+[Fri Jan 13 02:02:08 2023]
+Finished job 19.
+3 of 24 steps (12%) done
+[Fri Jan 13 02:03:04 2023]
+Finished job 23.
+4 of 24 steps (17%) done
+[Fri Jan 13 03:00:07 2023]
+Finished job 17.
+5 of 24 steps (21%) done
+[Fri Jan 13 05:23:22 2023]
+Finished job 18.
+6 of 24 steps (25%) done
+[Fri Jan 13 07:40:23 2023]
+Finished job 15.
+7 of 24 steps (29%) done
+[Fri Jan 13 09:22:11 2023]
+Finished job 9.
+8 of 24 steps (33%) done
+[Fri Jan 13 09:56:13 2023]
+Finished job 21.
+9 of 24 steps (38%) done
+[Fri Jan 13 11:25:19 2023]
+Finished job 16.
+10 of 24 steps (42%) done
+[Fri Jan 13 11:43:37 2023]
+Finished job 7.
+11 of 24 steps (46%) done
+[Fri Jan 13 11:48:08 2023]
+Finished job 8.
+12 of 24 steps (50%) done
+[Fri Jan 13 13:12:23 2023]
+Finished job 10.
+13 of 24 steps (54%) done
+[Fri Jan 13 13:23:05 2023]
+Finished job 12.
+14 of 24 steps (58%) done
+[Fri Jan 13 14:00:26 2023]
+Finished job 6.
+15 of 24 steps (62%) done
+[Fri Jan 13 15:02:53 2023]
+Finished job 20.
+16 of 24 steps (67%) done
+[Fri Jan 13 18:30:28 2023]
+Finished job 4.
+17 of 24 steps (71%) done
+[Fri Jan 13 19:09:04 2023]
+Finished job 11.
+18 of 24 steps (75%) done
+[Fri Jan 13 20:06:30 2023]
+Finished job 3.
+19 of 24 steps (79%) done
+[Fri Jan 13 23:22:34 2023]
+Finished job 5.
+20 of 24 steps (83%) done
+[Sat Jan 14 11:22:42 2023]
+Finished job 13.
+21 of 24 steps (88%) done
+[Sat Jan 14 13:58:27 2023]
+Finished job 2.
+22 of 24 steps (92%) done
+
+[Sat Jan 14 13:58:27 2023]
+rule combineASEP:
+    input: data/chr1_ASEP.rda, data/chr2_ASEP.rda, data/chr3_ASEP.rda, data/chr4_ASEP.rda, data/chr5_ASEP.rda, data/chr6_ASEP.rda, data/chr7_ASEP.rda, data/chr8_ASEP.rda, data/chr9_ASEP.rda, data/chr10_ASEP.rda, data/chr11_ASEP.rda, data/chr12_ASEP.rda, data/chr13_ASEP.rda, data/chr14_ASEP.rda, data/chr15_ASEP.rda, data/chr16_ASEP.rda, data/chr17_ASEP.rda, data/chr18_ASEP.rda, data/chr19_ASEP.rda, data/chr20_ASEP.rda, data/chr21_ASEP.rda, data/chr22_ASEP.rda
+    output: data/ASEP_results.csv
+    log: logs/combineASEP.out, logs/combineASEP.err
+    jobid: 1
+
+Submitted job 1 with external jobid '64140484'.
+Removing temporary output file data/chr1_ASEP.rda.
+Removing temporary output file data/chr2_ASEP.rda.
+Removing temporary output file data/chr3_ASEP.rda.
+Removing temporary output file data/chr4_ASEP.rda.
+Removing temporary output file data/chr5_ASEP.rda.
+Removing temporary output file data/chr6_ASEP.rda.
+Removing temporary output file data/chr7_ASEP.rda.
+Removing temporary output file data/chr8_ASEP.rda.
+Removing temporary output file data/chr9_ASEP.rda.
+Removing temporary output file data/chr10_ASEP.rda.
+Removing temporary output file data/chr11_ASEP.rda.
+Removing temporary output file data/chr12_ASEP.rda.
+Removing temporary output file data/chr13_ASEP.rda.
+Removing temporary output file data/chr14_ASEP.rda.
+Removing temporary output file data/chr15_ASEP.rda.
+Removing temporary output file data/chr16_ASEP.rda.
+Removing temporary output file data/chr17_ASEP.rda.
+Removing temporary output file data/chr18_ASEP.rda.
+Removing temporary output file data/chr19_ASEP.rda.
+Removing temporary output file data/chr20_ASEP.rda.
+Removing temporary output file data/chr21_ASEP.rda.
+Removing temporary output file data/chr22_ASEP.rda.
+[Sat Jan 14 13:58:58 2023]
+Finished job 1.
+23 of 24 steps (96%) done
+
+[Sat Jan 14 13:58:58 2023]
+localrule all:
+    input: data/ASEP_results.csv
+    jobid: 0
+
+[Sat Jan 14 13:58:58 2023]
+Finished job 0.
+24 of 24 steps (100%) done
+Complete log: /pine/scr/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/log/2023-01-12T175600.729461.snakemake.log

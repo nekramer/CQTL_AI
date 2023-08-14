@@ -1,0 +1,364 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	1	all
+	1	combineASEP
+	22	runASEP
+	24
+
+[Sun Jan  8 21:48:56 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr1_ASEPfinal.txt
+    output: data/chr1_ASEP.rda
+    log: logs/runASEP_chr1.out, logs/runASEP_chr1.err
+    jobid: 2
+    wildcards: chrom=1
+    threads: 8
+
+Submitted job 2 with external jobid '63722023'.
+
+[Sun Jan  8 21:48:56 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr5_ASEPfinal.txt
+    output: data/chr5_ASEP.rda
+    log: logs/runASEP_chr5.out, logs/runASEP_chr5.err
+    jobid: 6
+    wildcards: chrom=5
+    threads: 8
+
+Submitted job 6 with external jobid '63722024'.
+
+[Sun Jan  8 21:48:56 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr4_ASEPfinal.txt
+    output: data/chr4_ASEP.rda
+    log: logs/runASEP_chr4.out, logs/runASEP_chr4.err
+    jobid: 5
+    wildcards: chrom=4
+    threads: 8
+
+Submitted job 5 with external jobid '63722025'.
+
+[Sun Jan  8 21:48:56 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr18_ASEPfinal.txt
+    output: data/chr18_ASEP.rda
+    log: logs/runASEP_chr18.out, logs/runASEP_chr18.err
+    jobid: 19
+    wildcards: chrom=18
+    threads: 8
+
+Submitted job 19 with external jobid '63722026'.
+
+[Sun Jan  8 21:48:56 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr3_ASEPfinal.txt
+    output: data/chr3_ASEP.rda
+    log: logs/runASEP_chr3.out, logs/runASEP_chr3.err
+    jobid: 4
+    wildcards: chrom=3
+    threads: 8
+
+Submitted job 4 with external jobid '63722027'.
+
+[Sun Jan  8 21:48:57 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr2_ASEPfinal.txt
+    output: data/chr2_ASEP.rda
+    log: logs/runASEP_chr2.out, logs/runASEP_chr2.err
+    jobid: 3
+    wildcards: chrom=2
+    threads: 8
+
+Submitted job 3 with external jobid '63722028'.
+
+[Sun Jan  8 21:48:57 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr13_ASEPfinal.txt
+    output: data/chr13_ASEP.rda
+    log: logs/runASEP_chr13.out, logs/runASEP_chr13.err
+    jobid: 14
+    wildcards: chrom=13
+    threads: 8
+
+Submitted job 14 with external jobid '63722029'.
+
+[Sun Jan  8 21:48:57 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr7_ASEPfinal.txt
+    output: data/chr7_ASEP.rda
+    log: logs/runASEP_chr7.out, logs/runASEP_chr7.err
+    jobid: 8
+    wildcards: chrom=7
+    threads: 8
+
+Submitted job 8 with external jobid '63722030'.
+
+[Sun Jan  8 21:48:57 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr6_ASEPfinal.txt
+    output: data/chr6_ASEP.rda
+    log: logs/runASEP_chr6.out, logs/runASEP_chr6.err
+    jobid: 7
+    wildcards: chrom=6
+    threads: 8
+
+Submitted job 7 with external jobid '63722031'.
+
+[Sun Jan  8 21:48:57 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr16_ASEPfinal.txt
+    output: data/chr16_ASEP.rda
+    log: logs/runASEP_chr16.out, logs/runASEP_chr16.err
+    jobid: 17
+    wildcards: chrom=16
+    threads: 8
+
+Submitted job 17 with external jobid '63722033'.
+
+[Sun Jan  8 21:48:58 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr20_ASEPfinal.txt
+    output: data/chr20_ASEP.rda
+    log: logs/runASEP_chr20.out, logs/runASEP_chr20.err
+    jobid: 21
+    wildcards: chrom=20
+    threads: 8
+
+Submitted job 21 with external jobid '63722034'.
+
+[Sun Jan  8 21:48:58 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr11_ASEPfinal.txt
+    output: data/chr11_ASEP.rda
+    log: logs/runASEP_chr11.out, logs/runASEP_chr11.err
+    jobid: 12
+    wildcards: chrom=11
+    threads: 8
+
+Submitted job 12 with external jobid '63722035'.
+
+[Sun Jan  8 21:48:58 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr19_ASEPfinal.txt
+    output: data/chr19_ASEP.rda
+    log: logs/runASEP_chr19.out, logs/runASEP_chr19.err
+    jobid: 20
+    wildcards: chrom=19
+    threads: 8
+
+Submitted job 20 with external jobid '63722036'.
+
+[Sun Jan  8 21:48:58 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr12_ASEPfinal.txt
+    output: data/chr12_ASEP.rda
+    log: logs/runASEP_chr12.out, logs/runASEP_chr12.err
+    jobid: 13
+    wildcards: chrom=12
+    threads: 8
+
+Submitted job 13 with external jobid '63722037'.
+
+[Sun Jan  8 21:48:58 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr17_ASEPfinal.txt
+    output: data/chr17_ASEP.rda
+    log: logs/runASEP_chr17.out, logs/runASEP_chr17.err
+    jobid: 18
+    wildcards: chrom=17
+    threads: 8
+
+Submitted job 18 with external jobid '63722038'.
+
+[Sun Jan  8 21:48:59 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr9_ASEPfinal.txt
+    output: data/chr9_ASEP.rda
+    log: logs/runASEP_chr9.out, logs/runASEP_chr9.err
+    jobid: 10
+    wildcards: chrom=9
+    threads: 8
+
+Submitted job 10 with external jobid '63722041'.
+
+[Sun Jan  8 21:48:59 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr8_ASEPfinal.txt
+    output: data/chr8_ASEP.rda
+    log: logs/runASEP_chr8.out, logs/runASEP_chr8.err
+    jobid: 9
+    wildcards: chrom=8
+    threads: 8
+
+Submitted job 9 with external jobid '63722042'.
+
+[Sun Jan  8 21:48:59 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr10_ASEPfinal.txt
+    output: data/chr10_ASEP.rda
+    log: logs/runASEP_chr10.out, logs/runASEP_chr10.err
+    jobid: 11
+    wildcards: chrom=10
+    threads: 8
+
+Submitted job 11 with external jobid '63722043'.
+
+[Sun Jan  8 21:48:59 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr14_ASEPfinal.txt
+    output: data/chr14_ASEP.rda
+    log: logs/runASEP_chr14.out, logs/runASEP_chr14.err
+    jobid: 15
+    wildcards: chrom=14
+    threads: 8
+
+Submitted job 15 with external jobid '63722044'.
+
+[Sun Jan  8 21:48:59 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr15_ASEPfinal.txt
+    output: data/chr15_ASEP.rda
+    log: logs/runASEP_chr15.out, logs/runASEP_chr15.err
+    jobid: 16
+    wildcards: chrom=15
+    threads: 8
+
+Submitted job 16 with external jobid '63722045'.
+
+[Sun Jan  8 21:49:00 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr21_ASEPfinal.txt
+    output: data/chr21_ASEP.rda
+    log: logs/runASEP_chr21.out, logs/runASEP_chr21.err
+    jobid: 22
+    wildcards: chrom=21
+    threads: 8
+
+Submitted job 22 with external jobid '63722048'.
+
+[Sun Jan  8 21:49:00 2023]
+rule runASEP:
+    input: ../processing/output/AI/chr22_ASEPfinal.txt
+    output: data/chr22_ASEP.rda
+    log: logs/runASEP_chr22.out, logs/runASEP_chr22.err
+    jobid: 23
+    wildcards: chrom=22
+    threads: 8
+
+Submitted job 23 with external jobid '63722050'.
+[Sun Jan  8 21:49:22 2023]
+Error in rule runASEP:
+    jobid: 20
+    output: data/chr19_ASEP.rda
+    log: logs/runASEP_chr19.out, logs/runASEP_chr19.err (check log file(s) for error message)
+    shell:
+        
+        module load r/4.1.3
+        Rscript scripts/runASEP.R ../processing/output/AI/chr19_ASEPfinal.txt 19 1> logs/runASEP_chr19.out 2> logs/runASEP_chr19.err
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 63722036
+
+Error executing rule runASEP on cluster (jobid: 20, external: 63722036, jobscript: /pine/scr/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.o8opb2jf/snakejob.runASEP.20.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Jan  9 06:19:45 2023]
+Finished job 22.
+1 of 24 steps (4%) done
+[Mon Jan  9 07:30:30 2023]
+Finished job 14.
+2 of 24 steps (8%) done
+[Mon Jan  9 11:14:44 2023]
+Finished job 19.
+3 of 24 steps (12%) done
+[Mon Jan  9 13:15:47 2023]
+Finished job 23.
+4 of 24 steps (17%) done
+[Mon Jan  9 16:59:35 2023]
+Finished job 17.
+5 of 24 steps (21%) done
+[Mon Jan  9 19:31:04 2023]
+Finished job 9.
+6 of 24 steps (25%) done
+[Mon Jan  9 22:02:27 2023]
+Finished job 21.
+7 of 24 steps (29%) done
+[Mon Jan  9 23:02:37 2023]
+Finished job 18.
+8 of 24 steps (33%) done
+[Mon Jan  9 23:13:10 2023]
+Finished job 15.
+9 of 24 steps (38%) done
+[Tue Jan 10 02:37:35 2023]
+Finished job 10.
+10 of 24 steps (42%) done
+[Tue Jan 10 03:27:37 2023]
+Finished job 5.
+11 of 24 steps (46%) done
+[Tue Jan 10 08:56:12 2023]
+Finished job 4.
+12 of 24 steps (50%) done
+[Tue Jan 10 10:07:21 2023]
+Finished job 16.
+13 of 24 steps (54%) done
+[Tue Jan 10 13:32:50 2023]
+Finished job 8.
+14 of 24 steps (58%) done
+[Tue Jan 10 15:32:42 2023]
+Finished job 11.
+15 of 24 steps (62%) done
+[Tue Jan 10 16:21:24 2023]
+Finished job 12.
+16 of 24 steps (67%) done
+[Tue Jan 10 22:22:20 2023]
+Finished job 7.
+17 of 24 steps (71%) done
+[Wed Jan 11 01:10:19 2023]
+Error in rule runASEP:
+    jobid: 13
+    output: data/chr12_ASEP.rda
+    log: logs/runASEP_chr12.out, logs/runASEP_chr12.err (check log file(s) for error message)
+    shell:
+        
+        module load r/4.1.3
+        Rscript scripts/runASEP.R ../processing/output/AI/chr12_ASEPfinal.txt 12 1> logs/runASEP_chr12.out 2> logs/runASEP_chr12.err
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 63722037
+
+Error executing rule runASEP on cluster (jobid: 13, external: 63722037, jobscript: /pine/scr/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.o8opb2jf/snakejob.runASEP.13.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Jan 11 15:43:47 2023]
+Finished job 3.
+18 of 24 steps (75%) done
+[Wed Jan 11 21:49:17 2023]
+Error in rule runASEP:
+    jobid: 2
+    output: data/chr1_ASEP.rda
+    log: logs/runASEP_chr1.out, logs/runASEP_chr1.err (check log file(s) for error message)
+    shell:
+        
+        module load r/4.1.3
+        Rscript scripts/runASEP.R ../processing/output/AI/chr1_ASEPfinal.txt 1 1> logs/runASEP_chr1.out 2> logs/runASEP_chr1.err
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 63722023
+
+Error executing rule runASEP on cluster (jobid: 2, external: 63722023, jobscript: /pine/scr/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.o8opb2jf/snakejob.runASEP.2.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Jan 11 21:49:17 2023]
+Error in rule runASEP:
+    jobid: 6
+    output: data/chr5_ASEP.rda
+    log: logs/runASEP_chr5.out, logs/runASEP_chr5.err (check log file(s) for error message)
+    shell:
+        
+        module load r/4.1.3
+        Rscript scripts/runASEP.R ../processing/output/AI/chr5_ASEPfinal.txt 5 1> logs/runASEP_chr5.out 2> logs/runASEP_chr5.err
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 63722024
+
+Error executing rule runASEP on cluster (jobid: 6, external: 63722024, jobscript: /pine/scr/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/tmp.o8opb2jf/snakejob.runASEP.6.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /pine/scr/n/e/nekramer/CQTL_GIT/CQTL/AllelicImbalance/AIanalysis/.snakemake/log/2023-01-08T214856.188629.snakemake.log
