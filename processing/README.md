@@ -5,7 +5,7 @@ Snakemake workflows for preparing imputed genotyping data and RNA-seq data for
 Before running this pipeline, refer to `Genopipe` to QC and impute raw
 genotyping data.
 
-## Workflow
+## Main Workflow
 
 1. Edit the comma-separated `samplesheet.csv` with the names of `Read1` and `Read2` gzipped fastq files and the path to these files
 under the `Sequencing_Directory` column. Additional sample metadata includes: `Proj`, `Donor`, `Condition`, `Time`, `Tech_Rep`, and `Seq_Rep`.
@@ -66,3 +66,13 @@ This workflow will clean split files and produce the following key files:
 - `output/AI/weightsMatrix.csv`: The weights matrix to be used in `DESeq2`.
 - `output/AI/colData.csv`: The data describing the columns (donor, condition, and allele) in the allele counts and weights
 matrices.
+
+## Additional workflows
+
+To analyze allele-specific expression with [ASEP](https://jiaxin-fan.github.io/ASEP/articles/introduction.html),
+genotyping data must be phased and then used to infer the haplotype of the RNA. These steps can be 
+run with `sbatch runPhasing` followed by `sbatch runAIhaplotypes`. These will produce data ready to be 
+run with ASEP, which can be conveniently done with `sbatch runASEP`.
+
+In additional, there is also a pipeline for getting LD buddies (both positions and rsIDs) of the AI variants.
+As of now, this workflow has numerous data paths hard-coded in.
